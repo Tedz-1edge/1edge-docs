@@ -74,6 +74,7 @@ nav:
       - The Launch Blueprint: creators/launch-blueprint.md
       - Launch Engineering Best Practices: creators/best-practices.md
   - Security & Support:
+      - Talking to Support: support/getting-help.md
       - Security & Risk: support/security.md
       - Smart Contract Directory: support/contracts.md
       - Troubleshooting Directory: support/troubleshooting.md

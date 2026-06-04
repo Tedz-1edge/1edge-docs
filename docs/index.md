@@ -2,7 +2,7 @@
 description: The human-first launchpad, trading terminal, and social layer on Solana.
 ---
 
-# What is <span class="g">1Edge?</span>
+# What is <img class="h1-logo" src="assets/logo.png" alt="1Edge">?
 
 1Edge is a **human-first token launchpad on Solana** — a single platform that fuses three things most launchpads keep separate:
 

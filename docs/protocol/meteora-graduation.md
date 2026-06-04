@@ -55,11 +55,26 @@ The on-chain guardrails — humanity checks, same-block blocking, **wallet buy c
 
 ## Lifecycle summary
 
-```
-Virtual-token bonding curve  ──►  85 SOL reached  ──►  real SPL minted
-   (guardrails enforced)                                     │
-                                                             ├─►  Meteora DAMM v2 pool seeded (vanity CA ends "Edge")
-                                                             ├─►  LP tokens burned (liquidity locked)
-                                                             ├─►  fee model carries over (−20% Meteora cut)
-                                                             └─►  pre-graduation guardrails lift
-```
+<div class="flywheel">
+  <div class="fw-box">
+    <span class="fw-num">01</span>
+    <div><div class="fw-title">Virtual-Token Bonding Curve</div><div class="fw-sub">Guardrails enforced — humans only</div></div>
+  </div>
+  <div class="fw-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></div>
+  <div class="fw-box orange">
+    <span class="fw-num">02</span>
+    <div><div class="fw-title">85 SOL Reached</div><div class="fw-sub">Graduation triggers automatically</div></div>
+  </div>
+  <div class="fw-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></div>
+  <div class="fw-box">
+    <span class="fw-num">03</span>
+    <div><div class="fw-title">Real SPL Minted</div><div class="fw-sub">The token goes live on Meteora</div></div>
+  </div>
+  <div class="grad-divider">▾ On graduation</div>
+  <div class="grad-outcomes">
+    <div class="grad-card"><span class="gc-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><span><strong>Meteora DAMM v2 pool seeded</strong> — vanity CA ends in <code>Edge</code></span></div>
+    <div class="grad-card"><span class="gc-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><span><strong>LP tokens burned</strong> — liquidity locked forever</span></div>
+    <div class="grad-card"><span class="gc-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><span><strong>Fee model carries over</strong> — less Meteora's 20% cut</span></div>
+    <div class="grad-card"><span class="gc-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><span><strong>Pre-graduation guardrails lift</strong> — open market begins</span></div>
+  </div>
+</div>

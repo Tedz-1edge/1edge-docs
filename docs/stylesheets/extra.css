@@ -42,7 +42,9 @@ body, .md-typeset { font-family: 'Inter', sans-serif; }
   font-weight: 800;
   letter-spacing: -0.01em;
 }
-.md-typeset h1 { color: #fff; font-size: 2.1rem; }
+.md-typeset h1 { color: #fff; font-size: 2.1rem; text-transform: uppercase; letter-spacing: -0.005em; }
+/* Inline logo inside the home-page H1 */
+.md-typeset h1 img.h1-logo { height: 0.95em; width: auto; vertical-align: -0.08em; margin: 0 0.08em; }
 .md-typeset h2 {
   color: #fff;
   margin-top: 2.2em;
@@ -74,14 +76,20 @@ body, .md-typeset { font-family: 'Inter', sans-serif; }
   font-weight: 600;
 }
 .md-nav__link:hover { color: var(--edge-orange) !important; }
-.md-nav__item--section > .md-nav__link {
-  color: var(--edge-green);
+.md-nav__item--section > .md-nav__link,
+.md-nav__item--section > .md-nav__link .md-ellipsis {
+  color: var(--edge-green) !important;
   font-family: 'Syne', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
-  font-size: 0.66rem;
-  letter-spacing: 0.08em;
+  font-size: 0.74rem;
+  letter-spacing: 0.1em;
+  opacity: 1;
 }
+.md-nav__item--section { margin-top: 1.3em; }
+.md-nav__item--section:first-child { margin-top: 0; }
+/* dim the page sublinks so the green section headers clearly sit above them */
+.md-nav__item--section .md-nav__item .md-nav__link { color: #8a8a8a; }
 
 /* Two-tone heading accents (white base + green/orange, like the landing page) */
 .md-typeset h1 .g { color: var(--edge-green); }
@@ -242,3 +250,35 @@ body, .md-typeset { font-family: 'Inter', sans-serif; }
   gap: 9px;
 }
 .fw-loop svg { width: 16px; height: 16px; }
+
+/* Graduation outcome cards (Meteora page) */
+.grad-divider {
+  margin: 18px 0 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--edge-green);
+}
+.grad-outcomes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 12px;
+  width: 100%;
+  max-width: 600px;
+}
+.grad-card {
+  background: var(--edge-card);
+  border: 1px solid var(--edge-border);
+  border-radius: 10px;
+  padding: 13px 15px;
+  font-size: 0.82rem;
+  color: #cfcfcf;
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  line-height: 1.4;
+}
+.grad-card .gc-i { color: var(--edge-green); flex-shrink: 0; margin-top: 1px; }
+.grad-card .gc-i svg { width: 16px; height: 16px; display: block; }
+.grad-card strong { color: #fff; font-weight: 700; }
