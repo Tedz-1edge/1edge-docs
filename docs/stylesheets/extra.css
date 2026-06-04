@@ -47,7 +47,7 @@ body, .md-typeset { font-family: 'Inter', sans-serif; }
 .md-typeset h1 img.h1-logo { height: 0.95em; width: auto; vertical-align: -0.08em; margin: 0 0.08em; }
 .md-typeset h1 img.soc-logo { height: 1.8em; width: auto; vertical-align: -0.5em; margin: 0 0.15em; }
 .md-typeset h1 img.mode-icon { height: 0.9em; width: auto; vertical-align: -0.06em; margin-left: 0.2em; }
-.md-typeset h2 img.mode-icon, .md-typeset p img.mode-icon { height: 1.05em; width: auto; vertical-align: -0.16em; margin-right: 0.15em; }
+.md-typeset h2 img.mode-icon, .md-typeset p img.mode-icon, .md-typeset li img.mode-icon { height: 1.05em; width: auto; vertical-align: -0.16em; margin-right: 0.2em; }
 
 /* Home hero banner with overlaid title */
 .doc-hero {
