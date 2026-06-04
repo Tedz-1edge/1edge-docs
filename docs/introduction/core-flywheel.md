@@ -8,29 +8,36 @@ description: How creator deployments, trading volume, fee generation, and tier m
 
 ## The loop
 
-```
-        ┌─────────────────────────┐
-        │   Creator Deployments   │
-        └───────────┬─────────────┘
-                    ▼
-        ┌─────────────────────────┐
-        │  Active Trading Volume  │
-        └───────────┬─────────────┘
-                    ▼
-        ┌─────────────────────────┐
-        │  Dynamic Fee Generation │
-        └───────────┬─────────────┘
-                    ▼
-        ┌─────────────────────────────────────────┐
-        │  LP Compounding  ·  Developer Payouts    │
-        └───────────┬─────────────────────────────┘
-                    ▼
-        ┌─────────────────────────┐
-        │  Account Tier Multipliers│
-        └───────────┬─────────────┘
-                    │
-                    └──────────► back to more deployments & volume
-```
+<div class="flywheel">
+  <div class="fw-box">
+    <span class="fw-num">01</span>
+    <div><div class="fw-title">Creator Deployments</div><div class="fw-sub">New tokens &amp; communities seed the ecosystem</div></div>
+  </div>
+  <div class="fw-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></div>
+  <div class="fw-box">
+    <span class="fw-num">02</span>
+    <div><div class="fw-title">Active Trading Volume</div><div class="fw-sub">Real humans trading real volume — not scripts</div></div>
+  </div>
+  <div class="fw-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></div>
+  <div class="fw-box orange">
+    <span class="fw-num">03</span>
+    <div><div class="fw-title">Dynamic Fee Generation</div><div class="fw-sub">Every trade generates fees</div></div>
+  </div>
+  <div class="fw-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></div>
+  <div class="fw-box">
+    <span class="fw-num">04</span>
+    <div><div class="fw-title">LP Compounding &amp; Developer Payouts</div><div class="fw-sub">Fees route back — deepening liquidity, rewarding creators</div></div>
+  </div>
+  <div class="fw-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></div>
+  <div class="fw-box">
+    <span class="fw-num">05</span>
+    <div><div class="fw-title">Account Tier Multipliers</div><div class="fw-sub">Higher rebates → cheaper trading → more volume</div></div>
+  </div>
+  <div class="fw-loop">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6"/><path d="M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+    Feeds back into more deployments &amp; volume
+  </div>
+</div>
 
 ## Stage by stage
 
