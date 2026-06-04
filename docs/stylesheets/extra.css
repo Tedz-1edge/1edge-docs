@@ -114,6 +114,9 @@ body, .md-typeset { font-family: 'Inter', sans-serif; }
 /* ── Links: green default, orange hover ───────────────────────────────────── */
 .md-typeset a { color: var(--edge-green); text-decoration: none; }
 .md-typeset a:hover { color: var(--edge-orange); }
+/* flipped link — orange by default, green on hover (e.g. the EdgeTek mode link) */
+.md-typeset a.flip { color: var(--edge-orange); }
+.md-typeset a.flip:hover { color: var(--edge-green); }
 
 /* ── Navigation ───────────────────────────────────────────────────────────── */
 .md-nav { font-size: 0.66rem; }
