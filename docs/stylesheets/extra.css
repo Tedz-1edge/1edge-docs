@@ -45,6 +45,17 @@ body, .md-typeset { font-family: 'Inter', sans-serif; }
 .md-typeset h1 { color: #fff; font-size: 2.1rem; text-transform: uppercase; letter-spacing: -0.005em; }
 /* Inline logo inside the home-page H1 */
 .md-typeset h1 img.h1-logo { height: 0.95em; width: auto; vertical-align: -0.08em; margin: 0 0.08em; }
+
+/* Home hero banner */
+.doc-hero {
+  width: 100%;
+  border: 1px solid var(--edge-border);
+  border-radius: 14px;
+  overflow: hidden;
+  margin: 0 0 1.8em;
+  background: radial-gradient(circle at 78% 50%, rgba(74,222,74,0.07), transparent 60%), #070707;
+}
+.doc-hero img { width: 100%; display: block; opacity: 0.95; }
 .md-typeset h2 {
   color: #fff;
   margin-top: 2.2em;
@@ -69,7 +80,10 @@ body, .md-typeset { font-family: 'Inter', sans-serif; }
 .md-typeset a:hover { color: var(--edge-orange); }
 
 /* ── Navigation ───────────────────────────────────────────────────────────── */
-.md-nav { font-size: 0.72rem; }
+.md-nav { font-size: 0.66rem; }
+/* Let nav labels wrap instead of truncating/overlapping */
+.md-nav .md-ellipsis { white-space: normal; overflow: visible; line-height: 1.3; }
+.md-nav__link { padding-top: 0.15em; padding-bottom: 0.15em; }
 .md-nav__link--active,
 .md-nav__item--active > .md-nav__link {
   color: var(--edge-green) !important;
@@ -82,8 +96,8 @@ body, .md-typeset { font-family: 'Inter', sans-serif; }
   font-family: 'Syne', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
-  font-size: 0.74rem;
-  letter-spacing: 0.1em;
+  font-size: 0.62rem;
+  letter-spacing: 0.04em;
   opacity: 1;
 }
 .md-nav__item--section { margin-top: 1.3em; }
