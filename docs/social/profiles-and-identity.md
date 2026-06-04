@@ -11,13 +11,11 @@ Every verified human on 1Edge gets a profile — a handle, avatar, bio, and a pu
 
 > ℹ️ Think of it as a **platform identity with an on-chain reputation**: the name is yours to set, but the stats are the chain's to prove.
 
-> 🚧 **Draft in progress.** Outline below; full write-up to follow.
+## Setting up your profile
 
-## Planned coverage
-
-* **Setting up your account** — connecting a wallet and binding your [Proof of Humanity](../index.md) status.
-* **Custom visuals** — uploading avatars and banners.
-* **Bios & handles** — describing yourself and claiming a unique handle.
+* **Connect & verify** — connect your wallet and bind your [Proof of Humanity](../index.md) status. That's what makes you a real, single-wallet human on the platform.
+* **Custom visuals** — upload an avatar and banner.
+* **Bio & handle** — describe yourself or your project and claim a unique handle that others can `@`-mention across [Edge Social](edge-social-engine.md).
 
 ## Related
 

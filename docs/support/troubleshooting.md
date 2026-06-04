@@ -4,8 +4,6 @@ description: Resolution paths for common DeFi trading errors.
 
 # Troubleshooting Directory
 
-> ℹ️ 🚧 **Draft in progress.** Scaffolded from the approved architecture; full write-up to follow.
-
 Resolution paths for the errors traders most commonly hit. Each will get a full "what it means / why it happens / how to fix" write-up.
 
 ## Planned coverage
