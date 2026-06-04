@@ -1,71 +1,190 @@
-/* ── 1Edge brand theme for MkDocs Material ──────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&display=swap');
+/* ══════════════════════════════════════════════════════════════════════════
+   1EDGE DOCS — brand theme matching 1edge.app
+   ══════════════════════════════════════════════════════════════════════════ */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap');
 
 :root {
-  --1edge-green: #4ade4a;
-  --1edge-orange: #ff6b00;
-  --1edge-black: #050505;
+  --edge-green: #4ade4a;
+  --edge-green-dim: rgba(74, 222, 74, 0.12);
+  --edge-orange: #ff6b00;
+  --edge-black: #050505;
+  --edge-card: #0d0d0d;
+  --edge-border: #1e1e1e;
 }
 
-/* Dark scheme — push it toward true 1edge black + green/orange accents */
+/* ── Dark scheme: push toward true 1edge black + green/orange ─────────────── */
 [data-md-color-scheme="slate"] {
+  --md-hue: 0;
+  --md-default-bg-color: var(--edge-black);
+  --md-default-fg-color: #e6e6e6;
+  --md-default-fg-color--light: #b2b2b2;
+  --md-default-fg-color--lighter: #777;
   --md-primary-fg-color: #0a0a0a;
-  --md-primary-fg-color--light: #161616;
-  --md-primary-fg-color--dark: #000000;
-  --md-accent-fg-color: var(--1edge-green);
-  --md-default-bg-color: var(--1edge-black);
-  --md-typeset-a-color: var(--1edge-green);
-  --md-footer-bg-color: #0a0a0a;
-  --md-footer-bg-color--dark: #000000;
+  --md-primary-fg-color--dark: #000;
+  --md-accent-fg-color: var(--edge-green);
+  --md-typeset-a-color: var(--edge-green);
+  --md-code-bg-color: #0c0c0c;
+  --md-code-fg-color: #d7ffd7;
+  --md-footer-bg-color: #000;
+  --md-footer-bg-color--dark: #000;
 }
 
-/* Syne for headings + the header title, matching the app */
+/* ── Typography ───────────────────────────────────────────────────────────── */
+body, .md-typeset { font-family: 'Inter', sans-serif; }
+
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3,
-.md-header__title,
+.md-typeset h4,
+.md-header__topic,
 .md-nav__title {
   font-family: 'Syne', sans-serif;
   font-weight: 800;
   letter-spacing: -0.01em;
 }
+.md-typeset h1 { color: #fff; font-size: 2.1rem; }
+.md-typeset h2 {
+  color: #fff;
+  margin-top: 2.2em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--edge-border);
+}
+.md-typeset h3 { color: #f0f0f0; }
+.md-typeset code, .md-typeset pre { font-family: 'JetBrains Mono', monospace; }
 
-.md-typeset h1 { color: #ffffff; }
-.md-typeset h2 { color: #ffffff; }
+/* ── Header ───────────────────────────────────────────────────────────────── */
+.md-header {
+  background: rgba(5, 5, 5, 0.92);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--edge-border);
+  box-shadow: none;
+}
+.md-header__button.md-logo img { height: 1.7rem; }
+.md-header[data-md-state="shadow"] { box-shadow: 0 0 16px rgba(0,0,0,0.6); }
 
-/* Links: green by default, orange on hover (the app's two-accent system) */
-.md-typeset a { color: var(--1edge-green); }
-.md-typeset a:hover { color: var(--1edge-orange); }
+/* ── Links: green default, orange hover ───────────────────────────────────── */
+.md-typeset a { color: var(--edge-green); text-decoration: none; }
+.md-typeset a:hover { color: var(--edge-orange); }
 
-/* Accent bar on the active nav item */
+/* ── Navigation ───────────────────────────────────────────────────────────── */
+.md-nav { font-size: 0.72rem; }
 .md-nav__link--active,
-.md-nav__item .md-nav__link--active { color: var(--1edge-green); }
+.md-nav__item--active > .md-nav__link {
+  color: var(--edge-green) !important;
+  font-weight: 600;
+}
+.md-nav__link:hover { color: var(--edge-orange) !important; }
+.md-nav__item--section > .md-nav__link {
+  color: #fff;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 0.66rem;
+  letter-spacing: 0.08em;
+}
 
-/* Tables — tighten and brand the header row */
+/* ── Tables → dark, rounded, green-tinted header ─────────────────────────── */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--edge-border);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--edge-card);
+}
 .md-typeset table:not([class]) th {
-  background: rgba(74, 222, 74, 0.06);
+  background: var(--edge-green-dim);
   color: #fff;
   font-weight: 700;
+  border: none;
 }
-.md-typeset table:not([class]) {
-  border: 1px solid #1e1e1e;
-}
+.md-typeset table:not([class]) td { border-top: 1px solid var(--edge-border); }
+.md-typeset table:not([class]) tr:hover { background: rgba(255,255,255,0.02); }
 
-/* Inline code + code blocks: subtle green tint */
+/* ── Code → green-tinted, rounded ─────────────────────────────────────────── */
 .md-typeset code {
+  background: var(--edge-green-dim);
   color: #d7ffd7;
-  background: rgba(74, 222, 74, 0.08);
+  border-radius: 5px;
+  padding: 0.1em 0.4em;
 }
+.md-typeset pre > code { background: #0c0c0c; border: 1px solid var(--edge-border); }
+.md-typeset .highlight, .md-typeset pre { border-radius: 10px; }
 
-/* Blockquote callouts (we use > ℹ️ / ✅ / ⚠️ / 🚨) — give them a left accent */
+/* ── Blockquote callouts (> ℹ️ / ✅ / ⚠️ / 🚨) ───────────────────────────── */
 .md-typeset blockquote {
-  border-left: 3px solid var(--1edge-green);
-  background: rgba(74, 222, 74, 0.04);
-  color: #c9c9c9;
+  border-left: 3px solid var(--edge-green);
+  background: var(--edge-green-dim);
+  border-radius: 0 8px 8px 0;
+  color: #cdcdcd;
+  padding: 0.6em 1em;
 }
 
-/* Search + accent buttons */
-.md-search__input { background: rgba(255,255,255,0.05); }
+/* ── Buttons / search ─────────────────────────────────────────────────────── */
+.md-search__form { border-radius: 8px; background: rgba(255,255,255,0.05); }
+.md-typeset .md-button {
+  border-radius: 6px;
+  border-color: var(--edge-green);
+  color: var(--edge-green);
+}
+.md-typeset .md-button:hover {
+  background: var(--edge-green);
+  color: #000;
+  border-color: var(--edge-green);
+}
 
-/* Header logo a touch larger */
-.md-header__button.md-logo img { height: 1.5rem; }
+/* ── Footer ───────────────────────────────────────────────────────────────── */
+.md-footer-meta { background: #000; }
+
+/* ══════════════════════════════════════════════════════════════════════════
+   Edge Tier cards (used on the Tier Matrix page)
+   ══════════════════════════════════════════════════════════════════════════ */
+.tier-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 14px;
+  margin: 1.6em 0;
+}
+.tier-c {
+  background: var(--edge-card);
+  border: 1px solid var(--edge-border);
+  border-radius: 12px;
+  padding: 14px;
+  text-align: center;
+  transition: transform 0.2s, border-color 0.2s;
+}
+.tier-c:hover { transform: translateY(-3px); border-color: rgba(74,222,74,0.45); }
+.tier-c img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 9px;
+  margin-bottom: 11px;
+  display: block;
+}
+.tier-c .t-name {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: #fff;
+  font-size: 0.95rem;
+}
+.tier-c .t-rebate {
+  color: var(--edge-green);
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin: 2px 0;
+}
+.tier-c .t-mult {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  color: #888;
+  letter-spacing: 0.06em;
+}
+.tier-c .t-req {
+  font-size: 0.66rem;
+  color: #9a9a9a;
+  margin-top: 7px;
+  line-height: 1.4;
+}
+.tier-c.seed { border-color: rgba(239,68,68,0.4); }
+.tier-c.seed .t-rebate { color: #ef4444; }

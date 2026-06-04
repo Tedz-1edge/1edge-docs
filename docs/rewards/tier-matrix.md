@@ -6,6 +6,44 @@ description: Five tiers of rising fee rebates and point multipliers, earned thro
 
 Every 1Edge account sits on a five-rung tier ladder. Climbing it earns you two things: a higher **rebate on the trading fees you pay yourself**, and a higher **ecosystem point multiplier**. Your tier updates automatically on-chain as your volume and referral count grow.
 
+<div class="tier-grid">
+  <div class="tier-c">
+    <img src="../../assets/CORE.jpg" alt="Core NFT">
+    <div class="t-name">Core</div>
+    <div class="t-rebate">10%</div>
+    <div class="t-mult">1.0× pts</div>
+    <div class="t-req">Verified human</div>
+  </div>
+  <div class="tier-c">
+    <img src="../../assets/ALPHA.jpg" alt="Alpha NFT">
+    <div class="t-name">Alpha</div>
+    <div class="t-rebate">15%</div>
+    <div class="t-mult">1.5× pts</div>
+    <div class="t-req">100 SOL or 25 referrals</div>
+  </div>
+  <div class="tier-c">
+    <img src="../../assets/ELITE.jpg" alt="Elite NFT">
+    <div class="t-name">Elite</div>
+    <div class="t-rebate">20%</div>
+    <div class="t-mult">2.0× pts</div>
+    <div class="t-req">500 SOL or 250 referrals</div>
+  </div>
+  <div class="tier-c">
+    <img src="../../assets/APEX.jpg" alt="Apex NFT">
+    <div class="t-name">Apex</div>
+    <div class="t-rebate">25%</div>
+    <div class="t-mult">3.0× pts</div>
+    <div class="t-req">2,000 SOL or 1,000 referrals</div>
+  </div>
+  <div class="tier-c seed">
+    <img src="../../assets/SEED.jpg" alt="Seed NFT">
+    <div class="t-name">Seed</div>
+    <div class="t-rebate">30%</div>
+    <div class="t-mult">3.5× pts · Limited 50</div>
+    <div class="t-req">First 50 to hit 25 referrals</div>
+  </div>
+</div>
+
 ## The matrix
 
 | Tier | Volume threshold | Referral requirement | Fee rebate | Point multiplier |
