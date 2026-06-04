@@ -2,7 +2,7 @@
 description: The native social layer — global chat, token communities, tags and mentions.
 ---
 
-# The Edge Social Engine
+# The Edge <span class="g">Social Engine</span>
 
 Edge Social is the social layer built into 1Edge. It's where discovery happens — where verified humans talk, share, and find their next trade, all next to the markets themselves instead of scattered across other apps.
 

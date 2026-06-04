@@ -2,7 +2,7 @@
 description: How 1Edge protects users, what's locked by design, and an honest note on audit status.
 ---
 
-# Security & Risk
+# Security & <span class="o">Risk</span>
 
 1Edge is built around a simple idea: protection should live in the **protocol and the design**, not in promises. This page lays out what's protected, what's locked by construction, and — honestly — what hasn't been done yet.
 

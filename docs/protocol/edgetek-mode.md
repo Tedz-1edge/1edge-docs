@@ -2,7 +2,7 @@
 description: The advanced framework — configurable builder, burn, and liquidity fees on a single deploy.
 ---
 
-# EdgeTek Mode — Advanced Custom Architecture
+# EdgeTek Mode — <span class="o">Advanced Custom Architecture</span>
 
 **EdgeTek Mode** is the advanced launch framework for creators who want to engineer their token's economics. On top of a fixed 1Edge platform fee, it gives the deployer a **configurable fee budget** to route across builder revenue, buyback-and-burn, and accelerated liquidity compounding — and that structure carries through after the token graduates to a DEX.
 

@@ -2,7 +2,7 @@
 description: Step-by-step — from a blank form to a live, funded launch.
 ---
 
-# The Launch Blueprint
+# The <span class="g">Launch Blueprint</span>
 
 Deploying a token on 1Edge is a guided, few-minute process. This is the end-to-end walkthrough.
 

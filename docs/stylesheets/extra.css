@@ -75,13 +75,17 @@ body, .md-typeset { font-family: 'Inter', sans-serif; }
 }
 .md-nav__link:hover { color: var(--edge-orange) !important; }
 .md-nav__item--section > .md-nav__link {
-  color: #fff;
+  color: var(--edge-green);
   font-family: 'Syne', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   font-size: 0.66rem;
   letter-spacing: 0.08em;
 }
+
+/* Two-tone heading accents (white base + green/orange, like the landing page) */
+.md-typeset h1 .g { color: var(--edge-green); }
+.md-typeset h1 .o { color: var(--edge-orange); }
 
 /* ── Tables → dark, rounded, green-tinted header ─────────────────────────── */
 .md-typeset table:not([class]) {

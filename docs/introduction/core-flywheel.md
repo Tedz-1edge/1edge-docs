@@ -2,7 +2,7 @@
 description: How creator deployments, trading volume, fee generation, and tier multipliers reinforce one another.
 ---
 
-# The Ecosystem Flywheel
+# The Ecosystem <span class="g">Flywheel</span>
 
 1Edge is designed as a **closed feedback loop**. Each part of the platform feeds the next, so activity compounds rather than leaking out. Understanding this flywheel is the fastest way to understand why the platform's mechanics are shaped the way they are.
 

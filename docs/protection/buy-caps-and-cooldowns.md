@@ -2,7 +2,7 @@
 description: Optional creator-configured guardrails that throttle bots during the bonding-curve phase.
 ---
 
-# Wallet Buy Caps & Trade Cooldowns
+# Wallet Buy Caps & <span class="g">Trade Cooldowns</span>
 
 On top of the platform-wide, always-on protections (verified humanity and same-block bundle blocking), 1Edge gives **creators** two optional guardrails to harden their launch against scripted assaults. Both are configured at deployment and apply during the bonding-curve phase, where launches are most vulnerable.
 

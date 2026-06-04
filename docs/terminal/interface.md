@@ -2,7 +2,7 @@
 description: Charts, live trade logs, holder distribution, and asset health — reading the terminal.
 ---
 
-# Reading the Terminal
+# Reading the <span class="g">Terminal</span>
 
 Every token on 1Edge — from the first second of its bonding curve through to its graduated Meteora market — lives inside a full, professional-grade trading terminal. This page is a tour of what you're looking at.
 

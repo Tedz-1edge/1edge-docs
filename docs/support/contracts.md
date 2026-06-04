@@ -2,7 +2,7 @@
 description: Verified on-chain program IDs for the 1Edge protocol.
 ---
 
-# Smart Contract Directory
+# Smart Contract <span class="g">Directory</span>
 
 The 1Edge protocol runs on two on-chain programs. The launchpad is currently live on **Solana devnet**; mainnet addresses will be published here at launch.
 

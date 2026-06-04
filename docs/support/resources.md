@@ -2,7 +2,7 @@
 description: Verified URLs, community servers, and legal disclosures.
 ---
 
-# Official Resources
+# Official <span class="g">Resources</span>
 
 The single source of truth for official 1Edge links. Always verify you're using these — impostor sites and servers are a known scam vector.
 

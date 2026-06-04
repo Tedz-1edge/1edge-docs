@@ -2,7 +2,7 @@
 description: Placing trades — presets, slippage, priority fees, and position tracking.
 ---
 
-# The Execution Engine
+# The <span class="g">Execution Engine</span>
 
 The execution engine is how you actually trade on 1Edge — buying and selling against the bonding curve or the graduated Meteora market from the same interface. It's built to stay fast and reliable during the moments that matter: launches and volume spikes.
 

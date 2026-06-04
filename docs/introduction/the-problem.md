@@ -2,7 +2,7 @@
 description: Block-zero snipers, bundling scripts, and MEV bots — and how 1Edge immunizes launches against them.
 ---
 
-# The Broken State of Solana Launches
+# The Broken State of <span class="o">Solana Launches</span>
 
 Solana made launching a token effortless. It also made **attacking** a launch effortless. On a typical launchpad, the most damaging activity happens in the first few seconds — long before a real person can react. By the time a human clicks buy, automated wallets already hold the early supply, and they are looking to sell it straight back.
 

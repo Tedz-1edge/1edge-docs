@@ -2,7 +2,7 @@
 description: Platform profiles tied to a verified human — with on-chain-verified performance.
 ---
 
-# Profiles & Handles
+# Profiles & <span class="g">Handles</span>
 
 Every verified human on 1Edge gets a profile — a handle, avatar, bio, and a public track record. It's worth being precise about what lives where, because it's a mix:
 

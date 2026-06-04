@@ -2,7 +2,7 @@
 description: Resolution paths for common DeFi trading errors.
 ---
 
-# Troubleshooting Directory
+# <span class="o">Troubleshooting</span> Directory
 
 Resolution paths for the errors traders most commonly hit. Each will get a full "what it means / why it happens / how to fix" write-up.
 

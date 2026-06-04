@@ -2,7 +2,7 @@
 description: Automated vamp-clone detection plus surfaced asset-health metadata for every token.
 ---
 
-# Anti-Vamp & Honeypot Safety Toolkit
+# Anti-Vamp & <span class="g">Honeypot Safety Toolkit</span>
 
 Beyond protecting the launch *mechanics*, 1Edge protects traders from **deceptive tokens** — clones and honeypots designed to trick buyers. This works in two parts: automated anti-vamp detection that runs across the platform, and asset-health metadata surfaced directly in the trading terminal.
 

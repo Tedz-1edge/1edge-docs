@@ -2,7 +2,7 @@
 description: The simple, fixed-fee standard launch — set it and forget it.
 ---
 
-# Edge Mode — Standard Launch
+# Edge Mode — <span class="g">Standard Launch</span>
 
 **Edge Mode** is the standard 1Edge launch: a clean bonding-curve deployment with a simple, fixed fee structure and optional safety guardrails. It's built for creators who want a fair launch without configuring custom tokenomics.
 

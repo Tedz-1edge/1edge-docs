@@ -2,7 +2,7 @@
 description: Performance stats read straight from the chain — no more photoshopped PnL.
 ---
 
-# Verified Ledger Performance
+# Verified Ledger <span class="g">Performance</span>
 
 Crypto runs on screenshots — cropped wins, photoshopped PnL, "trust me bro" track records. 1Edge replaces all of that with **performance read directly from the Solana blockchain**. The numbers on a profile aren't typed in by the user; they're computed from that wallet's actual on-chain trade history, so they can't be faked or edited.
 

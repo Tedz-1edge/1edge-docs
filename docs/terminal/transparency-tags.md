@@ -2,7 +2,7 @@
 description: Automated flags that surface creator behaviour — like atomic dev-buys.
 ---
 
-# Developer Transparency Tags
+# Developer <span class="g">Transparency Tags</span>
 
 1Edge automatically tags tokens with **transparency flags** so traders can see meaningful creator behaviour at a glance — no manual on-chain forensics required. The philosophy is simple: surface the facts, clearly, and let people decide.
 

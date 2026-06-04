@@ -2,7 +2,7 @@
 description: Five tiers of rising fee rebates and point multipliers, earned through volume or referrals.
 ---
 
-# The 1Edge Account Tier Matrix
+# The 1Edge Account <span class="g">Tier Matrix</span>
 
 Every 1Edge account sits on a five-rung tier ladder. Climbing it earns you two things: a higher **rebate on the trading fees you pay yourself**, and a higher **ecosystem point multiplier**. Your tier updates automatically on-chain as your volume and referral count grow.
 

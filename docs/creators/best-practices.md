@@ -2,7 +2,7 @@
 description: Calibrating caps, cooldowns, and fees to survive the launch minute.
 ---
 
-# Launch Engineering Best Practices
+# Launch Engineering <span class="g">Best Practices</span>
 
 A launch lives or dies in its first minutes. The protocol gives you the tools to come out of that window with a healthy, human holder base — this page is how to use them well. There are no magic numbers; the right settings depend on your token, your audience, and your target liquidity.
 

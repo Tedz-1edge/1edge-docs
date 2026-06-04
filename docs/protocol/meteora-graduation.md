@@ -2,7 +2,7 @@
 description: The virtual-token curve, the 85 SOL target, migration to Meteora DAMM v2, and permanent LP burns.
 ---
 
-# The Meteora Graduation Protocol
+# The Meteora <span class="g">Graduation Protocol</span>
 
 Every 1Edge token begins life on a **bonding curve** — a self-contained market where price rises as supply is bought. When the curve reaches its target, the token "graduates": it migrates automatically into a real, permanent DEX pool. This page documents the whole journey, starting with something most launchpads don't do.
 
