@@ -35,7 +35,7 @@ The same structure applies to buys and sells.
 
 The **0.40% creator fee** accrues to you on every trade, before and after graduation. It's yours to claim whenever you like from the **Creator Fees** section of your dashboard.
 
-> ℹ️ Creator fees live under **Creator Fees** in the dashboard — not under "Edge Fees." That's the one place your earned creator revenue is tracked and claimed.
+> ℹ️ Creator fees live under **Creator Fees** in the dashboard — the one place your earned creator revenue is tracked and claimed.
 
 ## How fees change after graduation
 
