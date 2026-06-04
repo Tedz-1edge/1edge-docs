@@ -45,6 +45,12 @@ Holding the Proof of Humanity NFT gives you:
 * **Fee rebates** — every tier rebates a share of the trading fees you pay.
 * **Your referral link** — earn [25% of referred wallets' fees](../rewards/referral-engine.md), paid in SOL.
 
+## Upgrading your tier is free
+
+As you hit each [tier](../rewards/tier-matrix.md) threshold, you upgrade your NFT to the next tier at **no cost** — there's no fee to climb. Just reach the milestone and upgrade.
+
+> ℹ️ The only thing you pay on an upgrade is the **standard Solana network transaction fee** — a negligible fraction of a SOL (a tiny fraction of a cent), the same as any on-chain action. 1Edge charges nothing to level up.
+
 ## Related
 
 * [The Account Tier Matrix](../rewards/tier-matrix.md) — how your NFT tier evolves.
