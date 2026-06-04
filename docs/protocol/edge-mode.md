@@ -2,7 +2,7 @@
 description: The simple, fixed-fee standard launch — set it and forget it.
 ---
 
-# Edge Mode — <span class="g">Standard Launch</span>
+# Edge Mode — <span class="g">Standard Launch</span> <img class="mode-icon" src="../../assets/edge-icon.svg" alt="">
 
 **Edge Mode** is the standard 1Edge launch: a clean bonding-curve deployment with a simple, fixed fee structure and optional safety guardrails. It's built for creators who want a fair launch without configuring custom tokenomics.
 
@@ -30,6 +30,12 @@ Every trade on an Edge-mode token carries a **1.15% total fee**, split three way
 > ℹ️ **Your tier rebates the platform fee.** Depending on your [tier](../rewards/tier-matrix.md), 10%–30% of the 0.55% platform fee is rebated back to you in SOL — so active traders pay less.
 
 The same structure applies to buys and sells.
+
+## Claiming your creator fee
+
+The **0.40% creator fee** accrues to you on every trade, before and after graduation. It's yours to claim whenever you like from the **Creator Fees** section of your dashboard.
+
+> ℹ️ Creator fees live under **Creator Fees** in the dashboard — not under "Edge Fees." That's the one place your earned creator revenue is tracked and claimed.
 
 ## How fees change after graduation
 

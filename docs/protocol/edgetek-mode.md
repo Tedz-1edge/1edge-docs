@@ -2,7 +2,7 @@
 description: The advanced framework — configurable builder, burn, and liquidity fees on a single deploy.
 ---
 
-# EdgeTek Mode — <span class="o">Advanced Custom Architecture</span>
+# EdgeTek Mode — <span class="o">Advanced Custom Architecture</span> <img class="mode-icon" src="../../assets/tek-icon.svg" alt="">
 
 **EdgeTek Mode** is the advanced launch framework for creators who want to engineer their token's economics. On top of a fixed 1Edge platform fee, it gives the deployer a **configurable fee budget** to route across builder revenue, buyback-and-burn, and accelerated liquidity compounding — and that structure carries through after the token graduates to a DEX.
 
@@ -46,6 +46,24 @@ The deployer has **up to 3.80%** of configurable fee to allocate however their s
 | **Balanced** | split evenly across all three | | |
 
 > ⚠️ **Total fee load matters.** A 1.00% platform fee plus a maxed 3.80% routing budget is a high per-trade cost that can deter trading. Calibrate to your goals and your community. See [Launch Engineering Best Practices](../creators/best-practices.md).
+
+### Setting your buyback threshold
+
+When you allocate fees to buyback & burn, you also set a **SOL buyback threshold** — the balance the buyback vault must accumulate before it fires. Choose from **5, 10, 25, or 50 SOL**. The moment saved-up buyback fees reach your chosen level, the program **automatically buys back and burns** tokens with the vault, then resets and starts saving again.
+
+A lower threshold (5 SOL) means frequent, smaller burns; a higher one (50 SOL) means rarer, larger ones. It's your call on how aggressive — and how visible — you want the deflation to be.
+
+## Claiming & automation
+
+EdgeTek splits into one stream you control and two that run themselves:
+
+* **Builder / routing fees — claimable.** Your custom wallet-routing fees accrue to your vault and are claimable from the dashboard. **After graduation, they're claimed automatically** for you.
+* **LP compounding — autonomous.** Runs on its own, compounding into the liquidity pool on every trade.
+* **Buyback & burn — autonomous.** Fires automatically whenever the vault hits your [buyback threshold](#setting-your-buyback-threshold) — no action needed.
+
+### The Tek Fees dashboard
+
+Everything is visible under **Tek Fees** in your dashboard — the full history of your token's fees: **how much** has been generated, **where it's been routed**, and the **amount bought back and burned**. It's the live view of your flywheel working.
 
 ## After graduation
 
