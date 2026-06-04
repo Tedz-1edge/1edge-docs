@@ -1,0 +1,71 @@
+/* ── 1Edge brand theme for MkDocs Material ──────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&display=swap');
+
+:root {
+  --1edge-green: #4ade4a;
+  --1edge-orange: #ff6b00;
+  --1edge-black: #050505;
+}
+
+/* Dark scheme — push it toward true 1edge black + green/orange accents */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #0a0a0a;
+  --md-primary-fg-color--light: #161616;
+  --md-primary-fg-color--dark: #000000;
+  --md-accent-fg-color: var(--1edge-green);
+  --md-default-bg-color: var(--1edge-black);
+  --md-typeset-a-color: var(--1edge-green);
+  --md-footer-bg-color: #0a0a0a;
+  --md-footer-bg-color--dark: #000000;
+}
+
+/* Syne for headings + the header title, matching the app */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-header__title,
+.md-nav__title {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset h1 { color: #ffffff; }
+.md-typeset h2 { color: #ffffff; }
+
+/* Links: green by default, orange on hover (the app's two-accent system) */
+.md-typeset a { color: var(--1edge-green); }
+.md-typeset a:hover { color: var(--1edge-orange); }
+
+/* Accent bar on the active nav item */
+.md-nav__link--active,
+.md-nav__item .md-nav__link--active { color: var(--1edge-green); }
+
+/* Tables — tighten and brand the header row */
+.md-typeset table:not([class]) th {
+  background: rgba(74, 222, 74, 0.06);
+  color: #fff;
+  font-weight: 700;
+}
+.md-typeset table:not([class]) {
+  border: 1px solid #1e1e1e;
+}
+
+/* Inline code + code blocks: subtle green tint */
+.md-typeset code {
+  color: #d7ffd7;
+  background: rgba(74, 222, 74, 0.08);
+}
+
+/* Blockquote callouts (we use > ℹ️ / ✅ / ⚠️ / 🚨) — give them a left accent */
+.md-typeset blockquote {
+  border-left: 3px solid var(--1edge-green);
+  background: rgba(74, 222, 74, 0.04);
+  color: #c9c9c9;
+}
+
+/* Search + accent buttons */
+.md-search__input { background: rgba(255,255,255,0.05); }
+
+/* Header logo a touch larger */
+.md-header__button.md-logo img { height: 1.5rem; }

@@ -1,0 +1,80 @@
+site_name: 1Edge Docs
+site_description: The human-first launchpad, trading terminal, and social layer on Solana.
+site_url: https://docs.1edge.app
+docs_dir: docs
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  palette:
+    scheme: slate
+    primary: black
+    accent: green
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/1EdgeHQ
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/n4zEupfj23
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/+VTnz0sJ_qAg4NDg0
+
+nav:
+  - Home: index.md
+  - Introduction & Ecosystem:
+      - The Broken State of Solana Launches: introduction/the-problem.md
+      - The Ecosystem Flywheel: introduction/core-flywheel.md
+  - Protocol & Launch:
+      - Edge Mode — Standard Launch: protocol/edge-mode.md
+      - EdgeTek Mode — Advanced Architecture: protocol/edgetek-mode.md
+      - The Meteora Graduation Protocol: protocol/meteora-graduation.md
+  - Protection & Guardrails:
+      - Wallet Buy Caps & Trade Cooldowns: protection/buy-caps-and-cooldowns.md
+      - Anti-Vamp & Honeypot Toolkit: protection/security-toolkits.md
+  - Profiles & Edge Social:
+      - On-Chain Profiles & Handles: social/profiles-and-identity.md
+      - Verified Ledger Performance: social/verified-metrics.md
+      - The Edge Social Engine: social/edge-social-engine.md
+  - Tiers & Referrals:
+      - The Referral Fee-Share Engine: rewards/referral-engine.md
+      - The Account Tier Matrix: rewards/tier-matrix.md
+  - Trading Terminal:
+      - Reading the Terminal: terminal/interface.md
+      - The Execution Engine: terminal/execution-engine.md
+      - Developer Transparency Tags: terminal/transparency-tags.md
+  - Creator Deployment:
+      - The Launch Blueprint: creators/launch-blueprint.md
+      - Launch Engineering Best Practices: creators/best-practices.md
+  - Security & Support:
+      - Security & Risk: support/security.md
+      - Smart Contract Directory: support/contracts.md
+      - Troubleshooting Directory: support/troubleshooting.md
+      - Official Resources: support/resources.md
