@@ -53,6 +53,7 @@ extra:
 nav:
   - Home: index.md
   - Introduction & Ecosystem:
+      - The Proof of Humanity NFT: introduction/proof-of-humanity.md
       - The Broken State of Solana Launches: introduction/the-problem.md
       - The Ecosystem Flywheel: introduction/core-flywheel.md
   - Protocol & Launch:
