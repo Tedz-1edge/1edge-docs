@@ -45,6 +45,7 @@ body, .md-typeset { font-family: 'Inter', sans-serif; }
 .md-typeset h1 { color: #fff; font-size: 2.1rem; text-transform: uppercase; letter-spacing: -0.005em; }
 /* Inline logo inside the home-page H1 */
 .md-typeset h1 img.h1-logo { height: 0.95em; width: auto; vertical-align: -0.08em; margin: 0 0.08em; }
+.md-typeset h1 img.soc-logo { height: 1.8em; width: auto; vertical-align: -0.5em; margin: 0 0.15em; }
 
 /* Home hero banner with overlaid title */
 .doc-hero {
