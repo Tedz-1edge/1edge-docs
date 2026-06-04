@@ -46,8 +46,9 @@ body, .md-typeset { font-family: 'Inter', sans-serif; }
 /* Inline logo inside the home-page H1 */
 .md-typeset h1 img.h1-logo { height: 0.95em; width: auto; vertical-align: -0.08em; margin: 0 0.08em; }
 
-/* Home hero banner */
+/* Home hero banner with overlaid title */
 .doc-hero {
+  position: relative;
   width: 100%;
   border: 1px solid var(--edge-border);
   border-radius: 14px;
@@ -56,6 +57,24 @@ body, .md-typeset { font-family: 'Inter', sans-serif; }
   background: radial-gradient(circle at 78% 50%, rgba(74,222,74,0.07), transparent 60%), #070707;
 }
 .doc-hero img { width: 100%; display: block; opacity: 0.95; }
+.md-typeset .doc-hero-title {
+  position: absolute;
+  left: 6%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 !important;
+  padding: 0;
+  border: 0;
+  z-index: 2;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: clamp(1.3rem, 5.5vw, 3rem) !important;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.7);
+}
 
 /* ── Mobile tweaks ────────────────────────────────────────────────────────── */
 @media screen and (max-width: 44.9375em) {
