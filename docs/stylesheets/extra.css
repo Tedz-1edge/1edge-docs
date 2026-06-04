@@ -56,6 +56,20 @@ body, .md-typeset { font-family: 'Inter', sans-serif; }
   background: radial-gradient(circle at 78% 50%, rgba(74,222,74,0.07), transparent 60%), #070707;
 }
 .doc-hero img { width: 100%; display: block; opacity: 0.95; }
+
+/* ── Mobile tweaks ────────────────────────────────────────────────────────── */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset h1 { font-size: 1.45rem; line-height: 1.15; }
+  .md-typeset h2 { font-size: 1.15rem; }
+  .md-typeset h1 img.h1-logo { height: 1.1em; }
+}
+/* Drawer (mobile nav panel) logo — make it actually show */
+.md-nav--primary > .md-nav__title > .md-logo { display: block; }
+.md-nav--primary > .md-nav__title > .md-logo img {
+  height: 1.9rem;
+  width: auto;
+  display: inline-block;
+}
 .md-typeset h2 {
   color: #fff;
   margin-top: 2.2em;
@@ -92,7 +106,7 @@ body, .md-typeset { font-family: 'Inter', sans-serif; }
 .md-nav__link:hover { color: var(--edge-orange) !important; }
 .md-nav__item--section > .md-nav__link,
 .md-nav__item--section > .md-nav__link .md-ellipsis {
-  color: var(--edge-green) !important;
+  color: #fff !important;
   font-family: 'Syne', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
@@ -100,6 +114,9 @@ body, .md-typeset { font-family: 'Inter', sans-serif; }
   letter-spacing: 0.04em;
   opacity: 1;
 }
+/* two-tone accent spans injected into nav section headers */
+.md-nav .g { color: var(--edge-green) !important; }
+.md-nav .o { color: var(--edge-orange) !important; }
 .md-nav__item--section { margin-top: 1.3em; }
 .md-nav__item--section:first-child { margin-top: 0; }
 /* dim the page sublinks so the green section headers clearly sit above them */

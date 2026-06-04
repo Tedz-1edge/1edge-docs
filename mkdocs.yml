@@ -27,6 +27,9 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/nav-accents.js
+
 markdown_extensions:
   - admonition
   - attr_list
