@@ -16,7 +16,7 @@ description: How creator deployments, trading volume, fee generation, and tier m
   <div class="fw-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></div>
   <div class="fw-box">
     <span class="fw-num">02</span>
-    <div><div class="fw-title">Active Trading Volume</div><div class="fw-sub">Real humans trading real volume — not scripts</div></div>
+    <div><div class="fw-title">Active Trading Volume</div><div class="fw-sub">Real humans trading real volume, not scripts</div></div>
   </div>
   <div class="fw-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></div>
   <div class="fw-box orange">
@@ -26,7 +26,7 @@ description: How creator deployments, trading volume, fee generation, and tier m
   <div class="fw-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></div>
   <div class="fw-box">
     <span class="fw-num">04</span>
-    <div><div class="fw-title">LP Compounding &amp; Developer Payouts</div><div class="fw-sub">Fees route back — deepening liquidity, rewarding creators</div></div>
+    <div><div class="fw-title">LP Compounding &amp; Developer Payouts</div><div class="fw-sub">Fees route back, deepening liquidity, rewarding creators</div></div>
   </div>
   <div class="fw-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></div>
   <div class="fw-box">
@@ -55,14 +55,14 @@ Every trade generates fees. In **Edge mode** a fixed share compounds into liquid
 
 ### 4. LP compounding & developer payouts
 
-Fees don't just disappear — they are routed back into the system:
+Fees don't just disappear, they are routed back into the system:
 
 * **LP compounding** continuously deepens each token's liquidity, making every subsequent trade smoother and the market more resilient.
 * **Developer payouts** reward creators directly, giving them a reason to keep building and supporting their token post-launch.
 
 ### 5. Account tier multipliers
 
-Trading volume and referrals push every account up the [tier system](../rewards/tier-matrix.md), unlocking higher fee rebates and point multipliers. Higher rebates mean cheaper trading, which encourages more volume — closing the loop and feeding back into the top.
+Trading volume and referrals push every account up the [tier system](../rewards/tier-matrix.md), unlocking higher fee rebates and point multipliers. Higher rebates mean cheaper trading, which encourages more volume, closing the loop and feeding back into the top.
 
 ## Why it compounds
 

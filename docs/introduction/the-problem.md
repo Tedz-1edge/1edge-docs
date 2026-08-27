@@ -1,10 +1,10 @@
 ---
-description: Block-zero snipers, bundling scripts, and MEV bots — and how 1Edge immunizes launches against them.
+description: Block-zero snipers, bundling scripts, and MEV bots, and how 1Edge immunizes launches against them.
 ---
 
 # The Broken State of <span class="o">Solana Launches</span>
 
-Solana made launching a token effortless. It also made **attacking** a launch effortless. On a typical launchpad, the most damaging activity happens in the first few seconds — long before a real person can react. By the time a human clicks buy, automated wallets already hold the early supply, and they are looking to sell it straight back.
+Solana made launching a token effortless. It also made **attacking** a launch effortless. On a typical launchpad, the most damaging activity happens in the first few seconds, long before a real person can react. By the time a human clicks buy, automated wallets already hold the early supply, and they are looking to sell it straight back.
 
 This page breaks down the four main attack vectors, and how 1Edge neutralizes each one.
 
@@ -16,13 +16,13 @@ Sniper bots monitor the chain for new launches and fire buy transactions into th
 
 ## 2. Developer bundling scripts
 
-A single actor spins up dozens — sometimes hundreds — of fresh wallets and bundles them into the same launch transaction set, quietly cornering supply while appearing to be many independent buyers. When the chart pumps, every one of those wallets dumps at once.
+A single actor spins up dozens, sometimes hundreds, of fresh wallets and bundles them into the same launch transaction set, quietly cornering supply while appearing to be many independent buyers. When the chart pumps, every one of those wallets dumps at once.
 
-> ✅ **How 1Edge stops it:** two layers. First, **Proof of Humanity** binds verified status to one human, one wallet, so a participant can't masquerade as a crowd. Second, the program blocks multiple wallets from buying in the **same block** at the protocol level — making bundle scripts structurally ineffective.
+> ✅ **How 1Edge stops it:** two layers. First, **Proof of Humanity** binds verified status to one human, one wallet, so a participant can't masquerade as a crowd. Second, the program blocks multiple wallets from buying in the **same block** at the protocol level, making bundle scripts structurally ineffective.
 
 ## 3. Sandwiching & MEV bots
 
-MEV bots watch the mempool and "sandwich" a victim's trade — buying immediately before it and selling immediately after — extracting value from the price impact of every meaningful swap.
+MEV bots watch the mempool and "sandwich" a victim's trade, buying immediately before it and selling immediately after, extracting value from the price impact of every meaningful swap.
 
 > ✅ **How 1Edge stops it:** optional **per-wallet trade cooldowns** (0–300 seconds) throttle the rapid-fire transaction spam sandwich strategies depend on, and same-block restrictions remove the atomic ordering bots rely on. Creators size these guardrails to their launch.
 
@@ -34,6 +34,6 @@ The moment a token gains traction, scammers clone its name and artwork to ride t
 
 ## The common thread
 
-Every one of these attacks relies on the same assumption: that a single actor can act as **many anonymous wallets**, faster than any human. 1Edge breaks that assumption at the root — verified humanity as the entry gate, and program-level constraints that make scripted swarms ineffective — then layers optional creator controls on top.
+Every one of these attacks relies on the same assumption: that a single actor can act as **many anonymous wallets**, faster than any human. 1Edge breaks that assumption at the root, verified humanity as the entry gate, and program-level constraints that make scripted swarms ineffective, then layers optional creator controls on top.
 
 The goal isn't to slow down trading. It's to make sure the people in the room are **people**.

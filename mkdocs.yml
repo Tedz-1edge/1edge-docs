@@ -57,8 +57,8 @@ nav:
       - The Proof of Humanity NFT: introduction/proof-of-humanity.md
       - The Ecosystem Flywheel: introduction/core-flywheel.md
   - Protocol & Launch:
-      - Edge Mode — Standard Launch: protocol/edge-mode.md
-      - EdgeTek Mode — Advanced Architecture: protocol/edgetek-mode.md
+      - Edge Mode · Standard Launch: protocol/edge-mode.md
+      - EdgeTek Mode · Advanced Architecture: protocol/edgetek-mode.md
       - The Meteora Graduation Protocol: protocol/meteora-graduation.md
   - Protection & Guardrails:
       - Wallet Buy Caps & Trade Cooldowns: protection/buy-caps-and-cooldowns.md
@@ -83,3 +83,4 @@ nav:
       - Smart Contract Directory: support/contracts.md
       - Troubleshooting Directory: support/troubleshooting.md
       - Official Resources: support/resources.md
+      - Legal & Policies: support/legal.md

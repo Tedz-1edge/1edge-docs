@@ -1,10 +1,10 @@
 ---
-description: The native social layer — global chat, token communities, tags and mentions.
+description: The native social layer, global chat, token communities, tags and mentions.
 ---
 
 # The Edge <span class="g">Social Engine</span> <img class="soc-logo" src="../../assets/social_top.png" alt="EdgeSocial">
 
-Edge Social is the social layer built into 1Edge. It's where discovery happens — where verified humans talk, share, and find their next trade, all next to the markets themselves instead of scattered across other apps.
+Edge Social is the social layer built into 1Edge. It's where discovery happens, where verified humans talk, share, and find their next trade, all next to the markets themselves instead of scattered across other apps.
 
 ## Global feed
 
@@ -16,7 +16,7 @@ A platform-wide feed where verified humans post takes, share launches, and follo
 
 ## Token communities
 
-Every launch gets its own **community hub**, tied directly to the token. It's the token's home base — a place for the creator to post updates and for holders to gather, separate from the noise of the global feed.
+Every launch gets its own **community hub**, tied directly to the token. It's the token's home base, a place for the creator to post updates and for holders to gather, separate from the noise of the global feed.
 
 * Keyed to the token, so the community persists from bonding curve through graduation.
 * Creator updates, announcements, and discussion in one place.
@@ -24,16 +24,16 @@ Every launch gets its own **community hub**, tied directly to the token. It's th
 
 ## Live chat
 
-Every token page has **real-time chat** running alongside the chart — talk to holders as the curve moves, right where the action is. It's the fastest pulse-check on a token: sentiment, in the moment.
+Every token page has **real-time chat** running alongside the chart, talk to holders as the curve moves, right where the action is. It's the fastest pulse-check on a token: sentiment, in the moment.
 
 ## Tags & mentions
 
 Reference anything, and it links:
 
-* **`@user`** — mention any verified profile; it links straight to them.
-* **`$ticker`** — reference any token; it links straight to its terminal page.
+* **`@user`**, mention any verified profile; it links straight to them.
+* **`$ticker`**, reference any token; it links straight to its terminal page.
 
-Tagging turns the feed and chat into a navigable map of the whole ecosystem — every person and every market is one click away.
+Tagging turns the feed and chat into a navigable map of the whole ecosystem, every person and every market is one click away.
 
 ## Built on verified identity
 

@@ -9,7 +9,7 @@ Resolution paths for the errors traders most commonly hit. Each will get a full 
 ## Planned coverage
 
 ### Slippage Exceeded
-The price moved beyond your slippage tolerance before the trade landed — common during high-volume spikes. Fix: raise slippage tolerance or re-quote. See [The Execution Engine](../terminal/execution-engine.md).
+The price moved beyond your slippage tolerance before the trade landed, common during high-volume spikes. Fix: raise slippage tolerance or re-quote. See [The Execution Engine](../terminal/execution-engine.md).
 
 ### Insufficient SOL for Rent Exemption
 The transaction would leave an account below Solana's rent-exempt minimum. Fix: keep a small SOL buffer for rent and fees.
@@ -25,4 +25,4 @@ During heavy mainnet congestion, transactions can be slow to confirm or drop. Fi
 
 ## Related
 
-* [Official Resources](resources.md) — where to get live help.
+* [Official Resources](resources.md), where to get live help.
