@@ -434,3 +434,23 @@ body, .md-typeset { font-family: 'Inter', system-ui, sans-serif; }
 .legal-card .lc-t { display:block; font-family:'JetBrains Mono',monospace; font-weight:700; text-transform:uppercase; font-size:0.82rem; letter-spacing:0.02em; color:#fff; margin:8px 0 6px; }
 .legal-card:hover .lc-t { color: var(--edge-green); }
 .legal-card .lc-d { display:block; font-size: 0.74rem; color:#8a8f8a; line-height:1.5; }
+
+/* ── Anu (founders) + future tier cards ─────────────────────────── */
+.tier-c .t-art {
+  width: 100%; aspect-ratio: 1; border-radius: 9px; margin-bottom: 11px;
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'JetBrains Mono', monospace; font-size: 2.4rem; font-weight: 700;
+  background: linear-gradient(160deg, rgba(255,255,255,0.05), rgba(0,0,0,0.4));
+  border: 1px solid var(--edge-border);
+}
+.tier-c.anu { border-color: rgba(224,169,75,0.5); }
+.tier-c.anu .t-art { color: #e0a94b; background: linear-gradient(160deg, rgba(224,169,75,0.14), rgba(0,0,0,0.5)); border-color: rgba(224,169,75,0.35); }
+.tier-c.anu .t-name { color: #e0a94b; }
+.tier-c.anu .t-rebate { color: #e0a94b; font-size: 0.9rem; }
+.tier-c.anu:hover { border-color: rgba(224,169,75,0.8); }
+.tier-c.locked { border-style: dashed; opacity: 0.72; }
+.tier-c.locked .t-art { color: #5d645e; }
+.tier-c.locked .t-name, .tier-c.locked .t-rebate { color: #8a8f8a; }
+.tier-c.locked:hover { border-color: rgba(255,255,255,0.18); transform: none; }
+
+.tier-c .t-name { word-break: keep-all; overflow-wrap: normal; hyphens: none; }

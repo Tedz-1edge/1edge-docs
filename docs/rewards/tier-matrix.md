@@ -42,6 +42,20 @@ Every 1Edge account sits on a five-rung tier ladder. Climbing it earns you two t
     <div class="t-mult">3.5× pts · Limited 50</div>
     <div class="t-req">First 50 to hit 25 referrals</div>
   </div>
+  <div class="tier-c anu">
+    <div class="t-art">✦</div>
+    <div class="t-name">Anu</div>
+    <div class="t-rebate">Founders</div>
+    <div class="t-mult">No rewards</div>
+    <div class="t-req">Founding team only</div>
+  </div>
+  <div class="tier-c locked">
+    <div class="t-art">?</div>
+    <div class="t-name">Future Tier</div>
+    <div class="t-rebate">Locked</div>
+    <div class="t-mult">Coming soon</div>
+    <div class="t-req">Not yet released</div>
+  </div>
 </div>
 
 ## The matrix
@@ -52,7 +66,9 @@ Every 1Edge account sits on a five-rung tier ladder. Climbing it earns you two t
 | **Alpha** | 100 SOL | *or* 25 active referrals | **15%** | 1.5× |
 | **Elite** | 500 SOL | *or* 250 active referrals | **20%** | 2.0× |
 | **Apex** | 2,000 SOL | *or* 1,000 active referrals | **25%** | 3.0× |
-| **Seed** *(Founding)* |, | First 50 wallets to hit 25 referrals | **30% for life** | 3.5× |
+| **Seed** *(Founding)* | Referral only | First 50 wallets to hit 25 referrals | **30% for life** | 3.5× |
+| **Anu** *(Founders)* | Founders only | Not earnable | **None** | Founders |
+| **Future tier** | Locked | Not yet released | **TBA** | TBA |
 
 > ℹ️ **Two paths up.** You reach each tier by hitting **either** the volume threshold **or** the referral requirement, whichever you get to first. Volume-only traders and referral-only community builders both progress.
 
@@ -81,6 +97,16 @@ These three tiers are earned through activity. Each can be reached by trading vo
 **Seed is the rarest tier on 1Edge, only 50 will ever exist.** It is awarded to the **first 50 wallets to reach 25 referrals**, and it carries a **30% fee rebate for life**, a 3.5× point multiplier, and, for founding members, a future revenue share (details to be confirmed).
 
 > ⚠️ **Limited to 50, forever.** Once all 50 Seed positions are claimed, the tier is closed permanently. There is no other way in.
+
+### Anu: the founders' tier
+
+**Anu is the founders' NFT**, held only by the 1Edge founding team. It sits outside the earn ladder: it is **not something you climb to**, and it carries **no fee rebate and no rewards at all**. The founders deliberately take **zero** from the rebate and referral pools, so every bit of that value stays with the community earning it. Anu is simply an on-chain marker of the people who built 1Edge.
+
+> ℹ️ **Founders earn nothing.** Anu holders receive 0% rebate by design. It's a credential, not a payout.
+
+### And beyond
+
+A further tier sits above the ladder and **hasn't been released yet**. When it goes live, it'll be documented here.
 
 ## How tiers update
 
