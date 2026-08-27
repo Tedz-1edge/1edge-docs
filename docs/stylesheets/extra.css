@@ -454,3 +454,15 @@ body, .md-typeset { font-family: 'Inter', system-ui, sans-serif; }
 .tier-c.locked:hover { border-color: rgba(255,255,255,0.18); transform: none; }
 
 .tier-c .t-name { word-break: keep-all; overflow-wrap: normal; hyphens: none; }
+
+/* ── Left-nav section headers → app mono label (kills Syne + two-tone) ── */
+.md-nav__item--section > .md-nav__link,
+.md-nav__item--section > .md-nav__link .md-ellipsis {
+  font-family: 'JetBrains Mono', ui-monospace, monospace !important;
+  font-weight: 700 !important;
+  font-size: 0.6rem !important;
+  letter-spacing: 0.15em !important;
+  color: #6f756f !important;
+  text-transform: uppercase;
+}
+.md-nav .g, .md-nav .o { color: inherit !important; }   /* drop green/orange two-tone; single muted label */
