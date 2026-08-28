@@ -1,5 +1,5 @@
 ---
-description: Placing trades, presets, slippage, priority fees, and position tracking.
+description: Placing trades, presets, slippage, priority fees, positions, and the in-app wallet.
 ---
 
 # The <span class="g">Execution Engine</span>
@@ -31,6 +31,16 @@ A settings panel puts slippage, priority-fee, and related controls in one place,
 ## Tracking your positions
 
 Your **open and closed positions** are tracked in the terminal, entry, size, and live PnL, and roll up into your [verified performance](../social/verified-metrics.md) and dashboard. Every trade you make is part of your provable, on-chain track record.
+
+## The in-app wallet
+
+Your dashboard includes a full **wallet view**, everything you hold, tracked in one place:
+
+* **Every 1Edge token**, with live PnL, **including bonding-curve positions**. A bonding position doesn't exist as an SPL token yet, it lives on the curve, so ordinary wallet apps can't see it at all. 1Edge tracks it anyway.
+* **Every other Solana SPL token** in your wallet, balance and live value, whether or not it has anything to do with 1Edge.
+* **Your SOL balance**, at its live price.
+
+No juggling a wallet app and a block explorer to answer "what do I actually hold", the whole picture is on one screen.
 
 ## Related
 

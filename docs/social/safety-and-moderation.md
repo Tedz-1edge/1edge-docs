@@ -8,11 +8,7 @@ An open social layer with real money moving through it needs clear rules and vis
 
 ## How to report
 
-You can report **any post, any message in your own DMs, or any account**:
-
-* **A post**: open the **⋯ menu** on the post and tap **Report**.
-* **A DM message**: open the message's action menu and tap **Report** (you can only report messages in conversations you're part of).
-* **An account**: tap **Report** on their profile.
+You can report **any post, any message in your own DMs, or any account**, and it's the same gesture everywhere: open the **⋯ menu** on the post, the DM message, or the profile, and tap **Report**. (DM messages can only be reported from conversations you're part of.)
 
 Pick a reason, scam, impersonation, harassment, spam, illegal content, fabricated claims, or other, and add detail if you have it.
 
