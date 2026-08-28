@@ -6,6 +6,10 @@ description: The native social layer, feed, token communities, DMs, group and co
 
 Edge Social is the social layer built into 1Edge. It's where discovery happens, where traders talk, share, and find their next trade, all next to the markets themselves instead of scattered across other apps.
 
+<video src="../../assets/social-tour.mp4" controls muted loop playsinline style="width:100%;border-radius:10px;margin:.6em 0" aria-label="A tour of Edge Social"></video>
+
+![Post it. Tag it. Trade it.](../assets/app-social-feed.png)
+
 ## Global feed
 
 A platform-wide feed where traders post takes, share launches, and follow each other. Every account carries its own [on-chain track record](verified-metrics.md), so you can always check whether a poster's history backs up their takes.
@@ -54,6 +58,8 @@ Chat on 1Edge is a **full messaging system**, and it's available on **every page
 * **Group chats**, make a room, bring your people.
 * **Community chats**, every token community has its own live room, creator and holders in one place as the curve moves.
 
+![Same identity, every message](../assets/app-dms.png)
+
 ## Token communities
 
 Every launch gets its own **community hub**, tied directly to the token. It's the token's home base, a place for the creator to post updates and for holders to gather, separate from the noise of the global feed.
@@ -61,6 +67,8 @@ Every launch gets its own **community hub**, tied directly to the token. It's th
 * Keyed to the token, so the community persists from bonding curve through graduation.
 * Creator updates, announcements, and discussion in one place.
 * Linked straight from the token's [terminal](../terminal/interface.md) page.
+
+![Creating a community](../assets/app-community.png)
 
 ## Sharing beyond 1Edge
 

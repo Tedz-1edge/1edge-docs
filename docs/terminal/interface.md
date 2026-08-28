@@ -6,6 +6,8 @@ description: Charts, live trade logs, and holder distribution, reading the termi
 
 Every token on 1Edge, from the first second of its bonding curve through to its graduated Meteora market, lives inside a full, professional-grade trading terminal. This page is a tour of what you're looking at.
 
+![The token page: chart, holders, and the trade panel on one screen](../assets/app-token-page.png)
+
 ## Real-time chart
 
 An interactive price chart with OHLCV candles, updating live as trades land.
@@ -38,6 +40,10 @@ A ranked view of the largest holders and how concentrated the supply is. Heavy c
 ## Your position
 
 Your own holdings and position metrics sit right alongside the market, and because the [bonding curve is a virtual-token simulation](../protocol/meteora-graduation.md#the-virtual-token-model), your **pre-bond and post-bond holdings are both tracked and displayed in full**, here and in your dashboard. You always see exactly what you own.
+
+## Watchlist
+
+Tap the **star** in any token's header to watch it. Your watchlist lives in your **dashboard**, one board of the tokens you're tracking, and an entry follows its token from the bonding curve straight through graduation, no re-adding after a token migrates.
 
 ## Transparency tags
 

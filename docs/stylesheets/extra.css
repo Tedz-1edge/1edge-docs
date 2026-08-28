@@ -466,3 +466,8 @@ body, .md-typeset { font-family: 'Inter', system-ui, sans-serif; }
   text-transform: uppercase;
 }
 .md-nav .g, .md-nav .o { color: inherit !important; }   /* drop green/orange two-tone; single muted label */
+
+/* Topbar: pure black (user 08-28 — it was reading grey) */
+.md-header, .md-tabs { background: #000 !important; backdrop-filter: none; }
+.md-search__form { background: rgba(255,255,255,0.05) !important; }
+.md-search__form:hover { background: rgba(255,255,255,0.09) !important; }

@@ -53,6 +53,7 @@ extra:
 nav:
   - Home: index.md
   - Introduction & Ecosystem:
+      - Getting Started: introduction/getting-started.md
       - The Broken State of Solana Launches: introduction/the-problem.md
       - The Proof of Humanity NFT: introduction/proof-of-humanity.md
       - The Ecosystem Flywheel: introduction/core-flywheel.md
@@ -68,6 +69,7 @@ nav:
       - Verified Ledger Performance: social/verified-metrics.md
       - The Edge Social Engine: social/edge-social-engine.md
       - Reporting & Moderation: social/safety-and-moderation.md
+      - Notifications & Your Phone: social/notifications.md
   - Tiers & Referrals:
       - The Referral Fee-Share Engine: rewards/referral-engine.md
       - The Account Tier Matrix: rewards/tier-matrix.md

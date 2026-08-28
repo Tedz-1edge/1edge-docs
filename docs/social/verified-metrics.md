@@ -24,6 +24,16 @@ Crypto runs on screenshots, cropped wins, photoshopped PnL, "trust me bro" track
 
 > ✅ **The result:** you can look at any trader's profile and trust it. A 70% win rate on 1Edge is a 70% win rate, provable, not promotional.
 
+## Trader DNA
+
+On top of the raw numbers, every qualifying wallet gets a **Trader DNA** read, an AI-written analysis of *how* you trade, computed from your actual indexed trade history:
+
+* **An archetype**, one of fifteen fixed trading styles (a Floor Hunter is not a Swing Trader is not a Bag Collector), assigned from your numbers, never self-picked.
+* **A six-axis radar with grades**, entry, exit, conviction, risk, diversification, and speed, each scored from your real fills.
+* **A written read**, your strengths, your leaks, and something concrete to act on next trade. The AI works only from your actual figures, it never invents a number.
+
+Trader DNA **unlocks at 10 trades across 3 tokens** and updates as you trade. It lives on your dashboard and shows on your public profile, so an archetype is something you earn, and something others can see.
+
 ## Why it matters
 
 Verified performance changes the social layer from noise into signal:
