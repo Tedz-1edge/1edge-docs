@@ -36,7 +36,7 @@ On graduation, 1Edge automatically:
 
 ### Meteora's protocol cut
 
-Once trading on Meteora, the pool's fees are subject to a **20% Meteora protocol cut**, so the project receives roughly **80%** of each configured fee stream. This is why post-graduation fees are *close to, but not exactly the same as*, the bonding-curve rates.
+Once trading on Meteora, the pool's fees are subject to a **20% Meteora protocol cut**. The cut applies to **each fee stream individually**, the 1Edge platform fee, the creator's share, and (on EdgeTek) every routing destination, so each party receives roughly **80%** of its configured slice. This is why post-graduation fees are *close to, but not exactly the same as*, the bonding-curve rates.
 
 ## Permanent LP token burns
 

@@ -30,6 +30,7 @@ If you're launching in [EdgeTek mode](../protocol/edgetek-mode.md), your fee bud
 
 * **Builder fee** funds you, but every basis point is a cost to your traders. Don't price out your own market.
 * **Buyback & burn** adds buy pressure and deflation, powerful for a flywheel, but it's value that comes out of trading fees.
+* **BuyBack & Stack** turns fees into a holder reward, buy pressure plus pro-rata airdrops that give people a reason to hold rather than flip.
 * **Extra LP compounding** deepens liquidity faster, pays off for a token you expect to grow and hold.
 * **Keep the total reasonable.** A maxed stack (1% + 3.8%) is a heavy per-trade cost. Most healthy launches keep the total well below the ceiling.
 

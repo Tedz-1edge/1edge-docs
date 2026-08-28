@@ -51,7 +51,7 @@ Edge mode uses a **dynamic, market-cap-aware fee** once a token graduates to Met
 
 > ℹ️ **Why it falls:** early on, a slightly higher fee compounds liquidity faster and discourages churn. As the token matures and deepens, the fee drops toward 0.55%, rewarding tokens that grow. See [The Meteora Graduation Protocol](meteora-graduation.md).
 
-> ⚠️ Post-graduation, Meteora takes a **20% protocol cut** of trading fees, so the project receives roughly **80%** of each slice. Fees are therefore *close* to the bonding-curve rates, but not identical.
+> ⚠️ Post-graduation, Meteora takes a **20% protocol cut** of trading fees. The cut applies to **every party's slice equally**, the 1Edge platform fee and the creator's share alike, so each receives roughly **80%** of its configured rate. Fees are therefore *close* to the bonding-curve rates, but not identical.
 
 ## Optional guardrails
 

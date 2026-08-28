@@ -27,7 +27,7 @@ Attach your project's socials (X, Telegram, Discord, website). These appear on t
 Pick the mode that fits your strategy:
 
 * <img class="mode-icon" src="../../assets/edge-icon.svg" alt="">**[Edge Mode](../protocol/edge-mode.md)**, simple, fixed fees (0.02 SOL to deploy). Set it and forget it.
-* <img class="mode-icon" src="../../assets/tek-icon.svg" alt="">**[EdgeTek Mode](../protocol/edgetek-mode.md){ .flip }**, advanced (0.5 SOL to deploy). Configure your fee budget across builder revenue, buyback-and-burn, and extra LP compounding.
+* <img class="mode-icon" src="../../assets/tek-icon.svg" alt="">**[EdgeTek Mode](../protocol/edgetek-mode.md){ .flip }**, advanced (0.5 SOL to deploy). Configure your fee budget across builder revenue, buyback-and-burn, BuyBack & Stack holder rewards, and extra LP compounding.
 
 If you choose EdgeTek, this is where you set your fee structure, see [Best Practices](best-practices.md) for how to calibrate it.
 
