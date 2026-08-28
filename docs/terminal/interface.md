@@ -6,7 +6,7 @@ description: Charts, live trade logs, and holder distribution, reading the termi
 
 Every token on 1Edge, from the first second of its bonding curve through to its graduated Meteora market, lives inside a full, professional-grade trading terminal. This page is a tour of what you're looking at.
 
-![The token page: chart, holders, and the trade panel on one screen](../assets/app-token-page.png)
+<video src="../../assets/terminal-tour.mp4" autoplay controls muted loop playsinline style="width:100%;border-radius:10px;margin:.6em 0" aria-label="The token page: live chart, trades, holders, and the trade panel on one screen"></video>
 
 ## Real-time chart
 
