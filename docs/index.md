@@ -25,7 +25,7 @@ Deploy a token through one of two frameworks, **Edge Mode** for a simple, fixed-
 
 ### 2. Trade
 
-Every token lives inside a full trading terminal: real-time charts, volume depth, live trade logs, top-holder analysis, slippage controls, and position tracking, with developer-transparency tags (like atomic dev-buys) surfaced automatically. See [Advanced Terminal Trading](terminal/interface.md).
+Every token lives inside a full trading terminal: real-time charts, volume depth, live trade logs, top-holder analysis, slippage controls, and position tracking, with developer-transparency tags (like creator dev-buys) surfaced automatically. See [Advanced Terminal Trading](terminal/interface.md).
 
 ### 3. Build your edge
 

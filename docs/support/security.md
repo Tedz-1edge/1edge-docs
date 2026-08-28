@@ -14,8 +14,7 @@ description: How 1Edge protects users, what's locked by design, and an honest no
 | **Same-block bundle & snipe blocking** | The program rejects multiple wallets buying in the same block, defeating bundlers and block-zero snipers. |
 | **Locked liquidity** | On graduation, Meteora LP tokens are **permanently burned**, liquidity can never be pulled. See [Meteora Graduation](../protocol/meteora-graduation.md). |
 | **Virtual-token curve** | No transferable SPL token exists pre-graduation, so there's nothing to bundle or move outside the rules. |
-| **Anti-vamp detection** | New launches are matched against existing tokens to flag copycat clones. See [Anti-Vamp Toolkit](../protection/security-toolkits.md). |
-| **Surfaced asset health** | Mint/freeze authority status and holder concentration are shown in the terminal for every token. |
+| **Anti-vamp detection** | New launches are matched against existing tokens to flag copycat clones. See [Smart Anti-Vamp Protection](../protection/security-toolkits.md). |
 
 ## Audit status: the honest version
 
@@ -33,7 +32,7 @@ We would rather tell you this plainly than imply a security guarantee we haven't
 
 * **Verify every link** against the [Official Resources](resources.md) page, impostor sites and servers are a common scam vector.
 * 1Edge will **never** DM you first, ask for your seed phrase, or ask you to "validate" your wallet on an external site.
-* Check a token's **surfaced health metadata** (mint/freeze authority, top-holder concentration, vamp status) before trading.
+* Check a token's **[transparency tags](../terminal/transparency-tags.md)** and holder distribution before trading.
 
 ## Reporting a vulnerability
 

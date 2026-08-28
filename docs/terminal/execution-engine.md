@@ -9,7 +9,7 @@ The execution engine is how you actually trade on 1Edge, buying and selling agai
 ## Placing a trade
 
 * **Buy or sell** in SOL or token terms.
-* **Preset shortcuts**, quick-size a trade (e.g. preset SOL amounts or percentages of your balance) instead of typing every time.
+* **One-tap presets**, quick-buy buttons with your own editable SOL amounts, and quick-sell buttons in percentages of your position, that **fire the trade instantly**, no typing, no confirm step in the app.
 * The same engine works **pre- and post-graduation**, so the way you trade doesn't change when a token migrates.
 
 ## Slippage control

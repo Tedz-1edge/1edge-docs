@@ -42,7 +42,7 @@ See [Wallet Buy Caps & Trade Cooldowns](../protection/buy-caps-and-cooldowns.md)
 
 ## Step 5: Optional dev-buy
 
-You can include an **atomic dev-buy**, your own initial purchase, built into the deployment transaction (capped at 5% on Edge / 20% on EdgeTek). It's surfaced transparently to traders as a [tag](../terminal/transparency-tags.md), so use it deliberately.
+You can include a **dev-buy**, your own initial purchase, built into the deployment transaction (capped at 5% on Edge / 20% on EdgeTek). It's surfaced transparently to traders as a [tag](../terminal/transparency-tags.md), so use it deliberately.
 
 ## Step 6: Fund & deploy
 

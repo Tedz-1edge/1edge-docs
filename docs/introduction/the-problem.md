@@ -30,7 +30,7 @@ MEV bots watch the mempool and "sandwich" a victim's trade, buying immediately b
 
 The moment a token gains traction, scammers clone its name and artwork to ride the momentum and siphon off buyers toward a worthless impostor. The overwhelming majority of these "vamps" are outright scams.
 
-> ✅ **How 1Edge stops it:** **Smart anti-vamp protection** automatically matches every new launch's name and artwork against existing tokens, detecting clones the moment they appear and flagging impostors before they can prey on a real community. See [Anti-Vamp & Honeypot Toolkit](../protection/security-toolkits.md).
+> ✅ **How 1Edge stops it:** **Smart anti-vamp protection** automatically matches every new launch's name and artwork against existing tokens, detecting clones the moment they appear and flagging impostors before they can prey on a real community. See [Smart Anti-Vamp Protection](../protection/security-toolkits.md).
 
 ## The common thread
 

@@ -11,6 +11,7 @@ The single source of truth for official 1Edge links. Always verify you're using 
 | Channel | Link |
 | :--- | :--- |
 | Website | [1edge.app](https://1edge.app) |
+| Devnet | [devnet.1edge.app](https://devnet.1edge.app) |
 | Docs | [docs.1edge.app](https://docs.1edge.app) |
 | X (Twitter) | [@1EdgeHQ](https://x.com/1EdgeHQ) |
 | Discord | [discord.gg/n4zEupfj23](https://discord.gg/n4zEupfj23) |

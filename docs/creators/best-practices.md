@@ -36,7 +36,7 @@ If you're launching in [EdgeTek mode](../protocol/edgetek-mode.md), your fee bud
 
 ## Using a dev-buy responsibly
 
-An [atomic dev-buy](../terminal/transparency-tags.md) (max 5% Edge / 20% EdgeTek) signals conviction, but it's **surfaced transparently** to every trader. A modest, clearly-disclosed dev-buy reads as commitment; a maxed one reads as a warning. Size it accordingly.
+A [dev-buy](../terminal/transparency-tags.md) (max 5% Edge / 20% EdgeTek) signals conviction, but it's **surfaced transparently** to every trader. A modest, clearly-disclosed dev-buy reads as commitment; a maxed one reads as a warning. Size it accordingly.
 
 ## Pre-launch checklist
 

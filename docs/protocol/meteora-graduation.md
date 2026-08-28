@@ -14,7 +14,7 @@ This is a deliberate **protection layer**:
 
 * There's **no token for a bot to bundle, snipe, or move around** through normal SPL tooling before graduation.
 * Every buy and sell runs through 1Edge's program, where the [guardrails](../protection/buy-caps-and-cooldowns.md), humanity checks, same-block blocking, buy caps, cooldowns, are enforced.
-* Your holdings are tracked on-chain and displayed in full in your **comprehensive dashboard** and on the **professional trading terminal**, both pre- and post-bond, so you always see exactly what you own.
+* Your holdings show in your **dashboard** and on the **trade page**, before and after bonding, so you always see exactly what you own.
 
 > ℹ️ The real, transferable SPL token is **minted at graduation**, when the token migrates to Meteora. Up to that point, the curve is a controlled, rules-enforced environment.
 

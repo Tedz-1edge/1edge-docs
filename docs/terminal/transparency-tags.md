@@ -1,14 +1,14 @@
 ---
-description: Automated flags that surface creator behaviour, like atomic dev-buys.
+description: Automated flags that surface creator behaviour, like creator dev-buys.
 ---
 
 # Developer <span class="g">Transparency Tags</span>
 
 1Edge automatically tags tokens with **transparency flags** so traders can see meaningful creator behaviour at a glance, no manual on-chain forensics required. The philosophy is simple: surface the facts, clearly, and let people decide.
 
-## Atomic dev-buys
+## Dev-buys
 
-An **atomic dev-buy** is when a token creator includes their own initial purchase **inside the same transaction that deploys the token**, buying the first tokens atomically at launch.
+A **dev-buy** is when a token creator buys the first tokens themselves as part of the launch. On 1Edge it happens **inside the same transaction that deploys the token**, so it's on the record from the very first block, there's no way to sneak one in.
 
 1Edge detects this and surfaces it as a tag on the token, along with the size of the dev-buy.
 
@@ -29,7 +29,7 @@ These caps are enforced on-chain at deployment.
 
 Most launchpads hide creator behaviour, leaving traders to reverse-engineer it from the chain after the fact, usually too late. 1Edge flips that: the behaviour worth knowing is **shown up front**, on the token's [terminal](interface.md) page, before you trade.
 
-Combined with [verified humanity](../index.md), the [anti-vamp toolkit](../protection/security-toolkits.md), and surfaced [asset health](interface.md#asset-health), transparency tags give you a complete, honest read on a token before you commit a single lamport.
+Combined with [verified humanity](../index.md) and [smart anti-vamp protection](../protection/security-toolkits.md), transparency tags give you a complete, honest read on a token before you commit a single lamport.
 
 ## Related
 

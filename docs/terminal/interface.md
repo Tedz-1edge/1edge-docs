@@ -1,5 +1,5 @@
 ---
-description: Charts, live trade logs, holder distribution, and asset health, reading the terminal.
+description: Charts, live trade logs, and holder distribution, reading the terminal.
 ---
 
 # Reading the <span class="g">Terminal</span>
@@ -20,19 +20,20 @@ Live trading volume and buy/sell depth, so you can read momentum and see where l
 
 The raw, unfiltered stream of trades as they happen, every buy and sell, in real time. It's the ground truth of what's actually going on, straight from the ledger.
 
+## Trading is social
+
+The terminal isn't a lone-wolf screen, the people trading a token are visible right inside it:
+
+* **Names on trades.** Traders who opt in show up by username in the trade log, holders list, and top-traders board, tap any name to open their profile.
+* **Entries and exits, on the chart.** Opted-in traders appear as small **avatar markers** pinned to the candles where they bought and sold, buys below the candle, sells above. Hover one for the details, click through to the profile. Your own and others' markers each have a toolbar toggle.
+* **Live trade pop-ups.** When an opted-in trader lands a trade, it flashes briefly over the chart, the market's pulse, with faces on it.
+* **Chat, right there.** The token's live chat runs on the same page, see [the Edge Social engine](../social/edge-social-engine.md#chat).
+
+> ℹ️ **Showing your name on trade surfaces is opt-in.** By default your trades are anonymous; turn on "Show my name on trades" in your profile settings to appear. You always see your own markers either way, they render just for you.
+
 ## Top-holder distribution
 
 A ranked view of the largest holders and how concentrated the supply is. Heavy clustering at the top is a classic risk signal (coordinated dumps, disguised bundling); healthy distribution is visible at a glance.
-
-## Asset health
-
-The terminal surfaces the trust signals that matter, read directly from on-chain state, so you don't have to dig through an explorer:
-
-* **Mint authority**, revoked (supply fixed) or active (dilution risk).
-* **Freeze authority**, disabled (you can always sell) or active (honeypot risk).
-* **Vamp status**, original, or a flagged copycat clone.
-
-See [Anti-Vamp & Honeypot Toolkit](../protection/security-toolkits.md) for the full breakdown.
 
 ## Your position
 
@@ -40,7 +41,7 @@ Your own holdings and position metrics sit right alongside the market, and becau
 
 ## Transparency tags
 
-The terminal automatically flags meaningful creator behaviour, like **atomic dev-buys**, so you can assess a launch without manual on-chain forensics. See [Developer Transparency Tags](transparency-tags.md).
+The terminal automatically flags creator behaviour that matters, like the **creator buying into their own launch**, so you can judge a token at a glance instead of digging through a block explorer. See [Developer Transparency Tags](transparency-tags.md).
 
 ## Related
 

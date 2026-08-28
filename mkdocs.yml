@@ -62,11 +62,12 @@ nav:
       - The Meteora Graduation Protocol: protocol/meteora-graduation.md
   - Protection & Guardrails:
       - Wallet Buy Caps & Trade Cooldowns: protection/buy-caps-and-cooldowns.md
-      - Anti-Vamp & Honeypot Toolkit: protection/security-toolkits.md
+      - Smart Anti-Vamp Protection: protection/security-toolkits.md
   - Profiles & Edge Social:
       - On-Chain Profiles & Handles: social/profiles-and-identity.md
       - Verified Ledger Performance: social/verified-metrics.md
       - The Edge Social Engine: social/edge-social-engine.md
+      - Reporting & Moderation: social/safety-and-moderation.md
   - Tiers & Referrals:
       - The Referral Fee-Share Engine: rewards/referral-engine.md
       - The Account Tier Matrix: rewards/tier-matrix.md
