@@ -29,11 +29,24 @@ The top bar is the same on every page:
 * **DASHBOARD**, your [wallet](../terminal/execution-engine.md#the-in-app-wallet), positions, watchlist, fees, and settings.
 * **The Edge Social mark**, the feed, your messages, and communities.
 * **Search**, tokens by name, ticker, or contract address, and people by handle.
-* **Your wallet button**, balance, connect state, and the account menu.
+
+### Signed in: three more controls
+
+Once your wallet is connected, the right side of the bar carries your identity, your avatar, handle, and live SOL balance, plus three buttons:
+
+* **Notifications**, the dropdown of everything aimed at you: mentions, replies, reposts, follows, and calls from traders you've belled. See [Notifications & Your Phone](../social/notifications.md).
+* **Messages**, your inbox at a glance, Primary, Groups, Communities, and Requests, without leaving the page you're on.
+* **The account menu**, one grid with everything yours: Profile, Wallet & Funds, Positions, Watchlist, Trending, New Launch, Creator Fees, Tek Fees, Token Locks, Leaderboard, Referrals, Edge Tier, Communities, Top Traders, My Launches, Social Stats, and Settings.
+
+![The account menu](../assets/nav-account-menu.png)
 
 ### On your phone
 
-The same places, arranged for a thumb: navigation condenses into a **bottom icon bar**, your wallet control docks to the bottom edge, and every surface, chart, feed, DMs, trade panel, has a mobile layout. You can also [install 1Edge as an app](../social/notifications.md#on-your-phone) for full-screen trading and push notifications.
+The same places, arranged for a thumb: a **bottom icon bar** carries your profile, notifications, the account menu, messages, and Edge Social, and every surface, chart, feed, DMs, trade panel, has a mobile layout. You can also [install 1Edge as an app](../social/notifications.md#on-your-phone) for full-screen trading and push notifications.
+
+<img src="../../assets/nav-phone-menu.png" alt="The account menu and bottom bar on a phone" style="max-width:390px;width:100%;border-radius:10px;display:block;margin:.6em auto">
+
+
 
 ## The tour
 

@@ -10,6 +10,8 @@ description: The bell, push notifications, per-trader alerts, and installing 1Ed
 
 DMs, mentions, replies, reactions, reposts, new followers, community activity, and the traders you've set alerts on.
 
+<img src="../../assets/nav-notifications.png" alt="The notifications dropdown" style="max-width:420px;width:100%;border-radius:10px;display:block;margin:.6em 0">
+
 **The defaults are deliberately quiet.** Out of the box, only **DMs and mentions** push to your phone, everything else stays bell-only until you turn it up. Your phone buzzes for what's aimed at you, not for everything that happens.
 
 ## Per-trader alerts
