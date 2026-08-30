@@ -36,9 +36,12 @@ The cabinet is arranged as shelves, one per kind of activity. Each stand on a sh
 | **Crew** | Recruiter I to V (one, five, ten, fifty and a hundred people you referred who verified) |
 | **Voice** | First Post · First Call · Reach 1K, 10K, 50K (unique readers of your posts) · Caller I, II, III (five, twenty-five and a hundred calls) · Bullseye I, II, III (a call that did a 2×, a 10×, a 50× from the mark it was made at) |
 | **Vault** | Emerald Hands · Ruby Hands · Diamond Hands (held a token from low to a 10×, a 100×, a 500×, **and took profit**) |
+| **The NFT** | Core (minted) · Alpha · Elite · Apex (each upgrade of the Proof of Humanity NFT is its own stand, with the real art) · Seed (the first fifty through the door; closed) · and one stand at the end of the shelf that only says **???** |
 | **Modes · Tek & Edge** | First Tek Trade · First Edge Trade · Tek Ape and Edge Ape I, II, III (10, 50 and 250 buys in that mode) · Rode the Bond (bought into a launch and held it through graduation, one trophy per bond) · First Tek Launch · First Edge Launch · Tek Bonded and Edge Bonded (one per launch of yours that graduated) |
 
 > ℹ️ **The Vault is about taking money off the table.** Emerald, Ruby and Diamond Hands are earned on the price you *sold* at over the price you *paid*, so a paper 100× that round-trips to zero earns nothing. Averaging up moves your entry and lowers the multiple, which is correct: buying more on the way up is a different act from holding what you bought at the bottom. Your own launches don't count, a creator selling into their own pump is a dev sell, not a diamond hand.
+
+> ℹ️ **The NFT shelf is the tier ladder, cast in glass.** Trading volume or validated referrals earn the upgrade (the Edge Tier panel on the dashboard shows how far you are); upgrading the NFT earns the stand. The last stand on the shelf is hidden until someone holds it. Nobody does. Yet.
 
 ## Ladders
 
