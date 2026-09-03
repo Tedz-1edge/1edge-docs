@@ -32,7 +32,7 @@ Six things count, and they are weighted. No single one of them can carry you to 
 | **15** | Your calls | How the tokens you called actually performed. Losses count against you |
 | **10** | Launching | Tokens you launched, and the real buyers they attracted |
 | **10** | Being read | How many **different people** read your posts — not how often you post |
-| **5** | Holding | Capital left in a position for a full week rather than flipped |
+| **5** | Being here, yourself | Days in the week on which your sessions looked like a person driving the page, not a script. Up to seven |
 
 ### The scale moves with the field
 
@@ -47,7 +47,7 @@ A leaderboard that pays anything will be attacked. These rules exist because of 
 * **Trading with yourself earns nothing.** Volume counts *net directional flow* — buying and selling straight back inside the same window cancels out. Churning your own money through a pool does not build a score.
 * **Referrals only count while your referee is active.** A wallet that signs up and stops earns you nothing from that week onward. This rewards bringing in people who actually want to be here.
 * **Calls are scored on the record, losses included.** Calling your own token does not count, and one lucky call barely moves the number — it is a damped average across everything you called.
-* **Holding means holding.** Capital counts when it was in a position before the week started and stayed there, above a floor, and it excludes your own launches.
+* **Human means a person at the keyboard.** The human axis counts days, not a score. It reads the same per-session presence statistics the Privacy Policy describes (pointer, scroll, typing and touch rhythm, never content). Presence on its own tops out well under the qualification floor, so being here without doing anything places nobody.
 * **Reach counts readers, not impressions.** Posting more does not raise it. Being read by more different people does.
 * **Everyone is a verified human.** Taking part requires proof of humanity, and launches are protected against bots and snipers by the on-chain program itself.
 
