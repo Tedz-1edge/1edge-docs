@@ -53,6 +53,8 @@ While you use the app, a small script measures the shape of your session and sen
 
 > ℹ️ **You are never shown the score, and neither are the thresholds.** A score you can read is a score an attacker can tune against. And **no presence data is neutral** — a wallet that only ever traded through the API is not called a bot for it.
 
+**On what basis.** Presence runs for everyone who uses the app, as an anti-abuse measure, whether or not you ever enter a season. Where it counts for points and money, there is a second and explicit basis: opting into a season asks you, in plain terms, to consent to it being used to verify liveness and check for manipulation in that season, and you can decline by not opting in. Declining does not switch off the anti-abuse measurement, and we are not going to pretend it does.
+
 **How long.** The per-session rows are deleted after **90 days**. Before that they roll up into one row per wallet per month — sessions, how many looked human, how many were on touch, active time, best and average score, devices, first and last — and that monthly ledger is kept **indefinitely**. It is a wallet's real history here. It is never re-scored later, so a month means what it meant when it was lived.
 
 ## One person, one wallet
@@ -81,7 +83,9 @@ The full rules are in [Seasons](../rewards/seasons.md) and in the season terms y
 | **Claiming** | Within 28 days of settlement, then it rolls back to the vault |
 | **Points are not tokens** | No cash value, not transferable, not sellable |
 
-**If a payout is held.** Fair-play checks run when a week pays, not on your points, so the board people watched all week is the board that settles and a docked wallet keeps its place. A held share is **held, not gone**: it sits in the vault under your wallet, the panel tells you in plain words which category of evidence caused it, you can **contest it once** inside the claim window, and a person decides to release it or forfeit it. A held share nobody contests before the window closes is forfeited. How the checks work is deliberately not published — publishing them would only be a guide to avoiding them.
+**If a payout is held.** Fair-play checks run when a week pays, not on your points, so the board people watched all week is the board that settles and a held wallet keeps its place and its rank. Nothing is taken from your wallet — a payout you had not claimed is not paid yet. A held share is **held, not gone**: it stays in the vault, the panel tells you in plain words which category of evidence caused it, you can **contest it once** inside the claim window, and **a person** decides — released and claimable on a fresh window, or forfeited. A held share nobody contests before the window closes is forfeited. Held or forfeited, it is never transferred to anyone: it stays in the vault the payout would have come from, and nobody on the 1EDGE team receives it. How the checks work is deliberately not published — publishing them would only be a guide to avoiding them.
+
+**Referrals are single-tier.** You earn on the people you referred, and nothing from the people they refer. No downline, no chain.
 
 ## Who inside 1EDGE can see any of this
 

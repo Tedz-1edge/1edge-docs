@@ -21,6 +21,7 @@ It is one of two reward streams on 1EDGE. This one pays you on **other people's*
 
 * **Unique links** are tracked per referrer wallet, so every referred wallet is attributed to exactly one account, once, for life.
 * A referral is **validated once the referee has traded ≥ 0.5 SOL**, the same gate that counts it toward your tier progress.
+* **It is single-tier.** You earn on the people you referred and on nobody else. There is no second level, no downline, and nothing at all from the people your referees go on to refer. Joining costs nothing, and no reward here depends on recruiting recruiters.
 * Rewards are **25% of the 1EDGE platform fee** on the referee's trades, and **accrue to your rewards balance to claim in SOL** (minimum 0.005 SOL).
 
 ## How it stacks with tiers
