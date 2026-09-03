@@ -1,10 +1,10 @@
 ---
-description: The bell, push notifications, per-trader alerts, and installing 1Edge on your phone.
+description: The bell, push notifications, per-trader alerts, and installing 1EDGE on your phone.
 ---
 
 # Notifications & <span class="g">Your Phone</span>
 
-1Edge notifications run on two channels, the **bell** inside the app, and **push** to your phone, controlled by one set of preferences. Mute a category and it's muted everywhere; nothing sneaks back in through the other channel.
+1EDGE notifications run on two channels, the **bell** inside the app, and **push** to your phone, controlled by one set of preferences. Mute a category and it's muted everywhere; nothing sneaks back in through the other channel.
 
 ## What can notify you
 
@@ -29,12 +29,12 @@ One panel, reachable from two places: **Dashboard → Settings → Notifications
 
 ## On your phone
 
-1Edge installs as an app, full-screen, home-screen icon, push notifications:
+1EDGE installs as an app, full-screen, home-screen icon, push notifications:
 
-* **Android**: open 1Edge in **Chrome** and choose **Install app** (or "Add to Home screen"). It must be Chrome or Samsung Internet, installing from inside a wallet's in-app browser creates a shortcut that looks like the app but can't receive push.
-* **iPhone**: open 1Edge in **Safari**, Share → **Add to Home Screen**. On iOS, push notifications only work from the installed app (iOS 16.4+), that's an Apple rule, not ours.
+* **Android**: open 1EDGE in **Chrome** and choose **Install app** (or "Add to Home screen"). It must be Chrome or Samsung Internet, installing from inside a wallet's in-app browser creates a shortcut that looks like the app but can't receive push.
+* **iPhone**: open 1EDGE in **Safari**, Share → **Add to Home Screen**. On iOS, push notifications only work from the installed app (iOS 16.4+), that's an Apple rule, not ours.
 
-![1Edge on mobile](../assets/app-mobile.png)
+![1EDGE on mobile](../assets/app-mobile.png)
 
 ## Related
 

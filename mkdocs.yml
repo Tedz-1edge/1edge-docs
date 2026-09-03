@@ -1,4 +1,4 @@
-site_name: 1Edge Docs
+site_name: 1EDGE Docs
 site_description: The human-first launchpad, trading terminal, and social layer on Solana.
 site_url: https://docs.1edge.app
 docs_dir: docs
@@ -85,6 +85,7 @@ nav:
   - Security & Support:
       - Talking to Support: support/getting-help.md
       - Security & Risk: support/security.md
+      - What We Track, and Why: support/what-we-track.md
       - Smart Contract Directory: support/contracts.md
       - Troubleshooting Directory: support/troubleshooting.md
       - Official Resources: support/resources.md

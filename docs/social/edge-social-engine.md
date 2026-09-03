@@ -4,7 +4,7 @@ description: The native social layer, feed, token communities, DMs, group and co
 
 # The Edge <span class="g">Social Engine</span> <img class="soc-logo" src="../../assets/social_top.png" alt="EdgeSocial">
 
-Edge Social is the social layer built into 1Edge. It's where discovery happens, where traders talk, share, and find their next trade, all next to the markets themselves instead of scattered across other apps.
+Edge Social is the social layer built into 1EDGE. It's where discovery happens, where traders talk, share, and find their next trade, all next to the markets themselves instead of scattered across other apps.
 
 <video src="../../assets/social-tour.mp4" controls muted loop playsinline style="width:100%;border-radius:10px;margin:.6em 0" aria-label="A tour of Edge Social"></video>
 
@@ -37,7 +37,7 @@ Tagging turns the feed and chat into a navigable map of the whole ecosystem, eve
 
 ## Making calls
 
-A **call** is a public, timestamped claim on a token. When you make one, 1Edge **snapshots the token's market cap at that exact moment**, server-side, from live data. You can't backdate it, tweak it, or type your own numbers.
+A **call** is a public, timestamped claim on a token. When you make one, 1EDGE **snapshots the token's market cap at that exact moment**, server-side, from live data. You can't backdate it, tweak it, or type your own numbers.
 
 * The call posts to the feed as a **call card** drawn on the token's own artwork, showing where you called it and the move since.
 * **One open call per token.** No re-posting the same claim to bump it.
@@ -48,11 +48,11 @@ A **call** is a public, timestamped claim on a token. When you make one, 1Edge *
 
 Share a position straight from the token page as a **PnL card**: entry market cap, current market cap, and your percentage, with the option to show your multiplier.
 
-> ✅ The numbers are **computed by 1Edge from your actual trades**, you don't type them in. A shared PnL on 1Edge can't be doctored.
+> ✅ The numbers are **computed by 1EDGE from your actual trades**, you don't type them in. A shared PnL on 1EDGE can't be doctored.
 
 ## Chat
 
-Chat on 1Edge is a **full messaging system**, and it's available on **every page** of the app, including right on the token page alongside the chart:
+Chat on 1EDGE is a **full messaging system**, and it's available on **every page** of the app, including right on the token page alongside the chart:
 
 * **Direct messages**, private 1:1 conversations, **end-to-end encrypted**, encrypted on your device, so only you and the other person can read them, with a request step so strangers can't land in your inbox uninvited.
 * **Group chats**, make a room, bring your people.
@@ -70,9 +70,9 @@ Every launch gets its own **community hub**, tied directly to the token. It's th
 
 ![Creating a community](../assets/app-community.png)
 
-## Sharing beyond 1Edge
+## Sharing beyond 1EDGE
 
-Every post, call, PnL share, profile, and token page has a **share** action: native share, X, Telegram, or copy link. And when a 1Edge link lands off-platform, it **unfurls into a rendered card**, a call shows its ticker and move, a PnL share its numbers, a profile its badge and record. The claim survives the trip instead of becoming a bare link.
+Every post, call, PnL share, profile, and token page has a **share** action: native share, X, Telegram, or copy link. And when a 1EDGE link lands off-platform, it **unfurls into a rendered card**, a call shows its ticker and move, a PnL share its numbers, a profile its badge and record. The claim survives the trip instead of becoming a bare link.
 
 ## Kept safe
 
@@ -80,7 +80,7 @@ Anything on the platform, a post, a DM, an account, can be **reported in a coupl
 
 ## Built on real identity
 
-Underneath all of it sits the 1Edge profile: a persistent identity with a [real on-chain track record](verified-metrics.md) behind it. When someone posts a call or talks their book in chat, you can open their profile and see how they've actually traded. That context is what makes the conversation worth reading.
+Underneath all of it sits the 1EDGE profile: a persistent identity with a [real on-chain track record](verified-metrics.md) behind it. When someone posts a call or talks their book in chat, you can open their profile and see how they've actually traded. That context is what makes the conversation worth reading.
 
 ## Related
 

@@ -1,5 +1,5 @@
 ---
-description: Seasons are 1Edge's month-long championship — how points are earned, how the weekly checkpoints work, and the rules that keep the board honest.
+description: Seasons are 1EDGE's month-long championship — how points are earned, how the weekly checkpoints work, and the rules that keep the board honest.
 ---
 
 # <span class="g">Seasons</span> — the championship
@@ -51,7 +51,22 @@ A leaderboard that pays anything will be attacked. These rules exist because of 
 * **Reach counts readers, not impressions.** Posting more does not raise it. Being read by more different people does.
 * **Everyone is a verified human.** Taking part requires proof of humanity, and launches are protected against bots and snipers by the on-chain program itself.
 
-> ℹ️ **There is one more check, and it runs at payout rather than in your points.** Behaviour that does not look like a real person using the platform can reduce or cancel a reward. The signals behind it are deliberately not published — publishing them would only be a guide to avoiding them. Every reduction is recorded with its reasons.
+> ℹ️ **There is one more check, and it runs at payout rather than in your points.** Behaviour that does not look like a real person using the platform can hold back or cancel a reward. The signals behind it are deliberately not published — publishing them would only be a guide to avoiding them. Every reduction is recorded with its reasons.
+
+### If a share is held
+
+The check runs on the **money**, not on your points, so the board people watched all week is the board that settles and a held wallet keeps its place and its rank.
+
+A held share is **held, not gone**. It sits in the vault under your wallet, and:
+
+1. The panel tells you in plain words which **category** of evidence caused it — a shared device, a shared network, a shared funding source, buying in lockstep, verifying in a burst, or sessions that did not look like a person at the screen. Never the score, never the threshold, never the other wallets.
+2. You can **contest it once**, from the row itself, inside the claim window. Write what actually happened — "that is my flatmate" is a real answer.
+3. **A person decides.** Released, and it becomes claimable with a fresh window from the decision. Forfeited, and it stays in the vault.
+4. A held share nobody contests before the claim window closes is **forfeited**.
+
+Contesting a held share is not the same as appealing an enforcement action. They are separate routes and separate decisions.
+
+> ⚠️ **What we do not claim.** Proof of humanity, presence and wallet linkage make running a farm expensive and visible. They do not make it impossible, and we will not tell you the board cannot be gamed. What we will tell you is what is measured, in [What We Track, and Why](../support/what-we-track.md).
 
 ## The weekly checkpoint
 
@@ -74,8 +89,12 @@ Season trophies and crowns live on the mantelpiece in your [Trophy Cabinet](../s
 
 ## Opting in
 
-You opt in per season, from the board, and you accept the season's terms when you do. It is deliberately not automatic: a season is a competition with rules that can change between seasons, and joining one should be a decision rather than a default.
+You opt in per season, from the board, and you accept the season's terms when you do. It is deliberately not automatic: a season is a competition with rules that can change between seasons, and joining one should be a decision rather than a default. The terms are **versioned**, and the version you accepted is recorded with your wallet and the time.
+
+Points are counted for everyone. The payout is for wallets that opted in — and if you skipped the deck, the claim asks you then rather than turning you away.
 
 Your rank is public whether or not you attach a name to it. Attaching a name is the opt-in part.
+
+**Points are not tokens.** They have no cash value, they cannot be transferred or sold, and a placing is a placing. Claim a settled payout within **28 days**; after that it rolls back to the vault.
 
 > ⚠️ **Rewards.** Seasons is a competition and a scoreboard. Any reward programme attached to a season is announced separately, with its own terms, and nothing on this page is a promise of a payment or a return.

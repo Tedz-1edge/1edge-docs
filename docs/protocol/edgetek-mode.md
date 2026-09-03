@@ -4,14 +4,14 @@ description: The advanced framework, configurable builder, burn, and liquidity f
 
 # EdgeTek Mode: <span class="o">Advanced Custom Architecture</span> <img class="mode-icon" src="../../assets/tek-icon.svg" alt="">
 
-**EdgeTek Mode** is the advanced launch framework for creators who want to engineer their token's economics. On top of a fixed 1Edge platform fee, it gives the deployer a **configurable fee budget** to route across builder revenue, buyback-and-burn, BuyBack & Stack holder rewards, and accelerated liquidity compounding, and that structure carries through after the token graduates to a DEX.
+**EdgeTek Mode** is the advanced launch framework for creators who want to engineer their token's economics. On top of a fixed 1EDGE platform fee, it gives the deployer a **configurable fee budget** to route across builder revenue, buyback-and-burn, BuyBack & Stack holder rewards, and accelerated liquidity compounding, and that structure carries through after the token graduates to a DEX.
 
 ## At a glance
 
 | Parameter | Value |
 | :--- | :--- |
 | Deployment fee | **0.5 SOL** |
-| 1Edge platform fee | **1.00%** (fixed) |
+| 1EDGE platform fee | **1.00%** (fixed) |
 | Builder / routing fee | up to **3.80%** (configurable) |
 | LP compounding | from **0.20%** (configurable up) |
 | Buyback & burn | configurable (within the routing budget) |
@@ -24,7 +24,7 @@ An EdgeTek token's total fee is built from a fixed platform slice plus a configu
 
 | Slice | Rate | Notes |
 | :--- | :--- | :--- |
-| **1Edge platform fee** | **1.00%** | Fixed. The slice your [tier rebate](../rewards/tier-matrix.md) discounts. |
+| **1EDGE platform fee** | **1.00%** | Fixed. The slice your [tier rebate](../rewards/tier-matrix.md) discounts. |
 | **Builder / routing fee** | **up to 3.80%** | Configurable. Routed across the deployer's chosen destinations. |
 | **LP compounding** | **0.20% minimum** | Always present; the deployer can raise it from the routing budget. |
 | **Buyback & burn** | configurable | A share of the routing budget allocated to on-chain buyback-and-burn. |
@@ -78,7 +78,7 @@ Everything is visible under **Tek Fees** in your dashboard, the full history of 
 
 Unlike Edge mode's market-cap-scaling fee, an EdgeTek token's configured fee structure **stays flat** after it graduates to Meteora, the levers you set persist for the life of the token.
 
-> ⚠️ As with all graduated tokens, Meteora takes a **20% protocol cut** of trading fees post-migration. The cut comes off **every fee route equally**, the 1Edge platform fee and each of your routing destinations included, so each stream delivers roughly **80%** of its configured rate to its recipient. The structure is **close to the pre-bond rates, but not identical**. See [The Meteora Graduation Protocol](meteora-graduation.md).
+> ⚠️ As with all graduated tokens, Meteora takes a **20% protocol cut** of trading fees post-migration. The cut comes off **every fee route equally**, the 1EDGE platform fee and each of your routing destinations included, so each stream delivers roughly **80%** of its configured rate to its recipient. The structure is **close to the pre-bond rates, but not identical**. See [The Meteora Graduation Protocol](meteora-graduation.md).
 
 ## Guardrails still apply
 

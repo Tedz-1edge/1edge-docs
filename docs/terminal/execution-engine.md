@@ -4,7 +4,7 @@ description: Placing trades, presets, slippage, priority fees, positions, and th
 
 # The <span class="g">Execution Engine</span>
 
-The execution engine is how you actually trade on 1Edge, buying and selling against the bonding curve or the graduated Meteora market from the same interface. It's built to stay fast and reliable during the moments that matter: launches and volume spikes.
+The execution engine is how you actually trade on 1EDGE, buying and selling against the bonding curve or the graduated Meteora market from the same interface. It's built to stay fast and reliable during the moments that matter: launches and volume spikes.
 
 ## Placing a trade
 
@@ -36,8 +36,8 @@ Your **open and closed positions** are tracked in the terminal, entry, size, and
 
 Your dashboard includes a full **wallet view**, everything you hold, tracked in one place:
 
-* **Every 1Edge token**, with live PnL, **including bonding-curve positions**. A bonding position doesn't exist as an SPL token yet, it lives on the curve, so ordinary wallet apps can't see it at all. 1Edge tracks it anyway.
-* **Every other Solana SPL token** in your wallet, balance and live value, whether or not it has anything to do with 1Edge.
+* **Every 1EDGE token**, with live PnL, **including bonding-curve positions**. A bonding position doesn't exist as an SPL token yet, it lives on the curve, so ordinary wallet apps can't see it at all. 1EDGE tracks it anyway.
+* **Every other Solana SPL token** in your wallet, balance and live value, whether or not it has anything to do with 1EDGE.
 * **Your SOL balance**, at its live price.
 
 No juggling a wallet app and a block explorer to answer "what do I actually hold", the whole picture is on one screen.

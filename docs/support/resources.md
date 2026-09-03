@@ -4,7 +4,7 @@ description: Verified URLs, community servers, and legal disclosures.
 
 # Official <span class="g">Resources</span>
 
-The single source of truth for official 1Edge links. Always verify you're using these, impostor sites and servers are a known scam vector.
+The single source of truth for official 1EDGE links. Always verify you're using these, impostor sites and servers are a known scam vector.
 
 ## Official channels
 
@@ -21,5 +21,5 @@ The single source of truth for official 1Edge links. Always verify you're using 
 
 Our Privacy Policy, Terms of Service, and Disclaimer are available on the main site at [1edge.app](https://1edge.app).
 
-> 🚨 1Edge will never DM you first, never ask for your seed phrase, and never ask you to "validate" your wallet on an external site. Anyone doing so is an impostor.
+> 🚨 1EDGE will never DM you first, never ask for your seed phrase, and never ask you to "validate" your wallet on an external site. Anyone doing so is an impostor.
 

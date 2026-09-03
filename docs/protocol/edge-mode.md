@@ -4,7 +4,7 @@ description: The simple, fixed-fee standard launch, set it and forget it.
 
 # Edge Mode: <span class="g">Standard Launch</span> <img class="mode-icon" src="../../assets/edge-icon.svg" alt="">
 
-**Edge Mode** is the standard 1Edge launch: a clean bonding-curve deployment with a simple, fixed fee structure and optional safety guardrails. It's built for creators who want a fair launch without configuring custom tokenomics.
+**Edge Mode** is the standard 1EDGE launch: a clean bonding-curve deployment with a simple, fixed fee structure and optional safety guardrails. It's built for creators who want a fair launch without configuring custom tokenomics.
 
 ## At a glance
 
@@ -23,7 +23,7 @@ Every trade on an Edge-mode token carries a **1.15% total fee**, split three way
 
 | Slice | Rate | Where it goes |
 | :--- | :--- | :--- |
-| **1Edge platform fee** | 0.55% | The house fee that funds the platform, and the slice your [tier rebate](../rewards/tier-matrix.md) discounts. |
+| **1EDGE platform fee** | 0.55% | The house fee that funds the platform, and the slice your [tier rebate](../rewards/tier-matrix.md) discounts. |
 | **Creator fee** | 0.40% | Paid to the token's deployer. |
 | **LP compounding** | 0.20% | Compounds straight back into the token's liquidity, deepening the pool on every trade. |
 
@@ -51,7 +51,7 @@ Edge mode uses a **dynamic, market-cap-aware fee** once a token graduates to Met
 
 > ℹ️ **Why it falls:** early on, a slightly higher fee compounds liquidity faster and discourages churn. As the token matures and deepens, the fee drops toward 0.55%, rewarding tokens that grow. See [The Meteora Graduation Protocol](meteora-graduation.md).
 
-> ⚠️ Post-graduation, Meteora takes a **20% protocol cut** of trading fees. The cut applies to **every party's slice equally**, the 1Edge platform fee and the creator's share alike, so each receives roughly **80%** of its configured rate. Fees are therefore *close* to the bonding-curve rates, but not identical.
+> ⚠️ Post-graduation, Meteora takes a **20% protocol cut** of trading fees. The cut applies to **every party's slice equally**, the 1EDGE platform fee and the creator's share alike, so each receives roughly **80%** of its configured rate. Fees are therefore *close* to the bonding-curve rates, but not identical.
 
 ## Optional guardrails
 

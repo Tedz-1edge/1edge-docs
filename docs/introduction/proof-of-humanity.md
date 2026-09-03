@@ -1,16 +1,16 @@
 ---
-description: The soulbound, on-chain credential that proves you're a real human, your gate into 1Edge.
+description: The soulbound, on-chain credential that proves you're a real human, your gate into 1EDGE.
 ---
 
 # The Proof of <span class="g">Humanity NFT</span>
 
-The **Proof of Humanity NFT** is the foundation of everything on 1Edge. It's your on-chain credential proving you're a real person, **one human, one wallet**, and it's the gate to launching, trading, and earning on the platform.
+The **Proof of Humanity NFT** is the foundation of everything on 1EDGE. It's your on-chain credential proving you're a real person, **one human, one wallet**, and it's the gate to launching, trading, and earning on the platform.
 
 ## What it is
 
 A single NFT, minted to your wallet, that marks you as a **verified human**. It isn't a collectible to flip or a financial product, it's a utility credential that unlocks the platform and binds your verified status to your wallet.
 
-> ✅ **One wallet. One human. Verified on-chain.** Binding verified status to a single wallet makes bot swarms and multi-wallet farms far more expensive and far harder to run, that's the core of 1Edge's protection, layered with the anti-bundle, buy-cap and behavioural defences.
+> ✅ **One wallet. One human. Verified on-chain.** Binding verified status to a single wallet makes bot swarms and multi-wallet farms far more expensive and far harder to run, that's the core of 1EDGE's protection, layered with the anti-bundle, buy-cap and behavioural defences.
 
 ## It's soulbound
 
@@ -25,22 +25,22 @@ That's deliberate: if verified-human status could be bought or traded, it would 
 
 ## What it costs
 
-You pay a small one-time cost to mint. **Only 0.02 SOL goes to 1Edge**, the rest is standard Solana network cost (account rent) plus a one-time on-chain referral account:
+You pay a small one-time cost to mint. **Only 0.02 SOL goes to 1EDGE**, the rest is standard Solana network cost (account rent) plus a one-time on-chain referral account:
 
 | Item | Approx. cost | Goes to |
 | :--- | :--- | :--- |
-| **1Edge mint fee** | **0.02 SOL** | 1Edge |
+| **1EDGE mint fee** | **0.02 SOL** | 1EDGE |
 | Solana account rent | ~0.02 SOL | The Solana network (your accounts) |
 | On-chain referral record (one-time) | ~0.001 SOL | The Solana network |
 | **Total (estimated)** | **~0.045 SOL** |, |
 
-> ℹ️ The headline price is **0.02 SOL to 1Edge**. The total of ~0.045 SOL just reflects Solana's own rent and the one-time referral account created on-chain, those aren't fees 1Edge collects.
+> ℹ️ The headline price is **0.02 SOL to 1EDGE**. The total of ~0.045 SOL just reflects Solana's own rent and the one-time referral account created on-chain, those aren't fees 1EDGE collects.
 
 ## What it grants
 
 Holding the Proof of Humanity NFT gives you:
 
-* **Full platform access**, the gate to launch tokens and trade on 1Edge.
+* **Full platform access**, the gate to launch tokens and trade on 1EDGE.
 * **Your account tier**, the NFT carries your [tier](../rewards/tier-matrix.md) (Core → Seed), which sets your fee rebate and point multiplier and updates on-chain as you grow.
 * **Fee rebates**, every tier rebates a share of the trading fees you pay.
 * **Your referral link**, earn [25% of referred wallets' fees](../rewards/referral-engine.md), paid in SOL.
@@ -49,7 +49,7 @@ Holding the Proof of Humanity NFT gives you:
 
 As you hit each [tier](../rewards/tier-matrix.md) threshold, you upgrade your NFT to the next tier at **no cost**, there's no fee to climb. Just reach the milestone and upgrade.
 
-> ℹ️ The only thing you pay on an upgrade is the **standard Solana network transaction fee**, a negligible fraction of a SOL (a tiny fraction of a cent), the same as any on-chain action. 1Edge charges nothing to level up.
+> ℹ️ The only thing you pay on an upgrade is the **standard Solana network transaction fee**, a negligible fraction of a SOL (a tiny fraction of a cent), the same as any on-chain action. 1EDGE charges nothing to level up.
 
 ## Related
 

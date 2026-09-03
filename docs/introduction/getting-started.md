@@ -4,17 +4,17 @@ description: Your first session, browsing, verifying, and finding your way aroun
 
 # Getting <span class="g">Started</span>
 
-![The 1Edge home board](../assets/app-home.png)
+![The 1EDGE home board](../assets/app-home.png)
 
 ## Browse first, no account needed
 
-1Edge is **open by default**. Charts, token pages, the social feed, profiles, all of it is browsable without connecting a wallet or making an account. Look around as long as you like; the platform only asks you to connect at the moment you try to do something that needs it.
+1EDGE is **open by default**. Charts, token pages, the social feed, profiles, all of it is browsable without connecting a wallet or making an account. Look around as long as you like; the platform only asks you to connect at the moment you try to do something that needs it.
 
 ## The five-minute setup
 
 When you're ready to trade, launch, or post:
 
-1. **Connect your wallet.** Any major Solana wallet works, and you choose which; 1Edge sticks to the one you picked.
+1. **Connect your wallet.** Any major Solana wallet works, and you choose which; 1EDGE sticks to the one you picked.
 2. **Verify you're human.** One short challenge, see [The Proof of Humanity NFT](proof-of-humanity.md).
 3. **Mint your pass.** Your Proof of Humanity NFT binds your wallet to a verified account.
 4. **Claim your handle.** Pick a username, add an avatar and bio, that's your identity across [Edge Social](../social/edge-social-engine.md).
@@ -42,7 +42,7 @@ Once your wallet is connected, the right side of the bar carries your identity, 
 
 ### On your phone
 
-The same places, arranged for a thumb: a **bottom icon bar** carries your profile, notifications, the account menu, messages, and Edge Social, and every surface, chart, feed, DMs, trade panel, has a mobile layout. You can also [install 1Edge as an app](../social/notifications.md#on-your-phone) for full-screen trading and push notifications.
+The same places, arranged for a thumb: a **bottom icon bar** carries your profile, notifications, the account menu, messages, and Edge Social, and every surface, chart, feed, DMs, trade panel, has a mobile layout. You can also [install 1EDGE as an app](../social/notifications.md#on-your-phone) for full-screen trading and push notifications.
 
 <img src="../../assets/nav-phone-menu.png" alt="The account menu and bottom bar on a phone" style="max-width:390px;width:100%;border-radius:10px;display:block;margin:.6em auto">
 

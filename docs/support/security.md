@@ -1,10 +1,10 @@
 ---
-description: How 1Edge protects users, what's locked by design, and an honest note on audit status.
+description: How 1EDGE protects users, what's locked by design, and an honest note on audit status.
 ---
 
 # Security & <span class="o">Risk</span>
 
-1Edge is built around a simple idea: protection should live in the **protocol and the design**, not in promises. This page lays out what's protected, what's locked by construction, and, honestly, what hasn't been done yet.
+1EDGE is built around a simple idea: protection should live in the **protocol and the design**, not in promises. This page lays out what's protected, what's locked by construction, and, honestly, what hasn't been done yet.
 
 ## What protects you, by design
 
@@ -18,7 +18,7 @@ description: How 1Edge protects users, what's locked by design, and an honest no
 
 ## Audit status: the honest version
 
-> 🚨 **1Edge has not yet undergone a formal third-party smart-contract audit.** A full professional audit is costly, and we have chosen to launch without one rather than delay or overstate our security posture. We will commission and publish an audit when resources allow, and this page will be updated with the firm, scope, and report when that happens.
+> 🚨 **1EDGE has not yet undergone a formal third-party smart-contract audit.** A full professional audit is costly, and we have chosen to launch without one rather than delay or overstate our security posture. We will commission and publish an audit when resources allow, and this page will be updated with the firm, scope, and report when that happens.
 
 What that means for you:
 
@@ -31,7 +31,7 @@ We would rather tell you this plainly than imply a security guarantee we haven't
 ## Your own safety
 
 * **Verify every link** against the [Official Resources](resources.md) page, impostor sites and servers are a common scam vector.
-* 1Edge will **never** DM you first, ask for your seed phrase, or ask you to "validate" your wallet on an external site.
+* 1EDGE will **never** DM you first, ask for your seed phrase, or ask you to "validate" your wallet on an external site.
 * Check a token's **[transparency tags](../terminal/transparency-tags.md)** and holder distribution before trading.
 
 ## Reporting a vulnerability

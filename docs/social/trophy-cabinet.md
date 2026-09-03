@@ -1,5 +1,5 @@
 ---
-description: The trophy cabinet on every 1Edge profile, what each trophy takes, and the rules that keep it honest.
+description: The trophy cabinet on every 1EDGE profile, what each trophy takes, and the rules that keep it honest.
 ---
 
 # The Trophy <span class="g">Cabinet</span>
@@ -21,7 +21,7 @@ Every trophy in the cabinet comes off a lifetime counter: your first trade, your
 
 Three things a trophy is **not**, so nobody reads it as something it isn't:
 
-* **Not on-chain and not an NFT.** A trophy is a record 1Edge keeps about what a wallet did. It is not a token in your wallet.
+* **Not on-chain and not an NFT.** A trophy is a record 1EDGE keeps about what a wallet did. It is not a token in your wallet.
 * **Not transferable.** It belongs to the wallet that earned it and cannot be sent, sold or lent.
 * **Not worth anything.** A trophy has no cash value and pays nothing. It is a fact about your history, cast in glass.
 

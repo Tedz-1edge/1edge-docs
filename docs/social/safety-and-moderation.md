@@ -4,7 +4,7 @@ description: How reporting works, the escalating moderation ladder, and in-app a
 
 # Reporting & <span class="g">Moderation</span>
 
-An open social layer with real money moving through it needs clear rules and visible enforcement. 1Edge moderation is built on three principles: **reports are reviewed by humans**, **enforcement escalates instead of jumping straight to a ban**, and **every decision can be appealed**.
+An open social layer with real money moving through it needs clear rules and visible enforcement. 1EDGE moderation is built on three principles: **reports are reviewed by humans**, **enforcement escalates instead of jumping straight to a ban**, and **every decision can be appealed**.
 
 ## How to report
 
@@ -30,13 +30,13 @@ Enforcement escalates through three rungs rather than jumping straight to a ban:
 
 * Restrictions and suspensions are **temporary and time-boxed**, you're told exactly when they end.
 * Durations **escalate on repeat offences** within a rolling window; a clean stretch resets the ladder.
-* When you're restricted or suspended, you get a **DM from the official 1Edge account** explaining what happened and until when, and a banner in the app shows your status.
+* When you're restricted or suspended, you get a **DM from the official 1EDGE account** explaining what happened and until when, and a banner in the app shows your status.
 
 > ✅ **Moderation touches the social layer only.** Your wallet, your funds, and your ability to trade are never affected by a social enforcement.
 
 ## Appeals
 
-Every enforcement can be **appealed once, in-app**: the status banner has an Appeal button, or you can reply directly to the notice DM from the official 1Edge account (that conversation stays open even while you're restricted).
+Every enforcement can be **appealed once, in-app**: the status banner has an Appeal button, or you can reply directly to the notice DM from the official 1EDGE account (that conversation stays open even while you're restricted).
 
 * A **human reviews the appeal**, not the AI.
 * If it's **overturned**, the enforcement lifts immediately and doesn't count against your record.

@@ -4,13 +4,13 @@ description: Performance stats read straight from the chain, no more photoshoppe
 
 # Verified Ledger <span class="g">Performance</span>
 
-Crypto runs on screenshots, cropped wins, photoshopped PnL, "trust me bro" track records. 1Edge replaces all of that with **performance read directly from the Solana blockchain**. The numbers on a profile aren't typed in by the user; they're computed from that wallet's actual on-chain trade history, so they can't be faked or edited.
+Crypto runs on screenshots, cropped wins, photoshopped PnL, "trust me bro" track records. 1EDGE replaces all of that with **performance read directly from the Solana blockchain**. The numbers on a profile aren't typed in by the user; they're computed from that wallet's actual on-chain trade history, so they can't be faked or edited.
 
 ## What's verified on every profile
 
 | Stat | What it shows |
 | :--- | :--- |
-| **Total trading volume** | Lifetime volume traded on 1Edge, in SOL. |
+| **Total trading volume** | Lifetime volume traded on 1EDGE, in SOL. |
 | **Transaction count** | The verified number of trades the wallet has made. |
 | **Realized PnL** | Profit/loss locked in from closed positions. |
 | **Win rate** | The share of closed trades that were profitable. |
@@ -22,7 +22,7 @@ Crypto runs on screenshots, cropped wins, photoshopped PnL, "trust me bro" track
 * **Realized PnL is locked at trade-time value.** Your historical realized PnL reflects the actual prices you bought and sold at, so it doesn't silently drift as the SOL price moves later. What you booked is what shows.
 * **Only unrealized PnL moves.** Open positions are marked to the live price (that's the whole point of "unrealized"); everything you've already closed stays fixed.
 
-> ✅ **The result:** you can look at any trader's profile and trust it. A 70% win rate on 1Edge is a 70% win rate, provable, not promotional.
+> ✅ **The result:** you can look at any trader's profile and trust it. A 70% win rate on 1EDGE is a 70% win rate, provable, not promotional.
 
 ## Trader DNA
 

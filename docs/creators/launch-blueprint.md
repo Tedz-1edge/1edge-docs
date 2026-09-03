@@ -4,11 +4,11 @@ description: Step-by-step, from a blank form to a live, funded launch.
 
 # The <span class="g">Launch Blueprint</span>
 
-Deploying a token on 1Edge is a guided, few-minute process. This is the end-to-end walkthrough.
+Deploying a token on 1EDGE is a guided, few-minute process. This is the end-to-end walkthrough.
 
 ## Before you start
 
-You need a **verified-human wallet**, every launch requires [Proof of Humanity](../index.md). If you haven't verified yet, do that first; it's the gate to creating (and trading) anything on 1Edge.
+You need a **verified-human wallet**, every launch requires [Proof of Humanity](../index.md). If you haven't verified yet, do that first; it's the gate to creating (and trading) anything on 1EDGE.
 
 ## Step 1: Token metadata
 
