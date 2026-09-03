@@ -63,6 +63,7 @@ A held share is **held, not gone**. It sits in the vault under your wallet, and:
 2. You can **contest it once**, from the row itself, inside the claim window. Write what actually happened — "that is my flatmate" is a real answer.
 3. **A person decides.** Released, and it becomes claimable with a fresh window from the decision. Forfeited, and it stays in the vault.
 4. A held share nobody contests before the claim window closes is **forfeited**.
+5. Unclaimed and forfeited shares **return to the vault and fund later seasons**. Nothing is burned, and nothing is paid to the team.
 
 Contesting a held share is not the same as appealing an enforcement action. They are separate routes and separate decisions.
 
