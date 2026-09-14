@@ -61,6 +61,7 @@ nav:
       - Edge Mode · Standard Launch: protocol/edge-mode.md
       - EdgeTek Mode · Advanced Architecture: protocol/edgetek-mode.md
       - The Meteora Graduation Protocol: protocol/meteora-graduation.md
+      - Graduation on Robinhood Chain: protocol/robinhood-graduation.md
   - Protection & Guardrails:
       - Wallet Buy Caps & Trade Cooldowns: protection/buy-caps-and-cooldowns.md
       - Smart Anti-Vamp Protection: protection/security-toolkits.md

@@ -10,13 +10,13 @@ description: The advanced framework, configurable builder, burn, and liquidity f
 
 | Parameter | Value |
 | :--- | :--- |
-| Deployment fee | **0.5 SOL** |
+| Deployment fee | **0.5 SOL** (on Robinhood Chain, the same cost priced in ETH) |
 | 1EDGE platform fee | **1.00%** (fixed) |
 | Builder / routing fee | up to **3.80%** (configurable) |
 | LP compounding | from **0.20%** (configurable up) |
 | Buyback & burn | configurable (within the routing budget) |
 | BuyBack & Stack | configurable (within the routing budget) |
-| Graduation target | **85 SOL** on the bonding curve |
+| Graduation target | **85 SOL** on the bonding curve (Robinhood Chain: its own [ETH threshold](robinhood-graduation.md#the-curve)) |
 
 ## The fee structure
 
@@ -30,7 +30,9 @@ An EdgeTek token's total fee is built from a fixed platform slice plus a configu
 | **Buyback & burn** | configurable | A share of the routing budget allocated to on-chain buyback-and-burn. |
 | **BuyBack & Stack** | configurable | A share of the routing budget that buys tokens back and airdrops them pro-rata to holders. |
 
-> ℹ️ The **0.20% LP compounding minimum is always preset** on every launch, Edge or EdgeTek. EdgeTek simply lets you raise it and add other streams on top.
+> ℹ️ The **0.20% LP compounding minimum is always preset** on every launch, Edge or EdgeTek. EdgeTek lets you raise it and add other streams on top.
+
+> ✅ **The same ceilings on both chains.** The 1.00% platform fee, the 3.80% routing budget and the 0.20% LP floor are written into the Solana program and the Robinhood Chain contract identically. On Robinhood Chain the vaults hold ETH rather than SOL.
 
 ## Designing your fee budget
 
@@ -76,7 +78,7 @@ Everything is visible under **Tek Fees** in your dashboard, the full history of 
 
 ## After graduation
 
-Unlike Edge mode's market-cap-scaling fee, an EdgeTek token's configured fee structure **stays flat** after it graduates to Meteora, the levers you set persist for the life of the token.
+Unlike Edge mode's market-cap-scaling fee, an EdgeTek token's configured fee structure **stays flat** after it graduates, the levers you set persist for the life of the token. That is true on both chains, and on Robinhood Chain there is no protocol cut taken off it, see [Graduation on Robinhood Chain](robinhood-graduation.md#fees-after-graduation).
 
 > ⚠️ As with all graduated tokens, Meteora takes a **20% protocol cut** of trading fees post-migration. The cut comes off **every fee route equally**, the 1EDGE platform fee and each of your routing destinations included, so each stream delivers roughly **80%** of its configured rate to its recipient. The structure is **close to the pre-bond rates, but not identical**. See [The Meteora Graduation Protocol](meteora-graduation.md).
 
@@ -88,4 +90,4 @@ Like Edge mode, EdgeTek launches can enable [wallet buy caps and trade cooldowns
 
 1. **Deploy**, pay the 0.5 SOL framework fee, configure your fee budget (builder / burn / Stack / LP), set metadata and guardrails.
 2. **Bonding curve**, the token trades against a [virtual-token curve](meteora-graduation.md#the-virtual-token-model) with your configured fees active.
-3. **Graduation**, at **85 SOL** the token migrates to Meteora and your fee structure persists (less Meteora's 20% cut).
+3. **Graduation**, at **85 SOL** the token migrates to Meteora and your fee structure persists (less Meteora's 20% cut). On Robinhood Chain the same step opens a [Uniswap v4 pool](robinhood-graduation.md), and nothing is cut off your rates there.

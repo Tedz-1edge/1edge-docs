@@ -10,10 +10,10 @@ description: The simple, fixed-fee standard launch, set it and forget it.
 
 | Parameter | Value |
 | :--- | :--- |
-| Deployment fee | **0.02 SOL** |
+| Deployment fee | **0.02 SOL** (on Robinhood Chain, the same cost priced in ETH) |
 | Total trading fee (pre-bond) | **1.15%** |
 | Trading fee (post-bond) | **Dynamic, scales 1.15% → 0.55%** with market cap |
-| Graduation target | **85 SOL** on the bonding curve |
+| Graduation target | **85 SOL** on the bonding curve (Robinhood Chain: its own [ETH threshold](robinhood-graduation.md#the-curve)) |
 | Safety guardrails | Optional, wallet buy caps & trade cooldowns |
 | Fee configurability | None (fixed, that's the point) |
 
@@ -27,7 +27,9 @@ Every trade on an Edge-mode token carries a **1.15% total fee**, split three way
 | **Creator fee** | 0.40% | Paid to the token's deployer. |
 | **LP compounding** | 0.20% | Compounds straight back into the token's liquidity, deepening the pool on every trade. |
 
-> ℹ️ **Your tier rebates the platform fee.** Depending on your [tier](../rewards/tier-matrix.md), 10%–30% of the 0.55% platform fee is rebated back to you in SOL, so active traders pay less.
+> ℹ️ **Your tier rebates the platform fee.** Depending on your [tier](../rewards/tier-matrix.md), 10%–30% of the 0.55% platform fee is rebated back to you, so active traders pay less. It is paid in the currency the fee was paid in: SOL on Solana, ETH on Robinhood Chain.
+
+> ✅ **These rates are the same on both chains.** 0.55% / 0.40% / 0.20% is written into the Solana program and into the Robinhood Chain contract identically. What differs is the currency it is charged in, and what happens after graduation.
 
 The same structure applies to buys and sells.
 
@@ -39,7 +41,9 @@ The **0.40% creator fee** accrues to you on every trade, before and after gradua
 
 ## How fees change after graduation
 
-Edge mode uses a **dynamic, market-cap-aware fee** once a token graduates to Meteora. The total fee **starts at 1.15% and steps down as the token's market cap grows**, across five tiers:
+**On Solana**, Edge mode uses a **dynamic, market-cap-aware fee** once a token graduates to Meteora. **On Robinhood Chain** the curve fee carries over unchanged: the Uniswap v4 pool is opened with a fixed 1.15% swap fee and no protocol cut is taken off it. See [Graduation on Robinhood Chain](robinhood-graduation.md#fees-after-graduation).
+
+On Solana, the total fee **starts at 1.15% and steps down as the token's market cap grows**, across five tiers:
 
 | Market-cap tier | Total fee |
 | :--- | :--- |
@@ -66,7 +70,7 @@ These apply **only during the bonding curve**. See [Wallet Buy Caps & Trade Cool
 
 1. **Deploy**, pay the 0.02 SOL fee, set metadata, optionally toggle guardrails.
 2. **Bonding curve**, buyers and sellers trade against a [virtual-token curve](meteora-graduation.md#the-virtual-token-model); the 1.15% fee applies, with 0.20% compounding into LP.
-3. **Graduation**, at **85 SOL** the token migrates to Meteora, the dynamic market-cap fee takes over, and pre-graduation constraints lift. See [The Meteora Graduation Protocol](meteora-graduation.md).
+3. **Graduation**, at **85 SOL** the token migrates to Meteora, the dynamic market-cap fee takes over, and pre-graduation constraints lift. See [The Meteora Graduation Protocol](meteora-graduation.md). On Robinhood Chain the same step opens a [Uniswap v4 pool](robinhood-graduation.md).
 
 ## When to choose Edge mode
 

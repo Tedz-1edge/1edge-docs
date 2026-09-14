@@ -1,10 +1,12 @@
 ---
-description: The virtual-token curve, the 85 SOL target, migration to Meteora DAMM v2, and permanent LP burns.
+description: The Solana path — the virtual-token curve, the 85 SOL target, migration to Meteora DAMM v2, and permanent LP burns.
 ---
 
 # The Meteora <span class="g">Graduation Protocol</span>
 
 Every 1EDGE token begins life on a **bonding curve**, a self-contained market where price rises as supply is bought. When the curve reaches its target, the token "graduates": it migrates automatically into a real, permanent DEX pool. This page documents the whole journey, starting with something most launchpads don't do.
+
+> ℹ️ **This is the Solana path.** A launch on Robinhood Chain runs the same curve in ETH and graduates into a Uniswap v4 pool instead. Same idea, different DEX: see [Graduation on Robinhood Chain](robinhood-graduation.md).
 
 ## The virtual-token model
 
@@ -23,6 +25,8 @@ This is a deliberate **protection layer**:
 The bonding curve has a fixed graduation threshold of **85 SOL**. As buyers trade against the curve, SOL accumulates. The moment the curve hits 85 SOL of net liquidity, graduation triggers automatically, no manual action from the creator, and no discretionary timing.
 
 > ℹ️ A fixed, transparent target means everyone knows exactly what graduation requires from the first second of the launch.
+
+A pool always bonds at its **own** chain's threshold, in its own currency: 85 SOL on Solana, the ETH threshold on [Robinhood Chain](robinhood-graduation.md#the-curve).
 
 ## Automated migration to Meteora DAMM v2
 
