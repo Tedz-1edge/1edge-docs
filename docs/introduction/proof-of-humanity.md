@@ -1,14 +1,14 @@
 ---
-description: The soulbound, on-chain credential that proves you're a real human, on either chain, your gate into 1EDGE.
+description: The soulbound, on-chain credential you earn by passing the humanity check, on either chain, your gate into 1EDGE.
 ---
 
 # The Proof of <span class="g">Humanity NFT</span>
 
-The **Proof of Humanity NFT** is the foundation of everything on 1EDGE. It's your on-chain credential proving you're a real person, **one human, one wallet**, and it's the gate to launching, trading, and earning on the platform.
+The **Proof of Humanity NFT** is the foundation of everything on 1EDGE. It's the on-chain record that a wallet was claimed by someone who passed the humanity check, **one human, one wallet**, and it's the gate to launching, trading, and earning on the platform.
 
 ## What it is
 
-A single NFT, minted to your wallet, that marks you as a **verified human**. It isn't a collectible to flip or a financial product, it's a utility credential that unlocks the platform and binds your verified status to your wallet.
+A single NFT, minted to your wallet, that marks it as **human-verified**. It isn't a collectible to flip or a financial product, it's a utility credential that opens the platform and binds your verified status to your wallet.
 
 > ✅ **One wallet. One human. Verified on-chain.** Binding verified status to a single wallet makes bot swarms and multi-wallet farms far more expensive and far harder to run, that's the core of 1EDGE's protection, layered with the anti-bundle, buy-cap and behavioural defences.
 
@@ -20,8 +20,27 @@ That's deliberate: if verified-human status could be bought or traded, it would 
 
 ## How you get it
 
-1. **Pass the humanity check.** Verification is quick, a Cloudflare Turnstile check plus one short interactive challenge. **No social account required**, you don't connect X or anything else.
+1. **Pass the humanity check.** Four gates, in order. The hands-on part takes about a minute; the rest you never see. **No social account required**, you don't connect X or anything else.
 2. **Mint your NFT.** Once you've passed, mint the NFT to your wallet.
+
+## What the check actually is
+
+Four layers, cheapest first, and every mint passes all of them.
+
+* **A bot filter.** A Cloudflare Turnstile check on the page. It's the fast, cheap layer that turns away crude automation, and on its own it is beatable, which is exactly why it is first and not last.
+* **A challenge scored on how you move.** You drag through a set of checkpoints without lifting off, and what's graded is the movement, not the destination. There is no answer to look up, share or resell, and a script that arrives at the end instantly fails for arriving instantly. This is the gate that matters.
+* **Work your machine has to do.** Silent: no screen, no progress bar, nothing to fail. Your browser burns a little compute before the mint is signed. A person pays it once and never notices it happened. Someone minting a list of wallets pays it on every wallet, and the cost climbs for a client that keeps coming back.
+* **One pass per wallet, written on-chain.** The record is created by the program itself, so a second mint against the same wallet cannot be written at all. It isn't a database check a fast attacker can race, it's the chain refusing.
+
+**Failed attempts count too.** Every attempt is recorded against a hashed network identifier, not just the ones that succeed. A farm that fails the movement challenge over and over from one machine has told us more about itself than a farm that never tries, and that feeds the [sybil grouping](../support/what-we-track.md#one-person-one-wallet). Failure makes a farm visible rather than invisible.
+
+> ℹ️ **Why it's scored on movement.** The first version of this check asked questions drawn from a fixed pool, with free retries. A fixed pool plus free retries is a lookup table, and it was treated as one: **233 mint vouchers came out of it** before it was pulled. Movement has no answer key, so there is nothing to build a table from. We'd rather tell you that than imply the gate was right the first time.
+
+> ⚠️ **What this does not claim.** It does not prove humanity, and we won't tell you it can't be beaten. It's one pass per **wallet**, not one per person, and one determined human can go through it more than once. What it changes is the economics: every extra wallet costs real time, real compute and a challenge with nothing to copy, and every failure on the way makes a farm easier to see. Expensive and visible, not impossible. The same honesty applies to everything else we measure, see [What We Track, and Why](../support/what-we-track.md).
+
+**Running alongside, but not part of the gate.** While you use 1EDGE, presence scoring measures the shape of your session, pointer and typing rhythm and never content, scored on our server and never leaving it. It is **not** one of the four gates above and it blocks nobody from minting. It's there to raise alerts about wallets that look automated. See [What We Track, and Why](../support/what-we-track.md#presence-the-one-people-ask-about).
+
+> ℹ️ 1EDGE doesn't publish the thresholds, the scoring, the retry limits or the timings behind any of this. Naming the exact height of each wall only tells a farmer which one to climb.
 
 ## What it costs
 

@@ -10,7 +10,7 @@ description: How 1EDGE protects users, what's locked by design, and an honest no
 
 | Protection | How it works |
 | :--- | :--- |
-| **Proof of Humanity** | Every participant is a verified human bound to a single wallet on each chain, making bot swarms and sybil farms far more costly to run, reinforced by the anti-bundle, buy-cap and behavioural defences below. |
+| **Proof of Humanity** | Every participant clears a layered check, a challenge scored on how you move, silent proof of work, and one pass per wallet written on-chain, before they can launch or trade. It makes bot swarms and sybil farms expensive per wallet and visible when they fail, not impossible. See [The Proof of Humanity NFT](../introduction/proof-of-humanity.md). |
 | **Same-block bundle & snipe blocking** | The program rejects multiple wallets buying in the same block, defeating bundlers and block-zero snipers. |
 | **Locked liquidity** | On graduation the liquidity is locked and can never be pulled: Solana **burns** the Meteora LP tokens, Robinhood Chain's migration contract **holds** the Uniswap v4 position and has no code path to remove it. See [Meteora Graduation](../protocol/meteora-graduation.md) and [Graduation on Robinhood Chain](../protocol/robinhood-graduation.md). |
 | **Virtual-token curve** | Nobody holds a transferable balance while a curve is running, so there's nothing to bundle or move outside the rules. On Solana no SPL token exists yet at all; on Robinhood Chain the whole supply sits inside the launchpad contract until delivery. |

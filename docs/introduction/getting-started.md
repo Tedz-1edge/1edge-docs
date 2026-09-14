@@ -15,7 +15,7 @@ description: Your first session, browsing, verifying, picking a chain, and findi
 When you're ready to trade, launch, or post:
 
 1. **Connect your wallet.** Any major Solana wallet works, or any Ethereum-style wallet for Robinhood Chain. You choose which, and 1EDGE sticks to the one you picked.
-2. **Verify you're human.** One short challenge, see [The Proof of Humanity NFT](proof-of-humanity.md).
+2. **Verify you're human.** About a minute of hands-on challenge, plus several checks you never see, see [The Proof of Humanity NFT](proof-of-humanity.md).
 3. **Mint your pass.** Your Proof of Humanity NFT binds your wallet to a verified account.
 4. **Claim your handle.** Pick a username, add an avatar and bio, that's your identity across [Edge Social](../social/edge-social-engine.md).
 5. **Go.** Trade, launch, post, call. Everything you do from here builds your [provable track record](../social/verified-metrics.md).

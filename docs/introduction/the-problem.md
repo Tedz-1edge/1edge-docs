@@ -18,7 +18,7 @@ Sniper bots monitor the chain for new launches and fire buy transactions into th
 
 A single actor spins up dozens, sometimes hundreds, of fresh wallets and bundles them into the same launch transaction set, quietly cornering supply while appearing to be many independent buyers. When the chart pumps, every one of those wallets dumps at once.
 
-> ✅ **How 1EDGE stops it:** two layers. First, **Proof of Humanity** binds verified status to one human, one wallet, so a participant can't masquerade as a crowd. Second, the program blocks multiple wallets from buying in the **same block** at the protocol level, making bundle scripts structurally ineffective.
+> ✅ **How 1EDGE stops it:** two layers. First, **Proof of Humanity** binds verified status to one wallet at a time, and puts a challenge, real compute and an on-chain record in front of every one of them, so masquerading as a crowd is paid for wallet by wallet instead of scripted for free. Second, the program blocks multiple wallets from buying in the **same block** at the protocol level, making bundle scripts structurally ineffective.
 
 ## 3. Sandwiching & MEV bots
 
