@@ -37,3 +37,5 @@ The moment a token gains traction, scammers clone its name and artwork to ride t
 Every one of these attacks relies on the same assumption: that a single actor can act as **many anonymous wallets**, faster than any human. 1EDGE breaks that assumption at the root, verified humanity as the entry gate, and program-level constraints that make scripted swarms ineffective, then layers optional creator controls on top.
 
 The goal isn't to slow down trading. It's to make sure the people in the room are **people**.
+
+> ℹ️ **The same rules are written into both chains.** The verified-human gate, the launch grace period, one buy and one sell per block per pool, the minimum deposit, the wallet cap, the cooldown and the dev-buy cap exist in the Solana program and in the Robinhood Chain contract. A launch is defended the same way wherever you run it.

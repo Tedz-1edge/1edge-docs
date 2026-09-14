@@ -1,5 +1,5 @@
 ---
-description: Your first session, browsing, verifying, and finding your way around on desktop and mobile.
+description: Your first session, browsing, verifying, picking a chain, and finding your way around on desktop and mobile.
 ---
 
 # Getting <span class="g">Started</span>
@@ -14,17 +14,26 @@ description: Your first session, browsing, verifying, and finding your way aroun
 
 When you're ready to trade, launch, or post:
 
-1. **Connect your wallet.** Any major Solana wallet works, and you choose which; 1EDGE sticks to the one you picked.
+1. **Connect your wallet.** Any major Solana wallet works, or any Ethereum-style wallet for Robinhood Chain. You choose which, and 1EDGE sticks to the one you picked.
 2. **Verify you're human.** One short challenge, see [The Proof of Humanity NFT](proof-of-humanity.md).
 3. **Mint your pass.** Your Proof of Humanity NFT binds your wallet to a verified account.
 4. **Claim your handle.** Pick a username, add an avatar and bio, that's your identity across [Edge Social](../social/edge-social-engine.md).
 5. **Go.** Trade, launch, post, call. Everything you do from here builds your [provable track record](../social/verified-metrics.md).
 
+## Two chains
+
+1EDGE runs on **Solana** and on **Robinhood Chain**. The chain control in the top bar decides what you're looking at: both chains together, or one of them on its own. Both is the default.
+
+Picking a chain filters the board. It doesn't sign you out and it doesn't move your account, and a token page always takes its chain from the token, never from the control, so opening a Robinhood token from a Solana session works the way you'd expect.
+
+You can hold a wallet on each chain under one account, and it stays one profile. See [Profiles & Handles](../social/profiles-and-identity.md).
+
 ## Finding your way around
 
 The top bar is the same on every page:
 
-* **EXPLORE**, the board of every launch: trending, new, movers, market cap, filterable by mode.
+* **EXPLORE**, the board of every launch on both chains: trending, new, movers, market cap, filterable by mode.
+* **The chain control**, both chains or one, with the live price beside it.
 * **LAUNCH**, deploy your own token, see [The Launch Blueprint](../creators/launch-blueprint.md).
 * **DASHBOARD**, your [wallet](../terminal/execution-engine.md#the-in-app-wallet), positions, watchlist, fees, and settings.
 * **The Edge Social mark**, the feed, your messages, and communities.
@@ -32,7 +41,7 @@ The top bar is the same on every page:
 
 ### Signed in: three more controls
 
-Once your wallet is connected, the right side of the bar carries your identity, your avatar, handle, and live SOL balance, plus three buttons:
+Once your wallet is connected, the right side of the bar carries your identity, your avatar, handle, and the live balance of the chain you're signed in on, plus three buttons:
 
 * **Notifications**, the dropdown of everything aimed at you: mentions, replies, reposts, follows, and calls from traders you've belled. See [Notifications & Your Phone](../social/notifications.md).
 * **Messages**, your inbox at a glance, Primary, Groups, Communities, and Requests, without leaving the page you're on.

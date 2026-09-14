@@ -28,7 +28,7 @@ Six things count, and they are weighted. No single one of them can carry you to 
 | Weight | What it measures | What actually counts |
 |---:|---|---|
 | **35** | People you brought in | Referred wallets that were **active that week** — not the number of people signed up |
-| **25** | Trading | SOL you genuinely put into positions, on the curve and after graduation |
+| **25** | Trading | What you genuinely put into positions, on the curve and after graduation, on **either chain** |
 | **15** | Your calls | How the tokens you called actually performed. Losses count against you |
 | **10** | Launching | Tokens you launched, and the real buyers they attracted |
 | **10** | Being read | How many **different people** read your posts — not how often you post |
@@ -68,6 +68,14 @@ A held share is **held, not gone**. It sits in the vault under your wallet, and:
 Contesting a held share is not the same as appealing an enforcement action. They are separate routes and separate decisions.
 
 > ⚠️ **What we do not claim.** Proof of humanity, presence and wallet linkage make running a farm expensive and visible. They do not make it impossible, and we will not tell you the board cannot be gamed. What we will tell you is what is measured, in [What We Track, and Why](../support/what-we-track.md).
+
+## One season, both chains
+
+A season is one competition across the whole platform, not one per chain.
+
+Trade on Solana, on Robinhood Chain, or on both, and it all feeds the same volume axis: Robinhood volume is converted at the ratio the two curves graduate at, so an ETH book and a SOL book are measured on one scale and neither is worth more per unit of effort than the other. Everything else on the board, calls, launches, referrals, reach, being here, already belongs to your **account** rather than to one of its wallets.
+
+A season settles in one place, on **Solana**, whichever chain your points came from. An account with no Solana wallet linked is told so, and its share waits until it links one, it isn't lost. If you play from the Robinhood side, link your Solana wallet before the week you want to settle.
 
 ## The weekly checkpoint
 

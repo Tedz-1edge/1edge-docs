@@ -1,5 +1,5 @@
 ---
-description: The soulbound, on-chain credential that proves you're a real human, your gate into 1EDGE.
+description: The soulbound, on-chain credential that proves you're a real human, on either chain, your gate into 1EDGE.
 ---
 
 # The Proof of <span class="g">Humanity NFT</span>
@@ -25,6 +25,8 @@ That's deliberate: if verified-human status could be bought or traded, it would 
 
 ## What it costs
 
+These are the Solana figures. On Robinhood Chain the pass is priced in ETH and, as above, 1EDGE waives its fee entirely for anyone already verified on Solana.
+
 You pay a small one-time cost to mint. **Only 0.02 SOL goes to 1EDGE**, the rest is standard Solana network cost (account rent) plus a one-time on-chain referral account:
 
 | Item | Approx. cost | Goes to |
@@ -36,6 +38,16 @@ You pay a small one-time cost to mint. **Only 0.02 SOL goes to 1EDGE**, the rest
 
 > ℹ️ The headline price is **0.02 SOL to 1EDGE**. The total of ~0.045 SOL just reflects Solana's own rent and the one-time referral account created on-chain, those aren't fees 1EDGE collects.
 
+## One human, one pass per chain
+
+1EDGE runs on two chains, and the pass lives on-chain, so there is one on each: a soulbound NFT on Solana, and a soulbound ERC-721 on Robinhood Chain. Same art, same tier, same rules, and both are bound to your one account.
+
+**If you're already verified on Solana, the second one is not a second verification.** You don't pass the humanity check again and 1EDGE charges you nothing for it: your tier carries across and the mint fee is waived. You pay the network's gas for the transaction, and that is all.
+
+Starting on Robinhood Chain instead works the same way in reverse: you verify once, there, and that account is the verified one.
+
+> ℹ️ **It is still one human, one pass.** Two passes on two chains is one person holding their credential on both, not two identities. Which is why each is soulbound and why linking is permanent, see [Profiles & Handles](../social/profiles-and-identity.md).
+
 ## What it grants
 
 Holding the Proof of Humanity NFT gives you:
@@ -43,7 +55,7 @@ Holding the Proof of Humanity NFT gives you:
 * **Full platform access**, the gate to launch tokens and trade on 1EDGE.
 * **Your account tier**, the NFT carries your [tier](../rewards/tier-matrix.md) (Core → Seed), which sets your fee rebate and point multiplier and updates on-chain as you grow.
 * **Fee rebates**, every tier rebates a share of the trading fees you pay.
-* **Your referral link**, earn [25% of referred wallets' fees](../rewards/referral-engine.md), paid in SOL.
+* **Your referral link**, earn [25% of the platform fee on referred wallets' trades](../rewards/referral-engine.md).
 
 ## Upgrading your tier is free
 

@@ -4,7 +4,7 @@ description: Charts, live trade logs, and holder distribution, reading the termi
 
 # Reading the <span class="g">Terminal</span>
 
-Every token on 1EDGE, from the first second of its bonding curve through to its graduated Meteora market, lives inside a full, professional-grade trading terminal. This page is a tour of what you're looking at.
+Every token on 1EDGE, from the first second of its bonding curve through to its graduated market, lives inside a full, professional-grade trading terminal. It is the same terminal on both chains, reading each token from the chain that token launched on. This page is a tour of what you're looking at.
 
 <video src="../../assets/terminal-tour.mp4" autoplay controls muted loop playsinline style="width:100%;border-radius:10px;margin:.6em 0" aria-label="The token page: live chart, trades, holders, and the trade panel on one screen"></video>
 
@@ -12,7 +12,7 @@ Every token on 1EDGE, from the first second of its bonding curve through to its 
 
 An interactive price chart with OHLCV candles, updating live as trades land.
 
-> ℹ️ **One continuous chart, curve to DEX.** The chart runs **seamlessly from the bonding-curve phase straight through graduation** into the Meteora market, no reset, no gap. A token's whole price history lives in one place, so graduation is a transition you can see rather than a break in the data.
+> ℹ️ **One continuous chart, curve to DEX.** The chart runs from the bonding-curve phase straight through graduation into the token's DEX market, no reset, no gap. A token's whole price history lives in one place, so graduation is a transition you can see rather than a break in the data.
 
 ## Volume & depth
 

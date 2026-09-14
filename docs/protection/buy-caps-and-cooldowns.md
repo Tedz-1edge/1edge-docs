@@ -12,7 +12,7 @@ A **wallet buy cap** sets the maximum amount of a token any single public addres
 
 * **What it does:** prevents a small number of wallets, whether whales or a disguised bundler swarm, from cornering early supply.
 * **Effect:** spreads the opening distribution across more real participants, producing a healthier holder base.
-* **Phase:** applies during the bonding curve. As with other pre-graduation constraints, the cap **lifts automatically on graduation** to Meteora, after which the token trades freely. See [The Meteora Graduation Protocol](../protocol/meteora-graduation.md).
+* **Phase:** applies during the bonding curve. As with other pre-graduation constraints, the cap **lifts automatically on graduation**, after which the token trades freely. See [The Meteora Graduation Protocol](../protocol/meteora-graduation.md), or [Graduation on Robinhood Chain](../protocol/robinhood-graduation.md).
 
 > ℹ️ A well-set buy cap is one of the most effective ways to ensure that block-zero buyers can't dominate your launch, even if some slip through other defenses, no single address can take an outsized share.
 
@@ -23,6 +23,8 @@ A **trade cooldown** enforces a mandatory delay between successive trades from t
 * **Range:** **0 to 300 seconds** between trades per wallet.
 * **What it does:** freezes the rapid-fire transaction spam that sniping, sandwiching, and script-driven strategies rely on.
 * **Effect:** gives the curve room to breathe during the critical opening minutes and removes the speed advantage automated wallets have over humans.
+
+> ℹ️ **Both guardrails work the same on both chains.** The 1%–3.5% cap and the 0–300s cooldown are the same settings, with the same limits, whether you launch on Solana or on Robinhood Chain.
 
 ## Choosing your settings
 

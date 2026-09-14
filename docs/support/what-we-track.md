@@ -12,13 +12,14 @@ This page is the plain-words version. The binding version is the [Privacy Policy
 
 | What | Why | How long |
 | :--- | :--- | :--- |
-| **Your wallet address** | It is your account | While the account exists |
+| **Your wallet address** | It is your account, on each chain you use | While the account exists |
 | **Profile, posts, calls, reactions, communities** | It is the product | Until you delete it |
 | **Direct messages** | To deliver them. Sealed ones we cannot read | Until deleted |
 | **Unique reach** on posts and profiles | So the social axis counts readers, not posting | With the post |
 | **Referrals** | To pay the fee share and score the referral axis | While the account exists |
 | **Presence** — how the page is driven | To tell a person from a script | **90 days**, then a monthly summary kept indefinitely |
 | **A hash of your network, and a random browser id** | To spot one person running many wallets | While abuse detection runs on it |
+| **The wallets you link yourself** | One account across both chains | While the account exists |
 | **Terms acceptance** — wallet, version, time, IP, browser | Proof of what you agreed to | Kept, append-only |
 | **Enforcement records and appeals** | So action is proportionate and reviewable | Kept |
 | **Seasons** — opt-in, points, settlements, holds | The competition's history | Kept |
@@ -57,9 +58,17 @@ While you use the app, a small script measures the shape of your session and sen
 
 **How long.** The per-session rows are deleted after **90 days**. Before that they roll up into one row per wallet per month — sessions, how many looked human, how many were on touch, active time, best and average score, devices, first and last — and that monthly ledger is kept **indefinitely**. It is a wallet's real history here. It is never re-scored later, so a month means what it meant when it was lived.
 
+## The wallets you link yourself
+
+1EDGE runs on Solana and on Robinhood Chain, and one account can hold a wallet on each. When you link the second one we record which addresses belong together, and when.
+
+That is a deliberate act with a public consequence, so it is worth being plain about it: your account is one profile across every wallet you link, so the same posts, trophies and season record are shown under each of those addresses and anyone can see they belong to the same person. Link a second wallet only if you are content for the two to be publicly connected. The chain would show it eventually in any case, which the Privacy Policy also says.
+
+This is not the same thing as the section below. This is linkage **you** ask for. Below is linkage we look for.
+
 ## One person, one wallet
 
-That is the rule. Here is how we look for wallets breaking it, and the honest limits of it.
+That is the rule, one account per human, and here is how we look for accounts breaking it, and the honest limits of it.
 
 * **Your network** is not stored as an address. We take the surrounding block (the /24, or /64 on IPv6) and hash it with a key kept outside the database. What is stored is 16 characters that cannot be turned back into anyone's address. Using the block rather than the address blurs households, offices and mobile carriers together on purpose, so a shared network is weak evidence on its own.
 * **Your browser** gets a random id in local storage, so several wallets signing in from one browser in a day is visible. A household is two wallets on one device, so this says nothing alone. Clearing storage makes a new id.
