@@ -18,7 +18,7 @@ Sniper bots monitor the chain for new launches and fire buy transactions into th
 
 A single actor spins up dozens, sometimes hundreds, of fresh wallets and bundles them into the same launch transaction set, quietly cornering supply while appearing to be many independent buyers. When the chart pumps, every one of those wallets dumps at once.
 
-> ✅ **How 1EDGE stops it:** two layers. First, **Proof of Humanity** binds verified status to one wallet at a time, and puts a challenge, real compute and an on-chain record in front of every one of them, so masquerading as a crowd is paid for wallet by wallet instead of scripted for free. Second, the program blocks multiple wallets from buying in the **same block** at the protocol level, making bundle scripts structurally ineffective.
+> ✅ **How 1EDGE stops it:** two layers. First, **1EDGE Proof of Humanity** binds a pass to one wallet at a time, and puts a challenge, real compute and an on-chain record in front of every one of them, so masquerading as a crowd is paid for wallet by wallet instead of scripted for free. Second, the program blocks multiple wallets from buying in the **same block** at the protocol level, making bundle scripts structurally ineffective.
 
 ## 3. Sandwiching & MEV bots
 
@@ -34,8 +34,8 @@ The moment a token gains traction, scammers clone its name and artwork to ride t
 
 ## The common thread
 
-Every one of these attacks relies on the same assumption: that a single actor can act as **many anonymous wallets**, faster than any human. 1EDGE breaks that assumption at the root, verified humanity as the entry gate, and program-level constraints that make scripted swarms ineffective, then layers optional creator controls on top.
+Every one of these attacks relies on the same assumption: that a single actor can act as **many anonymous wallets**, faster than any human. 1EDGE breaks that assumption at the root, an entry gate that has to be paid for one wallet at a time, and program-level constraints that make scripted swarms ineffective, then layers optional creator controls on top.
 
 The goal isn't to slow down trading. It's to make sure the people in the room are **people**.
 
-> ℹ️ **The same rules are written into both chains.** The verified-human gate, the launch grace period, one buy and one sell per block per pool, the minimum deposit, the wallet cap, the cooldown and the dev-buy cap exist in the Solana program and in the Robinhood Chain contract. A launch is defended the same way wherever you run it.
+> ℹ️ **The same rules are written into both chains.** The Proof of Humanity gate, the launch grace period, one buy and one sell per block per pool, the minimum deposit, the wallet cap, the cooldown and the dev-buy cap exist in the Solana program and in the Robinhood Chain contract. A launch is defended the same way wherever you run it.

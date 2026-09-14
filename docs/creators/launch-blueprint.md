@@ -8,7 +8,7 @@ Deploying a token on 1EDGE is a guided, few-minute process. This is the end-to-e
 
 ## Before you start
 
-You need a **verified-human wallet on the chain you're launching on**, every launch requires [Proof of Humanity](../index.md). If you haven't verified yet, do that first; it's the gate to creating (and trading) anything on 1EDGE.
+You need a **wallet holding a pass on the chain you're launching on**, every launch requires [1EDGE Proof of Humanity](../index.md). If you haven't minted one yet, do that first; it's the gate to creating (and trading) anything on 1EDGE.
 
 ## Step 1: Pick your chain
 
@@ -16,7 +16,7 @@ Launch on **Solana** or on **Robinhood Chain**. Choose it on the launch page bef
 
 Everything else on this page is identical either way, the two modes, the guardrails, the caps, the fee rates. What differs is the currency, the graduation threshold, and the DEX at the end of the curve: [Meteora](../protocol/meteora-graduation.md) on Solana, [Uniswap v4](../protocol/robinhood-graduation.md) on Robinhood Chain.
 
-You need a verified wallet **on the chain you're launching on**. If you're verified on Solana, activating your Robinhood side costs no 1EDGE fee, see [The Proof of Humanity NFT](../introduction/proof-of-humanity.md).
+You need a wallet holding a pass **on the chain you're launching on**. If you already hold one on Solana, activating your Robinhood side costs no 1EDGE fee, see [The Proof of Humanity NFT](../introduction/proof-of-humanity.md).
 
 ## Step 2: Token metadata
 

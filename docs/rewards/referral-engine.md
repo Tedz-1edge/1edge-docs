@@ -12,7 +12,7 @@ It is one of two reward streams on 1EDGE. This one pays you on **other people's*
 
 ## How it works
 
-1. **Get verified.** Every referrer is a verified human with a [Proof of Humanity profile](../social/profiles-and-identity.md).
+1. **Get your pass.** Every referrer holds a [1EDGE Proof of Humanity pass](../social/profiles-and-identity.md), so a referral farm pays the mint and the challenge on every wallet it invents.
 2. **Share your unique link.** Each account has a unique referral link tied to its wallet.
 3. **They trade, you earn.** Once a referred wallet has traded enough for the referral to be validated (**0.5 SOL** on Solana), **25% of the 1EDGE platform fee** on their trades accrues to you, for their whole lifetime on the platform.
 4. **Claim it.** Referral earnings build up in your rewards balance and are **claimed** to your wallet, the same claim as your tier rebates, once you're past a small minimum: 0.005 SOL on Solana, the same minimum scaled into ETH on Robinhood Chain.
