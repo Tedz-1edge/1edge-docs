@@ -1,14 +1,14 @@
 ---
-description: Verified on-chain program IDs for the 1EDGE protocol.
+description: Verified on-chain program and contract addresses for the 1EDGE protocol, on Solana and Robinhood Chain.
 ---
 
 # Smart Contract <span class="g">Directory</span>
 
-The 1EDGE protocol runs on two on-chain programs. The launchpad is currently live on **Solana devnet**; mainnet addresses will be published here at launch.
+1EDGE runs on two chains: **Solana**, where the protocol is two on-chain programs, and **Robinhood Chain**, an Ethereum-compatible network, where it is three contracts. Both are on their test networks today; mainnet addresses will be published here at launch.
 
-> ℹ️ **Devnet only, for now.** The 1EDGE launchpad is in its devnet phase. These are the verified devnet program IDs, do not send mainnet funds to them.
+> ℹ️ **Test networks only, for now.** The Solana side runs on **devnet** and the Robinhood side on the **Robinhood Chain testnet**. These are the verified test-network addresses. Do not send real funds to any of them.
 
-## Program IDs (Devnet)
+## Solana (Devnet)
 
 | Program | Role | Address |
 | :--- | :--- | :--- |
@@ -17,10 +17,24 @@ The 1EDGE protocol runs on two on-chain programs. The launchpad is currently liv
 
 > ℹ️ **EdgeTek is not a separate program.** Both Edge and EdgeTek launches are handled by the `fcfs_launchpad` program, the mode is a parameter set at deployment, not a different contract.
 
+## Robinhood Chain (Testnet)
+
+The same protocol, written in Solidity. Chain id **46630**, gas in ETH, explorer at [explorer.testnet.chain.robinhood.com](https://explorer.testnet.chain.robinhood.com).
+
+| Contract | Role | Address |
+| :--- | :--- | :--- |
+| **Launchpad** | Token launches, bonding curve, Edge & EdgeTek fee logic, guardrails | `0xee8Ec74EE15203aF5d0EE72Dd42fE4950dC70e47` |
+| **ProofOfLife** | Humanity-verified pass minting & tiers | `0x317528597EDa6D98a7D77DfabFaE46F440c99057` |
+| **VerificationRegistry** | The verified-human record the curve checks on every buy | `0x0D1891a3d16C550031A64BD0984222d461951638` |
+
+> ℹ️ **Why a registry here and not on Solana.** On Solana the curve reads the verification record the Proof of Humanity program writes. On Robinhood Chain that record lives in its own small contract, written only by the pass contract and read by the launchpad. Same rule, one more address.
+
+> ⚠️ **A redeployed launchpad is a new address.** A launchpad's fee constants freeze on its first launch, so re-pricing means deploying a fresh one. Launches made against a retired launchpad stay on it and stop appearing in the app. The addresses on this page are the ones the app is pointed at; check here before you sign anything.
+
 ## Mainnet
 
-> 🚨 **Pending launch.** Mainnet program IDs will be published here once the launchpad is deployed to Solana mainnet. Until then, treat any "1EDGE mainnet contract" address you see elsewhere as unverified.
+> 🚨 **Pending launch.** Mainnet addresses, on either chain, will be published here once the protocol is deployed to them. Until then, treat any "1EDGE mainnet contract" address you see elsewhere as unverified.
 
 ## Verifying
 
-You can inspect either program on a Solana explorer (set to **devnet**) using the addresses above. See also [Security & Risk](security.md) for the protocol's audit status.
+You can inspect the Solana programs on a Solana explorer (set to **devnet**), and the Robinhood contracts on the [Robinhood Chain testnet explorer](https://explorer.testnet.chain.robinhood.com), using the addresses above. See also [Security & Risk](security.md) for the protocol's audit status.

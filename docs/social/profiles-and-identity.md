@@ -1,5 +1,5 @@
 ---
-description: Platform profiles tied to a verified human, with on-chain-verified performance.
+description: Platform profiles tied to a verified human, one account across both chains, with on-chain-verified performance.
 ---
 
 # Profiles & <span class="g">Handles</span>
@@ -7,13 +7,26 @@ description: Platform profiles tied to a verified human, with on-chain-verified 
 Every verified human on 1EDGE gets a profile, a handle, avatar, bio, and a public track record. It's worth being precise about what lives where, because it's a mix:
 
 * **Your profile and handle are platform data**, your username, avatar, banner, and bio are stored by 1EDGE, not written to the chain. They're how you present yourself across [Edge Social](edge-social-engine.md).
-* **Your performance is on-chain**, your trading volume, PnL, win rate, and transaction history are read **directly from the Solana blockchain**, so the numbers attached to your profile can't be faked. See [Verified Ledger Performance](verified-metrics.md).
+* **Your performance is on-chain**, your trading volume, PnL, win rate, and transaction history are read **directly from the chain**, Solana or Robinhood Chain, so the numbers attached to your profile can't be faked. See [Verified Ledger Performance](verified-metrics.md).
 
 > ℹ️ Think of it as a **platform identity with an on-chain reputation**: the name is yours to set, but the stats are the chain's to prove.
 
+## One account, a wallet on each chain
+
+1EDGE runs on two chains, and an account can hold a wallet on each: a Solana wallet, and an Ethereum-style wallet on Robinhood Chain. It is **one account, one profile**, not two.
+
+* **You link the second wallet from Settings.** The wallet being attached signs the link itself, so both sides prove control. One address per chain, per account.
+* **Your account must already hold a [Proof of Humanity](../index.md) pass before it can link anything.** Linking is permanent for the address attached: from then on that address can never be its own account and can never move to another one.
+* **Replacing a linked wallet means unlinking it deliberately, then waiting seven days.** It is not a switch to flip on a whim.
+* **The pass is per chain, one per human.** If you already hold one on Solana, activating your Robinhood side carries your tier across and costs no 1EDGE fee. See [The Proof of Humanity NFT](../introduction/proof-of-humanity.md).
+
+> ⚠️ **One profile means one public record.** The same posts, trophies and season record are shown under each address you link, and anyone can see the addresses belong to the same person. Link a second wallet only if you are content for the two to be publicly connected.
+
+> ⚠️ **Every wallet on your account controls the account.** Whoever holds any linked wallet can act as you. Secure both.
+
 ## Setting up your profile
 
-* **Connect & verify**, connect your wallet and bind your [Proof of Humanity](../index.md) status. That's what makes you a real, single-wallet human on the platform.
+* **Connect & verify**, connect your wallet and bind your [Proof of Humanity](../index.md) status. That's what makes you a real, single-wallet human on the platform, on the chain you signed in with.
 * **Custom visuals**, upload an avatar and banner.
 * **Bio & handle**, describe yourself or your project and claim a unique handle that others can `@`-mention across [Edge Social](edge-social-engine.md).
 
