@@ -4,7 +4,7 @@ description: Optional creator-configured guardrails that throttle bots during th
 
 # Wallet Buy Caps & <span class="g">Trade Cooldowns</span>
 
-On top of the platform-wide, always-on protections (verified humanity and same-block bundle blocking), 1EDGE gives **creators** two optional guardrails to harden their launch against scripted assaults. Both are configured at deployment and apply during the bonding-curve phase, where launches are most vulnerable.
+On top of the platform-wide, always-on protections (1EDGE Proof of Humanity and same-block bundle blocking), 1EDGE gives **creators** two optional guardrails to harden their launch against scripted assaults. Both are configured at deployment and apply during the bonding-curve phase, where launches are most vulnerable.
 
 ## Wallet buy caps
 
@@ -36,7 +36,7 @@ Both guardrails are **optional** and entirely up to the creator. The right value
 
 | Layer | Protects against | Type | Configurable? |
 | :--- | :--- | :--- | :--- |
-| 1EDGE Proof of Humanity | Bots & multi-wallet farms | Always on | No, platform-wide |
+| Proof of Humanity | Bots & multi-wallet farms | Always on | No, platform-wide |
 | Same-block bundle blocking | Bundlers | Always on | No, program-level |
 | Same-block snipe protection | Block-zero snipers | Always on | No, program-level |
 | Anti-vamp detection | Copycat clones | Always on | No, platform-wide |

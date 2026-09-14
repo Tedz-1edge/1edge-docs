@@ -13,7 +13,7 @@ description: The human-first launchpad, trading terminal, and social layer, on S
 * **A professional trading terminal**, live charts, depth, raw order logs, holder distribution, and one-click execution.
 * **A native Social-Fi layer**, profiles backed by real, on-chain-verified performance stats, global chat, token communities, and `@user` / `$ticker` tagging.
 
-The thread that ties it together is **proof of humanity**. Every participant verifies they are a real person and binds that status to a single wallet, so launches are made up of humans, not swarms of scripted wallets.
+The thread that ties it together is **1EDGE Proof of Humanity**. Every participant passes a set of checks and binds the pass permanently to a single wallet, so a swarm of scripted wallets has to be paid for one wallet at a time.
 
 > ℹ️ **New here?** Start with [The Broken State of Solana Launches](introduction/the-problem.md) to understand the problem 1EDGE is built to solve, then see [The Ecosystem Flywheel](introduction/core-flywheel.md) for how the pieces reinforce each other.
 
@@ -29,7 +29,7 @@ Every token lives inside a full trading terminal: real-time charts, volume depth
 
 ### 3. Build your edge
 
-Refer other verified humans and earn a share of their trading fees, climb a five-rung tier system for rising fee rebates, and build a reputation backed by on-chain-verified stats through Edge Social. See [Account Tiers & Referrals](rewards/tier-matrix.md).
+Refer other people who mint a pass and earn a share of their trading fees, climb a five-rung tier system for rising fee rebates, and build a reputation backed by on-chain-verified stats through Edge Social. See [Account Tiers & Referrals](rewards/tier-matrix.md).
 
 ## Two chains, one account
 
@@ -43,7 +43,7 @@ What's the same on both: the two launch modes, the fee rates, the guardrails, pr
 
 ## Why "human-first" matters
 
-On most launchpads, the first seconds of a launch are dominated by bots, bundled wallets, same-block snipers, and MEV extractors that take the early supply and sell it back to the humans who arrive moments later. 1EDGE attacks this at the **protocol level**: verified humanity, same-block bundle blocking, optional buy caps and cooldowns, and automated anti-vamp detection. The result is launches that give real participants a fair start.
+On most launchpads, the first seconds of a launch are dominated by bots, bundled wallets, same-block snipers, and MEV extractors that take the early supply and sell it back to the humans who arrive moments later. 1EDGE attacks this at the **protocol level**: a pass that has to be paid for one wallet at a time, same-block bundle blocking, optional buy caps and cooldowns, and automated anti-vamp detection. The result is launches that give real participants a fair start.
 
-> ✅ **One wallet. One human. Verified on-chain.** That's the foundation everything else is built on.
+> ✅ **One wallet. One pass. Soulbound on-chain.** That's the foundation everything else is built on.
 

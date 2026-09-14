@@ -29,7 +29,7 @@ These caps are enforced on-chain at deployment.
 
 Most launchpads hide creator behaviour, leaving traders to reverse-engineer it from the chain after the fact, usually too late. 1EDGE flips that: the behaviour worth knowing is **shown up front**, on the token's [terminal](interface.md) page, before you trade.
 
-Combined with [verified humanity](../index.md) and [smart anti-vamp protection](../protection/security-toolkits.md), transparency tags give you a complete, honest read on a token before you commit a single lamport.
+Combined with [1EDGE Proof of Humanity](../index.md) and [smart anti-vamp protection](../protection/security-toolkits.md), transparency tags give you a complete, honest read on a token before you commit a single lamport.
 
 ## Related
 

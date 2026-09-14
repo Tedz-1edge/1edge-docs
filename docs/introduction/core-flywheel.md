@@ -47,7 +47,7 @@ Verified creators launch tokens through [Edge or EdgeTek mode](../protocol/edge-
 
 ### 2. Active trading volume
 
-Each token lives inside the [trading terminal](../terminal/interface.md) and is exposed through the [Edge Social](../social/edge-social-engine.md) feed, where discovery turns into volume. Verified humanity means that volume reflects real participants, not wash-trading scripts.
+Each token lives inside the [trading terminal](../terminal/interface.md) and is exposed through the [Edge Social](../social/edge-social-engine.md) feed, where discovery turns into volume. Proof of Humanity means padding that volume with scripted wallets has to be paid for on every one.
 
 ### 3. Dynamic fee generation
 
@@ -66,4 +66,4 @@ Trading volume and referrals push every account up the [tier system](../rewards/
 
 ## Why it compounds
 
-Each rotation of the flywheel leaves the ecosystem stronger than the last: deeper liquidity, more engaged creators, cheaper trading for active users, and a growing base of verified humans. Because the loop is **self-reinforcing**, growth in any one stage lifts all the others.
+Each rotation of the flywheel leaves the ecosystem stronger than the last: deeper liquidity, more engaged creators, cheaper trading for active users, and more people who have been through the gate. Because the loop is **self-reinforcing**, growth in any one stage lifts all the others.

@@ -29,7 +29,7 @@ Everything on chain — every launch, buy, sell and mint — is public and perma
 
 ## Presence, the one people ask about
 
-Proof of humanity proves a person was there **once**. Presence is how we know one is **still** there. Without it, a farm pays the verification cost one time and runs bots forever.
+1EDGE Proof of Humanity is a cost paid **once**, at one moment. Presence is how we know a person is **still** there. Without it, a farm pays that cost one time and runs bots forever.
 
 While you use the app, a small script measures the shape of your session and sends a summary about once a minute.
 

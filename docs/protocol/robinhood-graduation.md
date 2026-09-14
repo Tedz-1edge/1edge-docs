@@ -18,7 +18,7 @@ The threshold is a protocol constant, set so a Robinhood curve asks roughly what
 
 On Solana there is no transferable token until graduation. On Robinhood Chain the token contract is deployed when the launch is created, **and the entire supply sits inside the launchpad contract**. Curve positions are IOUs on the launchpad's books until they are delivered.
 
-The protection is the same one: nobody holds a transferable balance while the curve is running, so there is nothing to bundle, move or trade outside the rules. Every buy and sell goes through the launchpad, where verified humanity, the [guardrails](../protection/buy-caps-and-cooldowns.md), the grace period and the one-buy-per-block rule are enforced.
+The protection is the same one: nobody holds a transferable balance while the curve is running, so there is nothing to bundle, move or trade outside the rules. Every buy and sell goes through the launchpad, where the 1EDGE Proof of Humanity gate, the [guardrails](../protection/buy-caps-and-cooldowns.md), the grace period and the one-buy-per-block rule are enforced.
 
 ## What happens at graduation
 

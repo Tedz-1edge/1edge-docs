@@ -49,7 +49,7 @@ A leaderboard that pays anything will be attacked. These rules exist because of 
 * **Calls are scored on the record, losses included.** Calling your own token does not count, and one lucky call barely moves the number — it is a damped average across everything you called.
 * **Human means a person at the keyboard.** The human axis counts days, not a score. It reads the same per-session presence statistics the Privacy Policy describes (pointer, scroll, typing and touch rhythm, never content). Presence on its own tops out well under the qualification floor, so being here without doing anything places nobody.
 * **Reach counts readers, not impressions.** Posting more does not raise it. Being read by more different people does.
-* **Everyone is a verified human.** Taking part requires proof of humanity, and launches are protected against bots and snipers by the on-chain program itself.
+* **Everyone in a season holds a pass.** Taking part requires 1EDGE Proof of Humanity, so padding the field means paying for another mint and another challenge every time, and launches are protected against bots and snipers by the on-chain program itself.
 
 > ℹ️ **There is one more check, and it runs at payout rather than in your points.** Behaviour that does not look like a real person using the platform can hold back or cancel a reward. The signals behind it are deliberately not published — publishing them would only be a guide to avoiding them. Every reduction is recorded with its reasons.
 

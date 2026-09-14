@@ -24,8 +24,8 @@ The same protocol, written in Solidity. Chain id **46630**, gas in ETH, explorer
 | Contract | Role | Address |
 | :--- | :--- | :--- |
 | **Launchpad** | Token launches, bonding curve, Edge & EdgeTek fee logic, guardrails | `0xee8Ec74EE15203aF5d0EE72Dd42fE4950dC70e47` |
-| **ProofOfLife** | Humanity-verified pass minting & tiers | `0x317528597EDa6D98a7D77DfabFaE46F440c99057` |
-| **VerificationRegistry** | The verified-human record the curve checks on every buy | `0x0D1891a3d16C550031A64BD0984222d461951638` |
+| **ProofOfLife** | Pass minting & tier upgrades | `0x317528597EDa6D98a7D77DfabFaE46F440c99057` |
+| **VerificationRegistry** | The pass record the curve checks on every buy | `0x0D1891a3d16C550031A64BD0984222d461951638` |
 
 > ℹ️ **Why a registry here and not on Solana.** On Solana the curve reads the verification record the Proof of Humanity program writes. On Robinhood Chain that record lives in its own small contract, written only by the pass contract and read by the launchpad. Same rule, one more address.
 
