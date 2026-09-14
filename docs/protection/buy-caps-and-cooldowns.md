@@ -36,7 +36,7 @@ Both guardrails are **optional** and entirely up to the creator. The right value
 
 | Layer | Protects against | Type | Configurable? |
 | :--- | :--- | :--- | :--- |
-| Proof of Humanity | Bots & multi-wallet farms | Always on | No, platform-wide |
+| 1EDGE Proof of Humanity | Bots & multi-wallet farms | Always on | No, platform-wide |
 | Same-block bundle blocking | Bundlers | Always on | No, program-level |
 | Same-block snipe protection | Block-zero snipers | Always on | No, program-level |
 | Anti-vamp detection | Copycat clones | Always on | No, platform-wide |

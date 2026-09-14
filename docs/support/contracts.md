@@ -13,7 +13,7 @@ description: Verified on-chain program and contract addresses for the 1EDGE prot
 | Program | Role | Address |
 | :--- | :--- | :--- |
 | **1EDGE Core** (`fcfs_launchpad`) | Token launches, bonding curve, Edge & EdgeTek fee logic, guardrails | `C8SdDh4Q6KJqv2W9zYPKDP2gSiLvv3srcjztVZ4oH27j` |
-| **Proof of Humanity** (`pol_program`) | Humanity-verified NFT minting & tiers | `Ceii7ibEYaeohajwSb1UVTgEPyhgweE1BcimkJiVz6EQ` |
+| **1EDGE Proof of Humanity** (`pol_program`) | Pass minting & tier upgrades | `Ceii7ibEYaeohajwSb1UVTgEPyhgweE1BcimkJiVz6EQ` |
 
 > ℹ️ **EdgeTek is not a separate program.** Both Edge and EdgeTek launches are handled by the `fcfs_launchpad` program, the mode is a parameter set at deployment, not a different contract.
 

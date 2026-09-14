@@ -40,7 +40,7 @@ A [dev-buy](../terminal/transparency-tags.md) (max 5% Edge / 20% EdgeTek) signal
 
 ## Pre-launch checklist
 
-- [ ] Chain chosen, and your wallet verified on it (Proof of Humanity)
+- [ ] Chain chosen, and your wallet holding a pass on it (1EDGE Proof of Humanity)
 - [ ] Metadata final, name, ticker, image, description
 - [ ] Socials attached (helps fend off vamps)
 - [ ] Mode chosen (Edge vs EdgeTek) and fees configured
