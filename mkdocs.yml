@@ -80,6 +80,7 @@ nav:
       - Reading the Terminal: terminal/interface.md
       - The Execution Engine: terminal/execution-engine.md
       - Developer Transparency Tags: terminal/transparency-tags.md
+      - Swap & Cross-Chain Fees: terminal/fees.md
   - Creator Deployment:
       - The Launch Blueprint: creators/launch-blueprint.md
       - Launch Engineering Best Practices: creators/best-practices.md

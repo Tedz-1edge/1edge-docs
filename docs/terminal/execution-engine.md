@@ -44,7 +44,10 @@ Your dashboard includes a full **wallet view**, everything you hold, tracked in 
 
 No juggling a wallet app and a block explorer to answer "what do I actually hold", the whole picture is on one screen.
 
+On mainnet the wallet panel also swaps any Solana token, through Jupiter. That swap carries a small 1EDGE fee, shown in the quote before you confirm: see [Swap & Cross-Chain Fees](fees.md).
+
 ## Related
 
 * [Reading the Terminal](interface.md)
 * [Verified Ledger Performance](../social/verified-metrics.md)
+* [Swap & Cross-Chain Fees](fees.md)

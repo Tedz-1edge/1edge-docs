@@ -4,7 +4,7 @@ description: Everything 1EDGE measures about you, why it measures it, how long i
 
 # What We <span class="g">Track</span>, and Why
 
-Your wallet is your account. We never ask for your name, email or ID, we run no ad or analytics trackers, and we sell nothing. But "we don't track you" would be a lie, because two things here do measure you, and you should know exactly what they are before you use the platform.
+Your wallet is your account. We never ask for your name, email or ID ourselves, we run no ad or analytics trackers of our own, and we sell nothing. If you sign in to the 1EDGE Wallet with an email or a social account, that sign-in is held by Privy, the company that runs the wallet, and never reaches our servers ([below](#the-1edge-wallet)). But "we don't track you" would be a lie, because two things here do measure you, and you should know exactly what they are before you use the platform.
 
 This page is the plain-words version. The binding version is the [Privacy Policy](legal.md), which you can read in the app.
 
@@ -24,8 +24,22 @@ This page is the plain-words version. The binding version is the [Privacy Policy
 | **Enforcement records and appeals** | So action is proportionate and reviewable | Kept |
 | **Seasons** — opt-in, points, settlements, holds | The competition's history | Kept |
 | **Your IP at request time** | Rate limits and abuse prevention | Not kept as a browsing log |
+| **Push notifications**, if you allow them | To deliver them, through your browser's push service | Until you turn them off |
+| **1EDGE Wallet sign-in** — email, social account or passkey | Held by **Privy**, which runs the wallet, not by us | Under Privy's terms; ask us to delete it |
 
 Everything on chain — every launch, buy, sell and mint — is public and permanent, and nobody can delete it. That is the chain, not us.
+
+## The 1EDGE Wallet
+
+The 1EDGE Wallet is run for us by **Privy**. You sign in to it with Google, X, Telegram, Discord, Farcaster, an email address or a passkey, and it makes you one Ethereum-style address (the same on Robinhood Chain and on Arc) and one Solana address.
+
+* **What you sign in with goes to Privy and stays with Privy.** Your email, or what the provider you chose shares with Privy, or a passkey's id.
+* **It never reaches our servers, and we do not store it.** What reaches us is the wallet's addresses, as with any other wallet.
+* **Our team can see it in Privy's dashboard**, because Privy shows every app its own users. We do not copy it into our own records.
+* **Per Privy, nobody can see the key.** It is split into encrypted shares and only put together inside a secure enclave for the moment of signing. You can export it from the app.
+* **Privy's software reports its own usage events to Privy.** It only loads when you use the 1EDGE Wallet.
+
+Signing in to the wallet with X or Discord is not the same as connecting X or Discord to your 1EDGE profile. The [Privacy Policy](legal.md) lists every outside service the platform uses and what each one sees.
 
 ## Presence, the one people ask about
 
