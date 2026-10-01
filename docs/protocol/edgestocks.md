@@ -30,7 +30,8 @@ Every fee on an EDGEstocks launch is taken in the stock.
 
 * **Builder fee**, routed to **up to 4 wallets**, as on EdgeTek.
 * **Buyback & burn** of your token, as on EdgeTek.
-* **No Stack and no LP compound.** Neither is offered on a stock launch.
+* **LP compound, at least 0.20%,** like every 1EDGE launch: during the curve it stays in the pool and seeds the graduated pool, then it keeps compounding into the pool's liquidity.
+* **No Stack.** It isn't offered on a stock launch.
 
 You set the split on the launch page, and the page shows every line, the 1EDGE fee included, before you deploy. On Solana the total is 2%, 3%, 4% or 5%, the same ladder as an EdgeTek open launch, and Meteora keeps 20% of each slice.
 
