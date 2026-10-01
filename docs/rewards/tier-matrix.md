@@ -96,7 +96,7 @@ These three tiers are earned through activity. Each can be reached by trading vo
 
 ### Seed: the founding tier
 
-**Seed is the rarest tier on 1EDGE, only 50 will ever exist.** It is awarded to the **first 50 wallets to reach 25 referrals**, and it carries a **30% fee rebate for life**, a 3.5× point multiplier, and, for founding members, a future revenue share (details to be confirmed).
+**Seed is the rarest tier on 1EDGE, only 50 will ever exist.** It is awarded to the **first 50 wallets to reach 25 referrals**, and it carries a **30% fee rebate for life**, a 3.5× point multiplier.
 
 > ⚠️ **Limited to 50, forever.** Once all 50 Seed positions are claimed, the tier is closed permanently. There is no other way in.
 
