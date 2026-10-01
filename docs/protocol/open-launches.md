@@ -34,7 +34,7 @@ On top of the pass, every open launch carries the same anti-bot rules on the cur
 * **One buy per pool per slot.** A second buy in the same slot is refused, so a bundle can't land several wallets at once.
 * **A 10-slot grace.** No buys for the first 10 slots after the token is created. Your dev buy is in the creation transaction, so it is not affected.
 * **Your wallet cap.** If you set one (1%–3.5% of supply), it binds every buy on the curve, from any terminal.
-* **An anti-sniper fee.** The trading fee opens at **50%** and falls to your launch's base fee over the first **10 minutes**. Buying in the opening seconds costs a sniper most of what it buys with.
+* **Launch shield (early fee).** On Solana open launches, Meteora's fee scheduler starts the fee at **50%** and lowers it every 10 seconds to the launch's normal fee at **minute 10**, on buys and sells. It makes buying in the first seconds and dumping on the first buyers an expensive trade: a sniper pays it going in and coming out. Sell after minute 10 and you never pay it on a sell. On Robinhood Chain and Arc it applies to buys only. It raises the cost of sniping; it doesn't stop every bot. Everyone trading in the first 10 minutes pays it; the ticket shows the live fee before you confirm.
 
 > **There are no refunds.** If your token never graduates, holders exit by selling back to the curve, as on every 1EDGE launch.
 
@@ -94,7 +94,7 @@ A token turns **gold** for its first hour after graduating. After that it goes b
 | **Buyers hold the token** | At graduation | At once |
 | **Wallet-to-wallet transfers** | No token to send until graduation | Locked until graduation |
 | **Trade cooldown** | Optional, 0–300s | Not available |
-| **Anti-sniper fee** | No | 50%, falling to the base fee over 10 minutes |
+| **Launch shield (early fee)** | No | 50%, falling every 10 seconds to the base fee at 10 minutes, on buys and sells |
 | **Priced in** | SOL | SOL or USDC |
 | **Edge fee on the curve** | 1.15% | 1.2%, of which Meteora keeps 0.24% |
 | **Contract address ends in** | `Edge` | `EDGE` or `edge` |
