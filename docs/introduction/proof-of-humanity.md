@@ -46,18 +46,17 @@ Four layers, cheapest first, and every mint passes all of them.
 
 ## What it costs
 
-These are the Solana figures. On Robinhood Chain the pass is priced in ETH and, as above, 1EDGE waives its fee entirely for anyone already verified on Solana.
+The pass costs **$2**, paid in the chain's own coin at the live price: SOL on Solana, ETH on Robinhood Chain, USDC on Arc. The mint page shows the exact amount before you sign, and that is the amount you are charged while the quote holds.
 
-You pay a small one-time cost to mint. **Only 0.02 SOL goes to 1EDGE**, the rest is standard Solana network cost (account rent) plus a one-time on-chain referral account:
+If you're already verified on Solana, 1EDGE waives its fee on Robinhood Chain, see [below](#one-human-one-pass-per-chain).
+
+On Solana you also pay the network's own costs. They don't go to 1EDGE:
 
 | Item | Approx. cost | Goes to |
 | :--- | :--- | :--- |
-| **1EDGE mint fee** | **0.02 SOL** | 1EDGE |
+| **1EDGE pass fee** | **$2, in SOL** | 1EDGE |
 | Solana account rent | ~0.02 SOL | The Solana network (your accounts) |
 | On-chain referral record (one-time) | ~0.001 SOL | The Solana network |
-| **Total (estimated)** | **~0.045 SOL** |, |
-
-> ℹ️ The headline price is **0.02 SOL to 1EDGE**. The total of ~0.045 SOL just reflects Solana's own rent and the one-time referral account created on-chain, those aren't fees 1EDGE collects.
 
 ## One human, one pass per chain
 

@@ -16,7 +16,7 @@ The threshold is a protocol constant, set so a Robinhood curve asks roughly what
 
 ## The token before graduation
 
-On Solana there is no transferable token until graduation. On Robinhood Chain the token contract is deployed when the launch is created, **and the entire supply sits inside the launchpad contract**. Curve positions are IOUs on the launchpad's books until they are delivered.
+On a Solana 1EDGE launch there is no transferable token until graduation. On Robinhood Chain the token contract is deployed when the launch is created, **and the entire supply sits inside the launchpad contract**. Curve positions are IOUs on the launchpad's books until they are delivered.
 
 The protection is the same one: nobody holds a transferable balance while the curve is running, so there is nothing to bundle, move or trade outside the rules. Every buy and sell goes through the launchpad, where the 1EDGE Proof of Humanity gate, the [guardrails](../protection/buy-caps-and-cooldowns.md), the grace period and the one-buy-per-block rule are enforced.
 
@@ -44,5 +44,6 @@ This is the one real difference in the economics, and it goes the trader's way.
 ## Related
 
 * [The Meteora Graduation Protocol](meteora-graduation.md), the Solana path.
+* [EDGEstocks](edgestocks.md), a Robinhood Chain launch priced in a stock token, which graduates into a Uniswap v4 pool paired with the stock.
 * [Edge Mode](edge-mode.md) · [EdgeTek Mode](edgetek-mode.md)
 * [Wallet Buy Caps & Trade Cooldowns](../protection/buy-caps-and-cooldowns.md)

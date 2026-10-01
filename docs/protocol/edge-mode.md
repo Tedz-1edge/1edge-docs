@@ -6,11 +6,13 @@ description: The simple, fixed-fee standard launch, set it and forget it.
 
 **Edge Mode** is the standard 1EDGE launch: a clean bonding-curve deployment with a simple, fixed fee structure and optional safety guardrails. It's built for creators who want a fair launch without configuring custom tokenomics.
 
+This page covers Edge as a **1EDGE launch**, where the curve trades only on 1edge.app. Edge can also be an **[open launch](open-launches.md)**, on Meteora from its first trade, with its own 1.2% fee split.
+
 ## At a glance
 
 | Parameter | Value |
 | :--- | :--- |
-| Deployment fee | **0.02 SOL** (on Robinhood Chain, the same cost priced in ETH) |
+| Launch fee | **$2**, paid at the live price in SOL (on Robinhood Chain, in ETH) |
 | Total trading fee (pre-bond) | **1.15%** |
 | Trading fee (post-bond) | **Dynamic, scales 1.15% → 0.55%** with market cap |
 | Graduation target | **85 SOL** on the bonding curve (Robinhood Chain: its own [ETH threshold](robinhood-graduation.md#the-curve)) |
@@ -68,7 +70,7 @@ These apply **only during the bonding curve**. See [Wallet Buy Caps & Trade Cool
 
 ## The lifecycle
 
-1. **Deploy**, pay the 0.02 SOL fee, set metadata, optionally toggle guardrails.
+1. **Deploy**, pay the $2 launch fee, set metadata, optionally toggle guardrails.
 2. **Bonding curve**, buyers and sellers trade against a [virtual-token curve](meteora-graduation.md#the-virtual-token-model); the 1.15% fee applies, with 0.20% compounding into LP.
 3. **Graduation**, at **85 SOL** the token migrates to Meteora, the dynamic market-cap fee takes over, and pre-graduation constraints lift. See [The Meteora Graduation Protocol](meteora-graduation.md). On Robinhood Chain the same step opens a [Uniswap v4 pool](robinhood-graduation.md).
 

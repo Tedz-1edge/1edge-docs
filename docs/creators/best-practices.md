@@ -18,9 +18,10 @@ The [buy cap](../protection/buy-caps-and-cooldowns.md) (1%–3.5% of supply) con
 
 The [trade cooldown](../protection/buy-caps-and-cooldowns.md) (0–300s) throttles rapid-fire bot activity.
 
-* **Short or zero**, frictionless, but offers little protection against scripted spam and sandwiching.
+* **Short or zero**, nothing slows a trade, but it offers little protection against scripted spam and sandwiching.
 * **Longer (tens of seconds+)**, strongly suppresses bots and gives the curve room to breathe, at the cost of slowing legitimate fast traders.
 * Match it to your launch velocity: a frantic, hyped launch benefits from a meaningful cooldown; a slow community mint may not need much.
+* **Open launches have no cooldown.** On an [open launch](../protocol/open-launches.md), the one-buy-per-slot rule, your wallet cap and the anti-sniper fee do that work instead.
 
 > ⚠️ Guardrails are a trade-off. Tighter settings suppress bots **and** constrain real early demand. Tune for protection without strangling the genuine buyers you want.
 
@@ -32,7 +33,7 @@ If you're launching in [EdgeTek mode](../protocol/edgetek-mode.md), your fee bud
 * **Buyback & burn** adds buy pressure and deflation, powerful for a flywheel, but it's value that comes out of trading fees.
 * **BuyBack & Stack** turns fees into a holder reward, buy pressure plus pro-rata airdrops that give people a reason to hold rather than flip.
 * **Extra LP compounding** deepens liquidity faster, pays off for a token you expect to grow and hold.
-* **Keep the total reasonable.** A maxed stack (1% + 3.8%) is a heavy per-trade cost. Most healthy launches keep the total well below the ceiling.
+* **Keep the total reasonable.** A maxed stack (1% + 3.8%) is a heavy per-trade cost. Most healthy launches keep the total well below the ceiling. On an open launch the total is a rung you pick, 2%, 3%, 4% or 5%, and Meteora keeps 20% of each slice.
 
 ## Using a dev-buy responsibly
 

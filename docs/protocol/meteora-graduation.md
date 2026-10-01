@@ -8,6 +8,8 @@ Every 1EDGE token begins life on a **bonding curve**, a self-contained market wh
 
 > ℹ️ **This is the Solana path.** A launch on Robinhood Chain runs the same curve in ETH and graduates into a Uniswap v4 pool instead. Same idea, different DEX: see [Graduation on Robinhood Chain](robinhood-graduation.md).
 
+> **This page is the 1EDGE launch.** An [open launch](open-launches.md) works differently: its token exists on Meteora from the first trade, buyers hold it at once, and only the pass gate stands between it and the open market until graduation.
+
 ## The virtual-token model
 
 During the bonding-curve phase, **there is no real SPL token yet.** Instead, 1EDGE runs an **on-chain simulation of virtual tokens**. To you as a trader, it behaves exactly like a normal bonding curve, you buy, you sell, the price moves, but under the hood there's no transferable SPL mint in circulation.
@@ -36,7 +38,7 @@ On graduation, 1EDGE automatically:
 2. **Migrates trading** into that pool, so the token now trades on a standard, composable Solana DEX.
 3. **Carries the fee model across**, Edge tokens switch to the [dynamic market-cap fee](edge-mode.md#how-fees-change-after-graduation); [EdgeTek](edgetek-mode.md) tokens keep their configured structure.
 
-> ℹ️ **Vanity contract address.** Every migrated token is minted to a vanity CA that **always ends in `Edge`**, an at-a-glance signal that a token graduated through 1EDGE.
+> ℹ️ **Vanity contract address.** Every migrated token is minted to a vanity CA that **always ends in `Edge`**, an at-a-glance signal that a token graduated through 1EDGE. An open launch has its address from the first trade, ending in `EDGE` or `edge`.
 
 ### Meteora's protocol cut
 

@@ -27,12 +27,12 @@ Six things count, and they are weighted. No single one of them can carry you to 
 
 | Weight | What it measures | What actually counts |
 |---:|---|---|
-| **35** | People you brought in | Referred wallets that were **active that week** — not the number of people signed up |
-| **25** | Trading | What you genuinely put into positions, on the curve and after graduation, on **either chain** |
+| **25** | People you brought in | Referred wallets that were **active that week** — not the number of people signed up |
+| **25** | Trading | What you genuinely put into positions, on the curve and after graduation, on **Solana or Robinhood Chain**, whatever the token is priced in |
 | **15** | Your calls | How the tokens you called actually performed. Losses count against you |
-| **10** | Launching | Tokens you launched, and the real buyers they attracted |
+| **15** | Launching | Tokens you launched, 1EDGE launches and open launches alike, and the real buyers they attracted |
 | **10** | Being read | How many **different people** read your posts — not how often you post |
-| **5** | Being here, yourself | Days in the week on which your sessions looked like a person driving the page, not a script. Up to seven |
+| **10** | Being here, yourself | Days in the week on which your sessions looked like a person driving the page, not a script. Up to seven |
 
 ### The scale moves with the field
 
@@ -73,7 +73,9 @@ Contesting a held share is not the same as appealing an enforcement action. They
 
 A season is one competition across the whole platform, not one per chain.
 
-Trade on Solana, on Robinhood Chain, or on both, and it all feeds the same volume axis: Robinhood volume is converted at the ratio the two curves graduate at, so an ETH book and a SOL book are measured on one scale and neither is worth more per unit of effort than the other. Everything else on the board, calls, launches, referrals, reach, being here, already belongs to your **account** rather than to one of its wallets.
+Trade on Solana, on Robinhood Chain, or on both, and it all feeds the same volume axis: Robinhood volume is converted at the ratio the two curves graduate at, so an ETH book and a SOL book are measured on one scale and neither is worth more per unit of effort than the other.
+
+Trades priced in something other than SOL or ETH count on the same scale. A **USDC** trade on an [open launch](../protocol/open-launches.md) and a trade on an [EDGEstocks](../protocol/edgestocks.md) launch are both valued in **US dollars** at the time of the trade. Open launches count for trading, launching and graduations exactly as 1EDGE launches do. Everything else on the board, calls, launches, referrals, reach, being here, already belongs to your **account** rather than to one of its wallets.
 
 A season settles in one place, on **Solana**, whichever chain your points came from. An account with no Solana wallet linked is told so, and its share waits until it links one, it isn't lost. If you play from the Robinhood side, link your Solana wallet before the week you want to settle.
 

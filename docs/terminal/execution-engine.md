@@ -38,9 +38,9 @@ Your **open and closed positions** are tracked in the terminal, entry, size, and
 
 Your dashboard includes a full **wallet view**, everything you hold, tracked in one place:
 
-* **Every 1EDGE token**, with live PnL, **including bonding-curve positions**. A bonding position doesn't exist as an SPL token yet, it lives on the curve, so ordinary wallet apps can't see it at all. 1EDGE tracks it anyway.
+* **Every 1EDGE token**, with live PnL, **including bonding-curve positions**. On a 1EDGE launch a bonding position doesn't exist as an SPL token yet, it lives on the curve, so ordinary wallet apps can't see it at all. 1EDGE tracks it anyway. A token from an [open launch](../protocol/open-launches.md) is already in your wallet, and shows here like any other.
 * **Every other SPL token** in your Solana wallet, balance and live value, whether or not it has anything to do with 1EDGE.
-* **Your SOL balance**, at its live price, and your ETH balance on Robinhood Chain if you hold a wallet there.
+* **Your SOL balance**, at its live price, your **USDC on Solana**, and your ETH balance on Robinhood Chain if you hold a wallet there.
 
 No juggling a wallet app and a block explorer to answer "what do I actually hold", the whole picture is on one screen.
 

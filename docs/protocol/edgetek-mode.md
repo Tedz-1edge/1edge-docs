@@ -6,11 +6,13 @@ description: The advanced framework, configurable builder, burn, and liquidity f
 
 **EdgeTek Mode** is the advanced launch framework for creators who want to engineer their token's economics. On top of a fixed 1EDGE platform fee, it gives the deployer a **configurable fee budget** to route across builder revenue, buyback-and-burn, BuyBack & Stack holder rewards, and accelerated liquidity compounding, and that structure carries through after the token graduates to a DEX.
 
+This page covers EdgeTek as a **1EDGE launch**. EdgeTek can also be an **[open launch](open-launches.md#edgetek-open-launch-2-3-4-or-5)**, on Meteora from its first trade: you pick a total fee of 2%, 3%, 4% or 5%, route the builder fee to up to 4 wallets, and Meteora keeps 20% of each slice.
+
 ## At a glance
 
 | Parameter | Value |
 | :--- | :--- |
-| Deployment fee | **0.5 SOL** (on Robinhood Chain, the same cost priced in ETH) |
+| Launch fee | **$10**, paid at the live price in SOL (on Robinhood Chain, in ETH) |
 | 1EDGE platform fee | **1.00%** (fixed) |
 | Builder / routing fee | up to **3.80%** (configurable) |
 | LP compounding | from **0.20%** (configurable up) |
@@ -57,7 +59,7 @@ The deployer has **up to 3.80%** of configurable fee to allocate however their s
 
 ### Setting your Burn and Stack triggers
 
-When you allocate fees to buyback & burn or BuyBack & Stack, you also set a **SOL trigger threshold**, the balance a vault must accumulate before it fires. Choose from **1, 10, 25, or 50 SOL**. The moment a vault reaches that level, the program acts automatically, buying back and burning for the Burn vault, or buying and distributing to holders for the Stack vault, then resets and starts saving again.
+When you allocate fees to buyback & burn or BuyBack & Stack, you also set a **SOL trigger threshold**, the balance a vault must accumulate before it fires. Choose from **1, 5, 10, 25 or 50 SOL**. The moment a vault reaches that level, the program acts automatically, buying back and burning for the Burn vault, or buying and distributing to holders for the Stack vault, then resets and starts saving again.
 
 A lower threshold (1 SOL) means frequent, smaller events; a higher one (50 SOL) means rarer, larger ones. It's your call on how aggressive, and how visible, you want each mechanism to be.
 
@@ -88,6 +90,6 @@ Like Edge mode, EdgeTek launches can enable [wallet buy caps and trade cooldowns
 
 ## The lifecycle
 
-1. **Deploy**, pay the 0.5 SOL framework fee, configure your fee budget (builder / burn / Stack / LP), set metadata and guardrails.
+1. **Deploy**, pay the $10 launch fee, configure your fee budget (builder / burn / Stack / LP), set metadata and guardrails.
 2. **Bonding curve**, the token trades against a [virtual-token curve](meteora-graduation.md#the-virtual-token-model) with your configured fees active.
 3. **Graduation**, at **85 SOL** the token migrates to Meteora and your fee structure persists (less Meteora's 20% cut). On Robinhood Chain the same step opens a [Uniswap v4 pool](robinhood-graduation.md), and nothing is cut off your rates there.

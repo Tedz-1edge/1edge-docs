@@ -26,6 +26,16 @@ A **trade cooldown** enforces a mandatory delay between successive trades from t
 
 > ℹ️ **Both guardrails work the same on both chains.** The 1%–3.5% cap and the 0–300s cooldown are the same settings, with the same limits, whether you launch on Solana or on Robinhood Chain.
 
+## On an open launch
+
+An [open launch](../protocol/open-launches.md) trades on Meteora from its first trade, and its rules are enforced by the token itself, on every terminal:
+
+* **The wallet cap works the same**, 1%–3.5% of supply, on every buy during the curve.
+* **There is no trade cooldown.** It can't be enforced exactly for buyers on outside terminals, so it isn't offered.
+* **An anti-sniper fee takes its place.** The trading fee opens at 50% and falls to the launch's base fee over the first 10 minutes.
+* **One buy per pool per slot**, and no buys for the first 10 slots after creation.
+* **Selling is never gated**, and wallet-to-wallet transfers stay locked until graduation.
+
 ## Choosing your settings
 
 Both guardrails are **optional** and entirely up to the creator. The right values depend on your target liquidity and audience, a high-velocity launch with deep initial demand calls for different settings than a slow community mint.
@@ -41,7 +51,8 @@ Both guardrails are **optional** and entirely up to the creator. The right value
 | Same-block snipe protection | Block-zero snipers | Always on | No, program-level |
 | Anti-vamp detection | Copycat clones | Always on | No, platform-wide |
 | **Wallet buy cap** | Supply cornering | **Optional** | **Yes, 1%–3.5%, per launch** |
-| **Trade cooldown** | Spam / sandwiching | **Optional** | **Yes, 0–300s, per launch** |
+| **Trade cooldown** | Spam / sandwiching | **Optional** | **Yes, 0–300s, per launch** (not on open launches) |
+| **Anti-sniper fee** | Opening-second snipers | Open launches only | No, 50% falling to the base fee over 10 minutes |
 
 The always-on layers protect every launch by default; buy caps and cooldowns let creators tune additional protection to their specific needs.
 

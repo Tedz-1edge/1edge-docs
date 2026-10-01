@@ -60,6 +60,8 @@ nav:
   - Protocol & Launch:
       - Edge Mode · Standard Launch: protocol/edge-mode.md
       - EdgeTek Mode · Advanced Architecture: protocol/edgetek-mode.md
+      - EDGEstocks · Priced in a Stock: protocol/edgestocks.md
+      - Open Launches · On Meteora From Trade One: protocol/open-launches.md
       - The Meteora Graduation Protocol: protocol/meteora-graduation.md
       - Graduation on Robinhood Chain: protocol/robinhood-graduation.md
   - Protection & Guardrails:

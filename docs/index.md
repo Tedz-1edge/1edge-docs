@@ -21,7 +21,9 @@ The thread that ties it together is **1EDGE Proof of Humanity**. Every participa
 
 ### 1. Launch
 
-Deploy a token through one of two frameworks, **Edge Mode** for a simple, fixed-fee launch, or **EdgeTek Mode** for fully configurable fee, burn, and liquidity mechanics. Both ride a bonding curve to a fixed graduation target and migrate automatically into a real DEX pool: Meteora on Solana, Uniswap v4 on Robinhood Chain. See [Protocol Mechanics](protocol/edge-mode.md).
+Deploy a token in **Edge Mode** for a simple, fixed-fee launch, **EdgeTek Mode** for configurable fee, burn, and liquidity mechanics, or **EDGEstocks** to price your token in a tokenised stock. Every launch rides a bonding curve to a fixed graduation target and migrates automatically into a real DEX pool: Meteora on Solana, Uniswap v4 on Robinhood Chain. See [Protocol Mechanics](protocol/edge-mode.md).
+
+Then choose where it trades. A **1EDGE launch** keeps the curve on 1edge.app. An **[open launch](protocol/open-launches.md)** puts your token on Meteora from its first trade, visible on every terminal, while only pass holders can buy until it graduates.
 
 ### 2. Trade
 
@@ -37,7 +39,7 @@ Refer other people who mint a pass and earn a share of their trading fees, climb
 
 One account holds a wallet on each chain. You sign in with a Solana wallet, or with an Ethereum-style wallet on Robinhood Chain, and you link the second one from Settings. It stays one profile: one handle, one cabinet, one track record, whichever side you're trading. See [Profiles & Handles](social/profiles-and-identity.md).
 
-What's the same on both: the two launch modes, the fee rates, the guardrails, proof of humanity, Edge Social, tiers and referrals. What differs is the currency a curve fills in and the DEX a launch graduates to, and every page that matters names which is which.
+What's the same on both: the launch modes, the fee rates, the guardrails, proof of humanity, Edge Social, tiers and referrals. What differs is the currency a curve fills in and the DEX a launch graduates to, and every page that matters names which is which.
 
 > ℹ️ **Both chains are on their test networks today.** The Solana side runs on devnet; the Robinhood side runs on Robinhood Chain's testnet. Nothing on either is real money yet. See the [Smart Contract Directory](support/contracts.md).
 

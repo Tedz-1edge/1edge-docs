@@ -1,12 +1,15 @@
 ---
-description: Earn 25% of the 1EDGE platform fee from every wallet you refer, on either chain, accrued and claimed natively.
+description: Earn 25% of the 1EDGE platform fee from every wallet you refer, on every chain, accrued and claimed natively.
 ---
 
 # The Referral <span class="g">Fee-Share Engine</span>
 
-The 1EDGE referral system pays you **25% of the 1EDGE platform fee** on every trade made by a wallet you refer, for as long as they keep trading. (The platform fee is one slice of the total trade fee, 0.55% in Edge mode, so the referral share is 25% of that slice, not of the whole trade.)
+The 1EDGE referral system pays you **25% of the 1EDGE platform fee** on every trade made by a wallet you refer, for as long as they keep trading. (The platform fee is one slice of the total trade fee, 0.55% on an Edge 1EDGE launch and 0.56% on an Edge [open launch](../protocol/open-launches.md), so the referral share is 25% of that slice, not of the whole trade.)
 
-It is the same 25% on both chains, and it pays in the currency the fee was paid in: **SOL** on Solana, **ETH** on Robinhood Chain. Each side has its own balance and its own claim, on its own chain.
+It is the same 25% on every chain, and it pays in the chain's coin: **SOL** on Solana, **ETH** on Robinhood Chain. Each side has its own balance and its own claim, on its own chain.
+
+* **USDC trades** on a Solana open launch count like any other. The share is valued at the SOL price when the trade happened and paid in SOL.
+* **Stock trades** on an [EDGEstocks](../protocol/edgestocks.md) launch count too. Your share is paid in SOL on Solana or ETH on Robinhood Chain, never in the stock.
 
 It is one of two reward streams on 1EDGE. This one pays you on **other people's** activity; the [tier system](tier-matrix.md) rebates fees on **your own** trading. The two stack.
 
@@ -35,17 +38,17 @@ Your two reward streams are independent and additive:
 | **Referral fee-share** | 25% of the **1EDGE platform fee** on referred wallets' trades | [This page](referral-engine.md) |
 | **Tier rebate** | 10%–30% of the **1EDGE platform fee** on your own trades | [Tier Matrix](tier-matrix.md) |
 
-The more humans you bring to 1EDGE, the more your referral income grows, **and** referrals are one of the two ways to climb the tier ladder (the other being your own trading volume). Building a referral network therefore compounds: it pays you directly in SOL *and* pushes you toward higher personal rebates.
+The more humans you bring to 1EDGE, the more your referral income grows, **and** referrals are one of the two ways to climb the tier ladder (the other being your own trading volume). Building a referral network therefore compounds: it pays you directly *and* pushes you toward a higher rebate rate on your own trades.
 
-> ✅ **The compounding play:** refer active humans → earn 25% of the platform fee on their trades → hit referral milestones → climb tiers → earn higher rebates on your own trading. Every referral feeds both streams.
+> ✅ **The compounding play:** refer active humans → earn 25% of the platform fee on their trades → hit referral milestones → climb tiers → a higher rebate rate on your own trading. Every referral feeds both streams.
 
 ## Tier milestones via referrals
 
 Referrals aren't just a payout, they're a path up the [tier system](tier-matrix.md):
 
-* **Alpha**, 25 active referrals (or 100 SOL volume)
-* **Elite**, 250 active referrals (or 500 SOL volume)
-* **Apex**, 1,000 active referrals (or 2,000 SOL volume)
+* **Alpha**, 25 active referrals (or $10,000 volume)
+* **Elite**, 250 active referrals (or $50,000 volume)
+* **Apex**, 1,000 active referrals (or $200,000 volume)
 * **Seed (Founding)**, be one of the first 50 wallets to reach 25 referrals
 
-> ℹ️ **The volume thresholds on this page and on the [tier matrix](tier-matrix.md) are quoted in SOL.** The rebate percentages and the referral counts are the same on both chains.
+> ℹ️ **The volume thresholds on this page and on the [tier matrix](tier-matrix.md) are US dollars**, valued when each trade happened and summed across every chain. The rebate percentages and the referral counts are the same on every chain.
