@@ -123,7 +123,7 @@ A further tier sits above the ladder and **hasn't been released yet**. When it g
 
 ## How tiers update
 
-Your tier is worked out from your volume and referrals across every chain, and it only ever goes up. The tier itself lives **on-chain**, on your pass, one record per chain. When you earn a new one, your dashboard offers the upgrade on each chain you hold a pass on; writing it there takes one signature on that chain, because only your wallet can sign for your wallet, and costs nothing but the network fee. Rebates accrue continuously and can be claimed at any time.
+Your tier is worked out from your volume and referrals across every chain, and it only ever goes up. When you earn a new one, your dashboard offers to upgrade your pass on each chain you hold one on. That takes one signature on that chain, because only your wallet can sign for your wallet, and it costs nothing but the network fee. Rebates accrue continuously and can be claimed at any time.
 
 ## Point multipliers
 
