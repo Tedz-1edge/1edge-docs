@@ -17,7 +17,7 @@ description: Every mark on 1EDGE token cards and the token page, and what it mea
 
 ### Chain, top-left
 
-<div class="ed-legend" markdown>
+<div class="ed-legend">
 <div><span class="ic"><img src="../../assets/marks/chain-sol.svg" alt=""></span><b>Solana</b><span class="d">Trades in SOL (or USDC, see the disc below).</span></div>
 <div><span class="ic"><img src="../../assets/marks/chain-rh.svg" alt=""></span><b>Robinhood Chain</b><span class="d">Trades in ETH.</span></div>
 <div><span class="ic"><img src="../../assets/marks/chain-arc.svg" alt=""></span><b>Arc</b><span class="d">Trades in USDC.</span></div>
@@ -25,7 +25,7 @@ description: Every mark on 1EDGE token cards and the token page, and what it mea
 
 ### Mode, bottom-right
 
-<div class="ed-legend" markdown>
+<div class="ed-legend">
 <div><span class="ic"><img src="../../assets/marks/mode-edge.svg" alt=""></span><b>EDGE</b><span class="d">Fixed fees. Green.</span></div>
 <div><span class="ic"><img src="../../assets/marks/mode-tek.svg" alt=""></span><b>TEK</b><span class="d">Creator-set fees, locked at launch. Blue.</span></div>
 <div><span class="ic"><img src="../../assets/marks/mode-stock.svg" alt=""></span><b>EDGEstocks</b><span class="d">Tied to a real stock. Pink.</span></div>
@@ -35,7 +35,7 @@ More on what each mode means: [Every mode](../launch/modes.md).
 
 ### Discs next to the chain mark
 
-<div class="ed-legend" markdown>
+<div class="ed-legend">
 <div><span class="ic">TSLA</span><b>Stock disc</b><span class="d">The stock's logo. <em>Pays $SYM</em>: holders of this coin earn that stock, or it's priced in it.</span></div>
 <div><span class="ic"><img src="../../assets/marks/chain-usdc.svg" alt=""></span><b>USDC disc</b><span class="d"><em>Priced in USDC.</em> You buy it with USDC on Solana.</span></div>
 </div>
@@ -44,7 +44,7 @@ More on what each mode means: [Every mode](../launch/modes.md).
 
 The ring around the picture tells you **where the coin trades right now**.
 
-<div class="ed-legend" markdown>
+<div class="ed-legend">
 <div><span class="ic"><img src="../../assets/brand/favicon.png" alt="" style="width:20px;height:20px;border-radius:4px"></span><b>Grey ring</b><span class="d"><em>1EDGE launch: trades on 1edge.app.</em> On our curve, not graduated yet.</span></div>
 <div><span class="ic"><img src="../../assets/marks/meteora-logo.svg" alt=""></span><b>Meteora ring</b><span class="d">Gold to purple. A Solana open launch, or a Solana coin that graduated. Trades on Meteora.</span></div>
 <div><span class="ic"><img src="../../assets/marks/uniswap-logo.svg" alt=""></span><b>Uniswap ring</b><span class="d">Pink. A Robinhood Chain or Arc open launch, or one that graduated. Trades on Uniswap.</span></div>
@@ -56,7 +56,7 @@ Open launches don't have a mark of their own: the ring is how you spot them. Hov
 
 ## On the card
 
-<div class="ed-legend" markdown>
+<div class="ed-legend">
 <div><span class="ic"><img src="../../assets/marks/crown.svg" alt=""></span><b>Crown</b><span class="d">Graduated. The curve filled and the coin moved to its pool.</span></div>
 <div><span class="ic"><img src="../../assets/marks/flame.svg" alt=""></span><b>Flame</b><span class="d"><em>Hot #N.</em> One of the hottest coins right now, by rank.</span></div>
 <div><span class="ic"><img src="../../assets/marks/heat-full-send.svg" alt=""></span><b>Full send</b><span class="d"><em>Talking + moving.</em> People are posting about it and the price is moving.</span></div>
@@ -93,7 +93,7 @@ After graduation the pill reads *Rules ended at graduation. Anyone can buy, sell
 
 Inside the shield sheet and on the launch page, every rule has its own icon:
 
-<div class="ed-legend" markdown>
+<div class="ed-legend">
 <div><span class="ic"><img src="../../assets/marks/rule-pass.svg" alt=""></span><b>1EDGE pass to buy</b><span class="d">Buying needs a pass until graduation.</span></div>
 <div><span class="ic"><img src="../../assets/marks/rule-one-per-block.svg" alt=""></span><b>1 buy per block</b><span class="d">A bundle can't land two buys in one block.</span></div>
 <div><span class="ic"><img src="../../assets/marks/rule-no-w2w.svg" alt=""></span><b>No wallet-to-wallet</b><span class="d">No sends until graduation. Open launches.</span></div>

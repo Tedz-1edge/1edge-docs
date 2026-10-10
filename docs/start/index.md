@@ -1,4 +1,5 @@
 ---
+title: Getting started
 description: Getting started on 1EDGE. What it is, your first five minutes, and where everything is.
 ---
 

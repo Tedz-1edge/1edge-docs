@@ -6,7 +6,6 @@ hide:
 ---
 
 <div class="ed-hero" markdown>
-<img class="ed-wordmark" src="assets/brand/1edge_wordmark.png" alt="1EDGE">
 <span class="ed-eyebrow">Docs</span>
 
 # Launch and trade coins with <em>people</em>, not bots.
@@ -19,7 +18,7 @@ hide:
 </div>
 </div>
 
-<div class="ed-grid three" markdown>
+<div class="ed-grid three">
 <a class="ed-card" href="start/get-your-pass/"><span class="k">Start</span><b>Get in</b><span class="d">The pass, your 1EDGE Wallet, backing it up, chains, your @username.</span></a>
 <a class="ed-card" href="launch/modes/"><img class="mark" src="assets/marks/mode-edge.svg" alt=""><span class="k">Launch</span><b>Every mode</b><span class="d">EDGE, Tek, EDGEstocks, open launches. What each one means for you.</span></a>
 <a class="ed-card" href="trade/buy-and-sell/"><span class="k">Trade</span><b>Buy, sell, bridge</b><span class="d">Instant trades, slippage, fees per chain, paying with SOL on Robinhood Chain.</span></a>

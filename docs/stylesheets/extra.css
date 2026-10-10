@@ -290,3 +290,11 @@ a.ed-card:hover { border-color: var(--e-green-a35); transform: translateY(-1px);
 @media screen and (max-width: 44.9844em) { .md-header__title { display: none; } .md-header__button.md-logo img { height: .95rem; } }
 .md-typeset__scrollwrap { margin-left: 0 !important; margin-right: 0 !important; }
 .md-typeset__table { padding: 0 !important; }
+
+/* phones: menu button first, then the wordmark (material puts the drawer button after the logo) */
+.md-header__inner { display: flex; }
+.md-header__button[for="__drawer"] { order: -1; }
+@media screen and (max-width: 76.2344em) { .md-header__button.md-logo { margin-right: auto; } }
+.md-typeset figure.ed-shot picture { display: block; }
+.md-typeset figure.ed-shot img { width: 100%; height: auto; }
+.md-typeset figure.ed-shot.ed-phone { max-width: 320px; margin-left: auto; margin-right: auto; }

@@ -8,7 +8,7 @@ description: Every launch mode on 1EDGE and what it means for you. EDGE, EDGEtek
 
 <p class="ed-lead">Every coin on 1EDGE answers two questions: <strong>which mode</strong> (how its fees work) and <strong>where it trades</strong> (our curve, or an open pool on Meteora / Uniswap). The mode mark sits bottom-right on its picture; the ring around the picture tells you where it trades.</p>
 
-<div class="ed-grid three" markdown>
+<div class="ed-grid three">
 <div class="ed-card"><img class="mark" src="../../assets/marks/mode-edge.svg" alt=""><span class="k">Mode</span><b>EDGE</b><span class="d">Fixed fees, nothing to set. Every trade deepens the coin's own pool. The default.</span></div>
 <div class="ed-card"><img class="mark" src="../../assets/marks/mode-tek.svg" alt=""><span class="k tek">Mode</span><b>EDGEtek</b><span class="d">The creator sets the fees: builder fee, LP compound, buyback &amp; burn or Stack. Locked at launch, forever.</span></div>
 <div class="ed-card"><img class="mark" src="../../assets/marks/mode-stock.svg" alt=""><span class="k gold">Mode · Robinhood Chain</span><b>EDGEstocks</b><span class="d">A coin tied to a real stock. Holders earn the stock, or the coin is priced in it.</span></div>

@@ -67,7 +67,7 @@ The creator can add rules on top of the standard ones. Anything they pick shows 
 | **Rising wallet cap** | The cap starts small and opens up over time. |
 | **Caps follow the curve** | The cap steps up at 25 / 50 / 75% of the curve. |
 | **Sniper-fee cap** | Solana open launches: in the first minutes, buys with a priority fee + Jito tip above the cap (0.001 to 0.01 SOL) are refused. Default 0.002 SOL for 5 minutes. |
-| **Reputation check** | In the first seconds, only passes older than a set age can buy, and optionally no wallet flagged as a serial sniper. |
+| **Reputation check** | For the first minutes (up to 5), only passes older than a set age can buy, and optionally no wallet flagged as a serial sniper. |
 | **Sell pace** | Limits how fast sells can land. |
 | **Dev lock** | The creator can't sell or send until graduation or 30 days. |
 | **Dev drip** | Solana: the creator can sell at most a set share of their bag per day. |

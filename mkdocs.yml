@@ -23,7 +23,6 @@ theme:
     - navigation.top
     - navigation.tracking
     - navigation.footer
-    - navigation.path
     - search.suggest
     - search.highlight
     - search.share

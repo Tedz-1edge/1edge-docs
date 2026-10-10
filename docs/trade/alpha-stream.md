@@ -10,7 +10,7 @@ description: The Alpha Stream. Coins people are talking about, coins that are mo
 
 ## Three lanes
 
-<div class="ed-legend" markdown>
+<div class="ed-legend">
 <div><span class="ic"><img src="../../assets/marks/heat-full-send.svg" alt=""></span><b>FULL SEND</b><span class="d">Talking + moving. People are posting about it <strong>and</strong> the price is moving.</span></div>
 <div><span class="ic"><img src="../../assets/marks/heat-all-talk.svg" alt=""></span><b>ALL TALK</b><span class="d">Loud, not moving. The posts are there; the market hasn't followed yet.</span></div>
 <div><span class="ic"><img src="../../assets/marks/heat-under-radar.svg" alt=""></span><b>UNDER THE RADAR</b><span class="d">Moving, nobody talking. The price is moving and nobody's posting about it.</span></div>

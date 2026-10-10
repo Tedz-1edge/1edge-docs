@@ -22,7 +22,7 @@ The 1EDGE Wallet is run by [Privy](https://privy.io). Keys are held in Privy's s
 
 ## Instant trades
 
-With the 1EDGE Wallet, trades on 1EDGE curves and on Meteora / Uniswap pools go through **without a popup** for every click. See [Buy & sell](../trade/buy-and-sell.md#instant-trades).
+Turn on instant trades and your buys and sells on 1EDGE go through **without a popup**, up to a limit you set. See [Buy & sell](../trade/buy-and-sell.md#instant-trades).
 
 ## Back up your wallet
 

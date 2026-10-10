@@ -8,7 +8,7 @@ description: 1EDGE runs on Solana, Robinhood Chain and Arc. One account, one pas
 
 <p class="ed-lead">One account, one pass, three chains. The same launchpad, the same terminal, the same profile on each.</p>
 
-<div class="ed-legend" markdown>
+<div class="ed-legend">
 <div><span class="ic"><img src="../../assets/marks/chain-sol.svg" alt=""></span><b>Solana</b><span class="d">Paid in SOL. Curves graduate to Meteora. Coins can also be priced in USDC.</span></div>
 <div><span class="ic"><img src="../../assets/marks/chain-rh.svg" alt=""></span><b>Robinhood Chain</b><span class="d">An Ethereum-style chain. Paid in ETH. Graduates to Uniswap v4. Home of EDGEstocks.</span></div>
 <div><span class="ic"><img src="../../assets/marks/chain-arc.svg" alt=""></span><b>Arc</b><span class="d">An Ethereum-style chain where the gas coin is USDC. Graduates to Uniswap v4.</span></div>
