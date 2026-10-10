@@ -12,6 +12,8 @@ description: Trading 1EDGE coins from Axiom, GMGN or any terminal with your 1EDG
 
 Open your wallet → **Use this wallet on Axiom · GMGN · Fomo**. You sign in again, tick that you understand, and the key opens in Privy's secure window. Import it into the terminal.
 
+<figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/wallet-export-390.webp"><img src="../../assets/shots/wallet-export-1440.webp" alt="Use this wallet on a terminal: the warning, then the key in Privy's window." loading="lazy"></picture><figcaption>Use this wallet on a terminal: the warning, then the key in Privy's window.</figcaption></figure>
+
 !!! danger "Only into terminals you trust"
     Anyone with this key controls your wallet and your pass. Never paste it on a site you don't trust. 1EDGE will never ask for it.
 

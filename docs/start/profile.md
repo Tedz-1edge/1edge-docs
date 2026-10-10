@@ -33,6 +33,8 @@ Tap your picture or the banner to change it. JPG, PNG, WebP or GIF, under 5 MB. 
 
 </div>
 
+<figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/settings-telegram-390.webp"><img src="../../assets/shots/settings-telegram-1440.webp" alt="Settings → Profile, with Link Telegram." loading="lazy"></picture><figcaption>Settings → Profile, with Link Telegram.</figcaption></figure>
+
 Edgar only learns that you're linked and your username. Unlink any time from the same place. More on Edgar in [Support](../help/support.md).
 
 ## Your public profile

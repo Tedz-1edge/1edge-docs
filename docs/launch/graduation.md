@@ -19,6 +19,8 @@ The bar on every coin's page is 20 blocks, 5% each. The one filling now blinks.
 | **Moving to Meteora…** / **Moving to Uniswap…** | The coin is graduating right now. |
 | **Trading on Meteora** / **Trading on Uniswap** | Graduated. Tap it to open the pool. The bar stays gold for a few minutes. |
 
+<figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/token-graduated-390.webp"><img src="../../assets/shots/token-graduated-1440.webp" alt="A coin minutes after graduation: Trading on Meteora, the bar in gold. Sample data." loading="lazy"></picture><figcaption>A coin minutes after graduation: Trading on Meteora, the bar in gold. Sample data.</figcaption></figure>
+
 On the board a graduated coin wears a **gold crown** and, for its first hour, a gold ring. See [What the marks mean](../trade/marks.md).
 
 ## Targets

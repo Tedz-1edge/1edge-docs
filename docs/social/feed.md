@@ -42,6 +42,8 @@ Call a coin to your followers or share your PnL straight into the feed. See [Cal
 
 ## Profiles
 
+<figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/profile-390.webp"><img src="../../assets/shots/profile-1440.webp" alt="A profile. Sample account." loading="lazy"></picture><figcaption>A profile. Sample account.</figcaption></figure>
+
 Your profile at `1edge.app/@you`: posts, calls, stats across every chain, your [Trophy cabinet](trophy-cabinet.md), and your marks. Set it up in [Your profile](../start/profile.md). What the marks next to names mean: [Marks on people](../trade/marks.md#marks-on-people).
 
 ## Safety

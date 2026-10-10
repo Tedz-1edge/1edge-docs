@@ -31,6 +31,8 @@ On the mint page the pass is called your **Proof of Life**. Same thing.
 
 </div>
 
+<figure class="ed-shot ed-phone"><img src="../../assets/shots/mint-onramp-off-390.webp" alt="The pay step on 1edge.app: one pass, three chains, one price in SOL, USDC or ETH. Sample data." loading="lazy" width="390"><figcaption>The pay step on 1edge.app: one pass, three chains, one price in SOL, USDC or ETH. Sample data.</figcaption></figure>
+
 !!! warning "Email alone isn't enough to mint"
     If you signed up with email only, link Google, X, Discord or a phone number to your 1EDGE Wallet first. The site tells you before the check starts.
 

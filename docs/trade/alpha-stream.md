@@ -8,6 +8,8 @@ description: The Alpha Stream. Coins people are talking about, coins that are mo
 
 <p class="ed-lead">What's moving and what people are talking about, side by side. Open it from the top bar on any page; on Social it sits in the right rail.</p>
 
+<figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/alpha-390.webp"><img src="../../assets/shots/alpha-1440.webp" alt="The Alpha Stream. Sample data." loading="lazy"></picture><figcaption>The Alpha Stream. Sample data.</figcaption></figure>
+
 ## Three lanes
 
 <div class="ed-legend">

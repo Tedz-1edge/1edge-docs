@@ -22,6 +22,8 @@ Start at **Already minted? → Bring your pass** on `1edge.app/in` or on the min
 
 </div>
 
+<figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/port-390.webp"><img src="../../assets/shots/port-1440.webp" alt="The port page: the warning comes first, then where your pass is going. Sample account." loading="lazy"></picture><figcaption>The port page: the warning comes first, then where your pass is going. Sample account.</figcaption></figure>
+
 Your old pass stays in the old wallet as a keepsake. It no longer unlocks trading.
 
 ## Read the warning before you sign

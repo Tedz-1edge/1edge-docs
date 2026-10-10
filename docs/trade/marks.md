@@ -8,10 +8,7 @@ description: Every mark on 1EDGE token cards and the token page, and what it mea
 
 <p class="ed-lead">Every coin's picture carries the same small set of marks. Learn them once and you can read the board at a glance: which chain, which mode, where it trades, and what's going on.</p>
 
-<figure class="ed-shot" markdown>
-![Token cards on the 1EDGE board](../assets/shots/home-cards-1440.png)
-<figcaption>The board. Chain mark top-left, mode mark bottom-right, the venue ring around the picture.</figcaption>
-</figure>
+<figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/home-cards-390.webp"><img src="../../assets/shots/home-cards-1440.webp" alt="The board. Chain mark top-left, mode mark bottom-right, the ring around the picture. Sample coins." loading="lazy"></picture><figcaption>The board. Chain mark top-left, mode mark bottom-right, the ring around the picture. Sample coins.</figcaption></figure>
 
 ## On the picture
 
@@ -69,10 +66,7 @@ The heat marks come from the [Alpha stream](alpha-stream.md). Cards in the top s
 
 ## On the coin's page
 
-<figure class="ed-shot ed-phone" markdown>
-![The token page header on a phone](../assets/shots/token-open-390.png)
-<figcaption>A Solana open launch priced in USDC: chain mark, USDC disc, Meteora ring, mode mark, the shield pill under the name, the bonding bar.</figcaption>
-</figure>
+<figure class="ed-shot ed-phone"><img src="../../assets/shots/token-open-390.webp" alt="A Solana open launch priced in USDC: chain mark, USDC disc, Meteora ring, mode mark, the shield pill under the name, the bonding bar. Sample data." loading="lazy" width="390"><figcaption>A Solana open launch priced in USDC: chain mark, USDC disc, Meteora ring, mode mark, the shield pill under the name, the bonding bar. Sample data.</figcaption></figure>
 
 | You see | What it means |
 |---|---|

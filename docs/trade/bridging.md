@@ -20,6 +20,8 @@ On a coin's page, if you don't hold that chain's coin, switch to **Pay with SOL*
 
 </div>
 
+<figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/bridge-xbuy-paying-390.webp"><img src="../../assets/shots/bridge-xbuy-paying-1440.webp" alt="Paying with SOL for a Robinhood Chain coin: what arrives and what moving costs. Sample quote." loading="lazy"></picture><figcaption>Paying with SOL for a Robinhood Chain coin: what arrives and what moving costs. Sample quote.</figcaption></figure>
+
 - **1EDGE fee: 0.25%** of the amount moved, on top of Relay's own cost. Then the normal trading fee.
 - **$2 minimum, $2,000 maximum** per move.
 - If the move doesn't go through, your coin is returned to your wallet.

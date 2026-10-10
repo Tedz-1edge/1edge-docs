@@ -20,6 +20,8 @@ The **Sign in to 1EDGE** sheet offers:
 
 The 1EDGE Wallet is run by [Privy](https://privy.io). Keys are held in Privy's secure window, never by 1EDGE.
 
+<figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/wallet-390.webp"><img src="../../assets/shots/wallet-1440.webp" alt="Your wallet: balances on every chain, receive, send, add funds, and the terminal export. Sample balances." loading="lazy"></picture><figcaption>Your wallet: balances on every chain, receive, send, add funds, and the terminal export. Sample balances.</figcaption></figure>
+
 ## Instant trades
 
 Turn on instant trades and your buys and sells on 1EDGE go through **without a popup**, up to a limit you set. See [Buy & sell](../trade/buy-and-sell.md#instant-trades).
@@ -35,6 +37,8 @@ Do this once, right after you're in. Find **Back up your wallet** on your "you'r
 3. You get two: **Solana key** and **Robinhood & Arc key**. Save both in a password manager.
 
 </div>
+
+<figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/wallet-backup-390.webp"><img src="../../assets/shots/wallet-backup-1440.webp" alt="Back up your wallet: two keys, opened in Privy's window." loading="lazy"></picture><figcaption>Back up your wallet: two keys, opened in Privy's window.</figcaption></figure>
 
 !!! danger "Your key is your wallet"
     Anyone with this key controls your wallet and your pass. Keep it in a password manager, never share it, never paste it into a site you don't trust. **1EDGE will never ask for it.** If it leaks, move your funds out right away.

@@ -8,6 +8,8 @@ description: Seasons on 1EDGE. Six ways to score, 150 points to qualify, the Bei
 
 <p class="ed-lead">A season is one calendar month. Every Friday at 20:00 UTC the week settles; the finale closes the month. Score across six things, reach 150 points, and you're in the running for a paid seat that week.</p>
 
+<figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/seasons-390.webp"><img src="../../assets/shots/seasons-1440.webp" alt="The Seasons page. Sample season, invented numbers." loading="lazy"></picture><figcaption>The Seasons page. Sample season, invented numbers.</figcaption></figure>
+
 ## How points work
 
 Six things, up to **1,000 points a week**:
@@ -49,6 +51,8 @@ Up to **500 paid seats a week**, in four bands, each band sharing a quarter of t
 | Next 8% | up to 40 |
 | Next 20% | up to 100 |
 | Next 40% | up to 350 |
+
+<figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/seasons-board-390.webp"><img src="../../assets/shots/seasons-board-1440.webp" alt="This week, live: bands and seats. Invented numbers." loading="lazy"></picture><figcaption>This week, live: bands and seats. Invented numbers.</figcaption></figure>
 
 About 7 in 10 people who qualify get paid. An empty seat rolls back.
 

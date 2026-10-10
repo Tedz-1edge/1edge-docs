@@ -10,6 +10,8 @@ description: Finding coins on 1EDGE. The Discover board, filters, search, watchl
 
 ## The board
 
+<figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/home-390.webp"><img src="../../assets/shots/home-1440.webp" alt="The home page: trending strip and the Discover board. Sample coins." loading="lazy"></picture><figcaption>The home page: trending strip and the Discover board. Sample coins.</figcaption></figure>
+
 - **Sorts:** Discover, Flow, Heat, New, Movers, Market cap, Last trade.
 - **Mode:** All, EDGE or TEK.
 - **Stages:** Launching · Pulse · On a dip · The climb (40–79% bonded) · Final stretch (80%+, closest to graduation) · Graduated.

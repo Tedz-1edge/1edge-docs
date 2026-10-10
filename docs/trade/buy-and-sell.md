@@ -8,6 +8,8 @@ description: Buying and selling on 1EDGE. Quick buy, slippage, priority fee, ins
 
 <p class="ed-lead">Every coin has its own page: chart, trades, holders, info, and the buy/sell panel. Same terminal on Solana, Robinhood Chain and Arc.</p>
 
+<figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/trade-ticket-390.webp"><img src="../../assets/shots/trade-ticket-1440.webp" alt="The buy panel. Sample coin." loading="lazy"></picture><figcaption>The buy panel. Sample coin.</figcaption></figure>
+
 ## Quick buy, quick sell
 
 Tap an amount and go.
@@ -25,6 +27,8 @@ Change them with **Edit quick buy amounts**. The first time you tap one, you cho
 The most the price can move against you before the trade fails instead of filling. **Default 1.5%.** Presets 0.5%, 1.5%, 3%, or custom up to 50%. Open it from the gear: **Trade Settings → Slippage tolerance**.
 
 Lower is safer; higher fills in fast markets. If you see *Price moved — raise slippage and retry*, that's this.
+
+<figure class="ed-shot"><img src="../../assets/shots/trade-ticket-slippage-1440.webp" alt="Trade Settings: priority fee and slippage." loading="lazy"><figcaption>Trade Settings: priority fee and slippage.</figcaption></figure>
 
 ## Priority fee (Solana)
 

@@ -20,6 +20,8 @@ On a coin's page, tap **CALL**: *Call this token to your followers*.
 
 </div>
 
+<figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/call-sheet-390.webp"><img src="../../assets/shots/call-sheet-1440.webp" alt="Calling a coin: the market cap is recorded now and judged later. Sample coin." loading="lazy"></picture><figcaption>Calling a coin: the market cap is recorded now and judged later. Sample coin.</figcaption></figure>
+
 - You need your [pass](../start/get-your-pass.md). You don't need to hold the coin.
 - One open call per coin.
 - You can post an update after a 25% move or 6 hours.
@@ -31,6 +33,8 @@ Your call's return is the market cap now against the market cap when you called.
 ## PnL card
 
 Tap **PnL** on a coin's page to share your position. Up or down, the card shows your %, entry → now market cap, what you put in, what you've taken out and what you still hold. **Closed** if you've sold out. Numbers come from your on-chain trades, priced in dollars at the time of each trade, and are frozen when you share.
+
+<figure class="ed-shot"><img src="../../assets/shots/share-pnl-card.webp" alt="A PnL card, drawn by 1EDGE from your trades. Sample position." loading="lazy"><figcaption>A PnL card, drawn by 1EDGE from your trades. Sample position.</figcaption></figure>
 
 Share it: **Post on EdgeSocial**, **Share to X**, **Share to Telegram**, or **Save the image**.
 

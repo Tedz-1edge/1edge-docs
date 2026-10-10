@@ -73,7 +73,11 @@ The creator can add rules on top of the standard ones. Anything they pick shows 
 | **Dev drip** | Solana: the creator can sell at most a set share of their bag per day. |
 | **Must hold a token** | Robinhood Chain and Arc: buyers must hold another token first. |
 
+<figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/launch-rules-390.webp"><img src="../../assets/shots/launch-rules-1440.webp" alt="The Rules step on the launch page: groups and presets." loading="lazy"></picture><figcaption>The Rules step on the launch page: groups and presets.</figcaption></figure>
+
 The launch page groups them as *Slow the snipers*, *Slow the dumps*, *Dev bag*, *Buyer limits* and *Fees & rebates*, with presets: *Standard only*, *Anti-snipe*, *Anti-dump*, *Max protection*. Which rules a launch can carry depends on its chain and venue; the launch page only offers the ones that apply. **Solana 1EDGE-curve launches don't take creator rules yet**; they get them with the first upgrade.
+
+<figure class="ed-shot ed-phone"><img src="../../assets/shots/token-open-rules-390.webp" alt="How this launch is protected: every rule on the coin, live. Sample launch." loading="lazy" width="390"><figcaption>How this launch is protected: every rule on the coin, live. Sample launch.</figcaption></figure>
 
 On a coin's page, tap the **shield pill** to see *How this launch is protected*. Coins with extra rules carry the **Protected** mark on the board.
 
