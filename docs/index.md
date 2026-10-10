@@ -1,49 +1,29 @@
 ---
-description: The human-first launchpad, trading terminal, and social layer, on Solana and Robinhood Chain.
+description: 1EDGE docs. Launch and trade coins with people, not bots, on Solana, Robinhood Chain and Arc.
+hide:
+  - navigation
+  - toc
 ---
 
-<div class="doc-hero">
-  <h1 class="doc-hero-title">What is</h1>
-  <img src="assets/banner.png" alt="1EDGE, the human-first launchpad on Solana and Robinhood Chain">
+<div class="ed-hero" markdown>
+<img class="ed-wordmark" src="assets/brand/1edge_wordmark.png" alt="1EDGE">
+<span class="ed-eyebrow">Docs</span>
+
+# Launch and trade coins with <em>people</em>, not bots.
+
+<p>One pass, earned with a quick human check, is your way in. Everything you can do on 1EDGE, what every mark means, and what it costs, in one place.</p>
+
+<div class="ed-cta">
+<a class="ed-btn" href="start/get-your-pass/">Get your pass →</a>
+<a class="ed-btn ghost" href="trade/marks/">What the marks mean</a>
+</div>
 </div>
 
-1EDGE is a **human-first token launchpad on Solana and on Robinhood Chain**, an Ethereum-compatible network. It is a single platform that fuses three things most launchpads keep separate:
-
-* **Automated token deployment**, launch a token in seconds with a bonding curve, built-in anti-bot protection, and an automated path to a real DEX.
-* **A professional trading terminal**, live charts, depth, raw order logs, holder distribution, and one-click execution.
-* **A native Social-Fi layer**, profiles backed by real, on-chain-verified performance stats, global chat, token communities, and `@user` / `$ticker` tagging.
-
-The thread that ties it together is **1EDGE Proof of Humanity**. Every participant passes a set of checks and binds the pass permanently to a single wallet, so a swarm of scripted wallets has to be paid for one wallet at a time.
-
-> ℹ️ **New here?** Start with [The Broken State of Solana Launches](introduction/the-problem.md) to understand the problem 1EDGE is built to solve, then see [The Ecosystem Flywheel](introduction/core-flywheel.md) for how the pieces reinforce each other.
-
-## The three pillars
-
-### 1. Launch
-
-Deploy a token through one of two frameworks, **Edge Mode** for a simple, fixed-fee launch, or **EdgeTek Mode** for fully configurable fee, burn, and liquidity mechanics. Both ride a bonding curve to a fixed graduation target and migrate automatically into a real DEX pool: Meteora on Solana, Uniswap v4 on Robinhood Chain. See [Protocol Mechanics](protocol/edge-mode.md).
-
-### 2. Trade
-
-Every token lives inside a full trading terminal: real-time charts, volume depth, live trade logs, top-holder analysis, slippage controls, and position tracking, with developer-transparency tags (like creator dev-buys) surfaced automatically. See [Advanced Terminal Trading](terminal/interface.md).
-
-### 3. Build your edge
-
-Refer other people who mint a pass and earn a share of their trading fees, climb a five-rung tier system for rising fee rebates, and build a reputation backed by on-chain-verified stats through Edge Social. See [Account Tiers & Referrals](rewards/tier-matrix.md).
-
-## Two chains, one account
-
-1EDGE runs on **Solana** and on **Robinhood Chain**, an Ethereum-compatible network. The same launchpad, the same terminal, the same social layer, on both.
-
-One account holds a wallet on each chain. You sign in with a Solana wallet, or with an Ethereum-style wallet on Robinhood Chain, and you link the second one from Settings. It stays one profile: one handle, one cabinet, one track record, whichever side you're trading. See [Profiles & Handles](social/profiles-and-identity.md).
-
-What's the same on both: the two launch modes, the fee rates, the guardrails, proof of humanity, Edge Social, tiers and referrals. What differs is the currency a curve fills in and the DEX a launch graduates to, and every page that matters names which is which.
-
-> ℹ️ **Both chains are on their test networks today.** The Solana side runs on devnet; the Robinhood side runs on Robinhood Chain's testnet. Nothing on either is real money yet. See the [Smart Contract Directory](support/contracts.md).
-
-## Why "human-first" matters
-
-On most launchpads, the first seconds of a launch are dominated by bots, bundled wallets, same-block snipers, and MEV extractors that take the early supply and sell it back to the humans who arrive moments later. 1EDGE attacks this at the **protocol level**: a pass that has to be paid for one wallet at a time, same-block bundle blocking, optional buy caps and cooldowns, and automated anti-vamp detection. The result is launches that give real participants a fair start.
-
-> ✅ **One wallet. One pass. Soulbound on-chain.** That's the foundation everything else is built on.
-
+<div class="ed-grid three" markdown>
+<a class="ed-card" href="start/get-your-pass/"><span class="k">Start</span><b>Get in</b><span class="d">The pass, your 1EDGE Wallet, backing it up, chains, your @username.</span></a>
+<a class="ed-card" href="launch/modes/"><img class="mark" src="assets/marks/mode-edge.svg" alt=""><span class="k">Launch</span><b>Every mode</b><span class="d">EDGE, Tek, EDGEstocks, open launches. What each one means for you.</span></a>
+<a class="ed-card" href="trade/buy-and-sell/"><span class="k">Trade</span><b>Buy, sell, bridge</b><span class="d">Instant trades, slippage, fees per chain, paying with SOL on Robinhood Chain.</span></a>
+<a class="ed-card" href="trade/alpha-stream/"><span class="k">Trade</span><b>Alpha Stream</b><span class="d">What's moving, as it moves.</span></a>
+<a class="ed-card" href="rewards/tiers/"><span class="k gold">Rewards</span><b>Rebates, referrals, Seasons</b><span class="d">Fees back on every trade, 25% of what your people pay, and the monthly Season.</span></a>
+<a class="ed-card" href="help/safety/"><span class="k">Help</span><b>Stay safe</b><span class="d">Scams, keys, the port warning, getting support.</span></a>
+</div>

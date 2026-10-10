@@ -4,3 +4,354 @@
 
 [build.environment]
   PYTHON_VERSION = "3.12"
+
+# Docs v2 (DOCS1010): every page of the old docs moves to its new home. The support assistant (backend SUPPORT_TOPICS)
+# and search engines still link to the old paths, so each one answers 301, with and without the trailing slash.
+[[redirects]]
+  from = "/introduction/getting-started"
+  to = "/start/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/introduction/getting-started/"
+  to = "/start/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/introduction/the-problem"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/introduction/the-problem/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/introduction/proof-of-humanity"
+  to = "/start/get-your-pass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/introduction/proof-of-humanity/"
+  to = "/start/get-your-pass/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/introduction/core-flywheel"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/introduction/core-flywheel/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/protocol/edge-mode"
+  to = "/launch/modes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/protocol/edge-mode/"
+  to = "/launch/modes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/protocol/edgetek-mode"
+  to = "/launch/modes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/protocol/edgetek-mode/"
+  to = "/launch/modes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/protocol/meteora-graduation"
+  to = "/launch/graduation/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/protocol/meteora-graduation/"
+  to = "/launch/graduation/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/protocol/robinhood-graduation"
+  to = "/launch/graduation/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/protocol/robinhood-graduation/"
+  to = "/launch/graduation/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/protection/buy-caps-and-cooldowns"
+  to = "/launch/open-launches/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/protection/buy-caps-and-cooldowns/"
+  to = "/launch/open-launches/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/protection/security-toolkits"
+  to = "/launch/launching/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/protection/security-toolkits/"
+  to = "/launch/launching/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/social/profiles-and-identity"
+  to = "/start/profile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/social/profiles-and-identity/"
+  to = "/start/profile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/social/verified-metrics"
+  to = "/trade/calls-and-pnl/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/social/verified-metrics/"
+  to = "/trade/calls-and-pnl/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/social/edge-social-engine"
+  to = "/social/feed/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/social/edge-social-engine/"
+  to = "/social/feed/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/social/safety-and-moderation"
+  to = "/social/moderation/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/social/safety-and-moderation/"
+  to = "/social/moderation/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/rewards/referral-engine"
+  to = "/rewards/referrals/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/rewards/referral-engine/"
+  to = "/rewards/referrals/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/rewards/tier-matrix"
+  to = "/rewards/tiers/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/rewards/tier-matrix/"
+  to = "/rewards/tiers/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/terminal/interface"
+  to = "/trade/buy-and-sell/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/terminal/interface/"
+  to = "/trade/buy-and-sell/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/terminal/execution-engine"
+  to = "/trade/buy-and-sell/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/terminal/execution-engine/"
+  to = "/trade/buy-and-sell/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/terminal/transparency-tags"
+  to = "/trade/marks/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/terminal/transparency-tags/"
+  to = "/trade/marks/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/terminal/fees"
+  to = "/trade/fees/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/terminal/fees/"
+  to = "/trade/fees/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/creators/launch-blueprint"
+  to = "/launch/launching/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/creators/launch-blueprint/"
+  to = "/launch/launching/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/creators/best-practices"
+  to = "/launch/launching/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/creators/best-practices/"
+  to = "/launch/launching/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/support/getting-help"
+  to = "/help/support/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/support/getting-help/"
+  to = "/help/support/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/support/security"
+  to = "/help/safety/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/support/security/"
+  to = "/help/safety/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/support/what-we-track"
+  to = "/help/what-we-track/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/support/what-we-track/"
+  to = "/help/what-we-track/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/support/contracts"
+  to = "/help/contracts/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/support/contracts/"
+  to = "/help/contracts/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/support/troubleshooting"
+  to = "/help/troubleshooting/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/support/troubleshooting/"
+  to = "/help/troubleshooting/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/support/resources"
+  to = "/help/links/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/support/resources/"
+  to = "/help/links/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/support/legal"
+  to = "/help/links/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/support/legal/"
+  to = "/help/links/"
+  status = 301
+  force = true
+
