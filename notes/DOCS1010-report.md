@@ -162,3 +162,5 @@ Sources every claim was checked against (fact sheets with file:line cites in `~/
   - Captions say "sample data".
   - Shooter scripts and an INDEX are on the VPS: `~/work/scratch-DOCS1010/shoot/`, `shots/INDEX.md`.
 - Built site: 7.3 MB, of which shots 1.5 MB. `navigation.instant` + prefetch, lazy images.
+
+WP DONE: agent/docs-v2-1010 7e0aa98 (the tip adds only this line)
