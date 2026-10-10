@@ -1,6 +1,6 @@
 # DOCS1010 — docs v2 (redesign + everything at the open)
 
-NEXT: real-site screenshots into the pages, then the 390/1440 screens of every docs page → screens/docs-v2-1010/, final proof.
+NEXT: founder review: read §1 (6 decisions) and look at screens/docs-v2-1010/. To publish: merge agent/docs-v2-1010 into main (Netlify builds main), then run the 301 check in §2. This lane is done.
 
 Branch `agent/docs-v2-1010` (from origin/main 953578b). **Not merged, not deployed** (Netlify publishes main). No box touched, no env changed, no transaction sent.
 
@@ -151,4 +151,14 @@ Sources every claim was checked against (fact sheets with file:line cites in `~/
 - The dashboard Seasons line still lists "holding" (1edge-dashboard-s4.js:3570).
 
 ## 6. Proof
-(filled at the end)
+- `mkdocs build --strict` (mkdocs 1.6.1, mkdocs-material, the netlify command's requirements.txt): **0 warnings**, 37 pages (36 + 404). Strict validation is on in mkdocs.yml (`validation:` links/anchors warn → strict fails).
+- Link check over the built HTML, every local `href`/`src` incl. raw-HTML cards, legends, figures and `#anchors` (`scratch-DOCS1010/tools/linkcheck.py`): **37 pages, 0 broken**.
+- Search: `site/search/search_index.json` has 268 entries. In the browser, typing "launch shield" gives: Open launches & rules, Fees, Launch a coin, Troubleshooting, Every mode (`screens/docs-v2-1010/_search-launch-shield-1440.png`).
+- `netlify.toml` parses (tomllib): build command unchanged, **58 redirects** (29 old pages × with/without slash), all 301 + force.
+- **Screens:** every docs page at 390×844 and 1440×900, full page, PNG (`screens/docs-v2-1010/<path>-{390,1440}.png`, 72 files). The shooter is `scratch-DOCS1010/shoot/docshot.mjs`; it serves `site/` locally and recorded no page errors and no 4xx.
+- **Real-site images in the docs:** 41 WebP files (1.5 MB) from 96 screenshots of `release/fe-mainnet-1010`, served locally by the repo's own Playwright worlds on invented data.
+  - Boost UI is hidden and asserted absent in every shot.
+  - Shots that showed off-at-open features (Solana xStocks mode card, TSLAx token page) were not used.
+  - Captions say "sample data".
+  - Shooter scripts and an INDEX are on the VPS: `~/work/scratch-DOCS1010/shoot/`, `shots/INDEX.md`.
+- Built site: 7.3 MB, of which shots 1.5 MB. `navigation.instant` + prefetch, lazy images.
