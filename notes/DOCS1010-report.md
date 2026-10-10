@@ -1,6 +1,6 @@
 # DOCS1010 — docs v2 (redesign + everything at the open)
 
-NEXT: content rewrite, waiting on code fact sheets (getting in, modes + marks, trading, rewards, social/support) and real-site screenshots.
+NEXT: design review of every page at 390/1440, real-site screenshots into pages, drafts for OFF features, full report + UNVERIFIED list.
 
 Branch `agent/docs-v2-1010` (from origin/main 953578b). Not merged, not deployed: Netlify publishes main.
 
