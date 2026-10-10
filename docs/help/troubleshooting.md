@@ -30,6 +30,8 @@ description: The messages you might see on 1EDGE, what they mean, and what to do
 | *Someone bought in this block. One buy per block before graduation — tap BUY again.* | Same, on Robinhood Chain / Arc. |
 | *Buys open a few seconds after launch — try again* | The opening grace. Wait a moment. |
 | *You need a 1EDGE pass to buy this token on the curve.* | [Get your pass](../start/get-your-pass.md). Selling is always open. |
+| **Error 9100** or *custom program error 9100* (Axiom, GMGN, Photon, other terminals) | It means the same: **you need a 1EDGE pass** to buy this token on the curve. [Get your pass](../start/get-your-pass.md), then use that wallet in your terminal. Selling is always open. |
+| *Transfers are locked until graduation* (terminals may show an error number) | Open launches lock wallet-to-wallet sends until graduation. Sell into the pool instead. |
 | *Your 1EDGE pass is too new to buy this token yet…* | The creator set a reputation check. It ends within 5 minutes of launch. |
 | *That buy is over the wallet cap right now. Buy less.* | The coin's wallet cap. |
 | *⏱ Cooldown — wait Ns before your next buy* | The creator set a trade cooldown. |
