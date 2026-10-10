@@ -70,6 +70,14 @@ One price on every chain: the **$2** pass fee plus the Solana rent your pass nee
 
 See [Bridging](bridging.md).
 
+## Swaps in your wallet
+
+| | 1EDGE fee | Also |
+|---|---|---|
+| **Swap** in your 1EDGE Wallet (Solana) | **0.25%** | Jupiter's route; the network fee |
+
+The swap sheet shows the 1EDGE fee before you confirm: the same 0.25%, taken in SOL, USDC or USDT. Pairs where we can't take it show no fee line and pay none.
+
 ## No fee
 
 - Sending coins and tokens from your 1EDGE Wallet (you pay the network fee).
