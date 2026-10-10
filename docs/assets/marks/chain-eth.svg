@@ -1,0 +1,12 @@
+<!-- Ether. This chip names a CURRENCY, so the price on Robinhood Chain gets the
+     Ethereum diamond, not the Robinhood feather — the feather identifies the
+     CHAIN and lives on the toggle and the cards. Four faces, the classic
+     rendering, kept legible down to 11px. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <path fill="#C9CDF6" d="M12 1.5 5.6 12.1 12 9.2z"/>
+  <path fill="#8A92B2" d="M12 1.5 18.4 12.1 12 9.2z"/>
+  <path fill="#C9CDF6" d="M12 16.1 5.6 12.1 12 9.2z"/>
+  <path fill="#62688F" d="M12 16.1 18.4 12.1 12 9.2z"/>
+  <path fill="#C9CDF6" d="M12 17.4 5.6 13.4 12 22.5z"/>
+  <path fill="#8A92B2" d="M12 17.4 18.4 13.4 12 22.5z"/>
+</svg>

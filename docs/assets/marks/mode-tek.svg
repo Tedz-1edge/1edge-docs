@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1EDGE mode mark: TEK. A solid die with three pins a side and the core cut clean
+     out (6.8 of 14), so the surface behind shows through and there is one colour to
+     manage. Purple is Solana's, lifted until it holds at 12px on a black card;
+     orange stays HEAT everywhere else. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <rect x="7.60" y="2.00" width="1.80" height="3.00" fill="#2E86FF"/>
+  <rect x="7.60" y="19.00" width="1.80" height="3.00" fill="#2E86FF"/>
+  <rect x="2.00" y="7.60" width="3.00" height="1.80" fill="#2E86FF"/>
+  <rect x="19.00" y="7.60" width="3.00" height="1.80" fill="#2E86FF"/>
+  <rect x="11.10" y="2.00" width="1.80" height="3.00" fill="#2E86FF"/>
+  <rect x="11.10" y="19.00" width="1.80" height="3.00" fill="#2E86FF"/>
+  <rect x="2.00" y="11.10" width="3.00" height="1.80" fill="#2E86FF"/>
+  <rect x="19.00" y="11.10" width="3.00" height="1.80" fill="#2E86FF"/>
+  <rect x="14.60" y="2.00" width="1.80" height="3.00" fill="#2E86FF"/>
+  <rect x="14.60" y="19.00" width="1.80" height="3.00" fill="#2E86FF"/>
+  <rect x="2.00" y="14.60" width="3.00" height="1.80" fill="#2E86FF"/>
+  <rect x="19.00" y="14.60" width="3.00" height="1.80" fill="#2E86FF"/>
+  <mask id="tekDie">
+    <rect x="5" y="5" width="14" height="14" rx="2.2" fill="#fff"/>
+    <rect x="8.60" y="8.60" width="6.8" height="6.8" rx="1.2" fill="#000"/>
+  </mask>
+  <rect x="5" y="5" width="14" height="14" rx="2.2" fill="#2E86FF" mask="url(#tekDie)"/>
+</svg>

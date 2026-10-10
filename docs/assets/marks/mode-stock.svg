@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1EDGE mode mark: STOCKS. A solid tile with a line that climbs and breaks out through the
+     corner. Pink (#FF5CAA) because every other accent on the site already means something:
+     green = Edge, blue = Tek, orange = heat, gold = graduated, purple = Solana, lime = Robinhood. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <rect x="2" y="2" width="20" height="20" rx="5" fill="#FF5CAA"/>
+  <path d="M5.5 16.5 10 11.5l3 3 5.5-7" stroke="#0b0b0b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14.6 7.2h4.2v4.2" stroke="#0b0b0b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
