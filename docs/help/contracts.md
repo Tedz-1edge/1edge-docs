@@ -25,7 +25,7 @@ Graduated coins trade on Meteora DAMM v2 (`cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6m
 |---|---|
 | Team supplies wallet (marketing, KOLs, exchanges) | `BMHppDqrzVmw4XdNdoqcASxZfVbTT8NZUpDdXeFa2fEX` |
 
-The team buys $1EDGE on the open market into this wallet to pay KOL partners, supply exchange listings and onboard new users. **This wallet never sells.** Tokens leave it only as transfers for those purposes, and every buy and transfer is public on [Solscan](https://solscan.io/account/BMHppDqrzVmw4XdNdoqcASxZfVbTT8NZUpDdXeFa2fEX). Listed here since 18 Oct 2026.
+The team buys $1EDGE on the open market into this wallet to pay KOL partners, supply exchange listings and onboard new users. **This wallet never sells.** Tokens leave it only as transfers for those purposes, and every buy and transfer is public on [Solscan](https://solscan.io/account/BMHppDqrzVmw4XdNdoqcASxZfVbTT8NZUpDdXeFa2fEX).
 
 | Date | Out | For |
 |---|---|---|
