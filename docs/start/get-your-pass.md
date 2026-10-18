@@ -48,6 +48,9 @@ Free passes are once per account, per chain. More on [Chains](chains.md).
 
 ## The price
 
+!!! tip "Free mint until 2 Nov 2026"
+    Until 2 Nov 2026 the 1EDGE mint fee is free; you only pay the Solana rent. The **(i)** split shows *1EDGE mint fee: free*. From 2 Nov the $2 fee is back.
+
 One price, whichever coin you pay with: the 1EDGE pass fee (**$2**) plus the Solana rent your pass's accounts need. That came to **about $4.30** when we wrote this. It's priced in dollars and turned into your coin when you sign, from the median of three exchanges. ETH and USDC payers add a little gas.
 
 Tap the **(i)** next to the price to see the split: *1EDGE mint fee* and *Solana rent (your pass's accounts, referral record, network fee)*.
