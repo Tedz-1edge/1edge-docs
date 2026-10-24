@@ -31,6 +31,28 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
+plugins:
+  - search
+  - blog:
+      blog_dir: blog
+      blog_toc: true
+      post_date_format: d MMM yyyy
+      post_url_format: "{slug}"
+      post_readtime: true
+      archive: false
+      categories: false
+      pagination_per_page: 10
+  - rss:
+      match_path: "blog/posts/.*"
+      use_git: false
+      date_from_meta:
+        as_creation: date.created
+        default_timezone: UTC
+      feed_title: 1EDGE Blog
+      feed_description: Posts from the 1EDGE team.
+      abstract_chars_count: 300
+      pretty_print: true
+
 extra_css:
   - stylesheets/extra.css
 
@@ -100,6 +122,8 @@ nav:
       - Contracts: help/contracts.md
       - Official links: help/links.md
       - What we track: help/what-we-track.md
+  - Blog:
+      - blog/index.md
 
 validation:
   omitted_files: warn
