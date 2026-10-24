@@ -14,7 +14,7 @@ Two places a coin can trade before graduation: the **1EDGE curve** on 1edge.app,
 
 <p class="ed-prot"><img class="ed-prot-ico" src="../../assets/protections/pass.svg" alt="Pass holders icon: a fingerprint in a pass frame" width="40" height="40">Only pass holders buy the curve.</p>
 
-**What it does.** Until graduation, only a wallet holding a 1EDGE pass can buy. On open launches you get one buying wallet per pass. Selling never needs a pass.
+**What it does.** Until graduation, only a wallet holding a 1EDGE pass can buy. On open launches you get one buying wallet per pass.
 
 **What it stops.** Bots and wallet farms buying the curve. On open launches the check lives in the pool: a transfer hook on Solana, a v4 hook on Robinhood Chain and Arc. It holds whether the buy comes from 1edge.app, a terminal or a bot.
 
