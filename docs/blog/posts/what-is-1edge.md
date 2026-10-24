@@ -55,7 +55,7 @@ These are enforced on chain, not by the website:
 
 Creators can switch on more [launch rules](../../launch/open-launches.md#launch-rules): a dev lock, a max per sell, a sell pace and others. They're optional, and each coin's page shows which ones it runs.
 
-None of this makes a coin a good trade. It changes who gets to the curve first and on what terms.
+None of this makes a coin a good trade. It changes who gets to the curve first.
 
 ## How Seasons rewards work
 
@@ -80,7 +80,7 @@ On top of the seats there's the [Trophy Cabinet](../../social/trophy-cabinet.md)
 
 ## What $1EDGE does
 
-$1EDGE is 1EDGE's own token, on Solana. In the product today it pays the Seasons seats, and it's what you burn to boost a coin. The full list, with how each use works, is on its own page: **[$1EDGE: what it does](../../token/index.md)**.
+$1EDGE is 1EDGE's own token, on Solana. In the product today it pays the Seasons seats, it's what you burn to boost a coin, and creators can send a slice of their own fee to buying and burning it (Back $1EDGE). The full list: **[$1EDGE: what it does](../../token/index.md)**.
 
 The token's mint has no mint authority and no freeze authority: nobody can mint more or freeze a wallet. Its liquidity position is permanently locked, and team tokens vest in public on Streamflow. Every address is on the [Contracts](../../help/contracts.md) page.
 
