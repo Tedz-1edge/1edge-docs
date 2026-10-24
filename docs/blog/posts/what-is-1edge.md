@@ -53,6 +53,8 @@ These are enforced on chain, not by the website:
 - **The launch shield.** On open launches the fee starts at 75% and falls to the coin's normal fee over 15 seconds. Being first costs more; you don't have to race anyone.
 - **No wallet splits.** On open launches, coins can't be sent wallet to wallet until graduation, so one bag can't be spread across a farm of wallets to fake a holder count.
 
+Every protection, with its icon: [Protections](../../launch/protections.md).
+
 Creators can switch on more [launch rules](../../launch/open-launches.md#launch-rules): a dev lock, a max per sell, a sell pace and others. They're optional, and each coin's page shows which ones it runs.
 
 None of this makes a coin a good trade. It changes who gets to the curve first.

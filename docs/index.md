@@ -15,6 +15,7 @@ hide:
 <div class="ed-cta">
 <a class="ed-btn" href="start/get-your-pass/">Get your pass →</a>
 <a class="ed-btn ghost" href="trade/marks/">What the marks mean</a>
+<a class="ed-btn ghost" href="launch/protections/">Protections</a>
 </div>
 </div>
 

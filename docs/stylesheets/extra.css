@@ -298,3 +298,9 @@ a.ed-card:hover { border-color: var(--e-green-a35); transform: translateY(-1px);
 .md-typeset figure.ed-shot picture { display: block; }
 .md-typeset figure.ed-shot img { width: 100%; height: auto; }
 .md-typeset figure.ed-shot.ed-phone { max-width: 320px; margin-left: auto; margin-right: auto; }
+
+/* protection icons (docs/launch/protections.md): the site's rule icons, exported by tools/export-protection-icons.mjs */
+.md-typeset .ed-prot { display: flex; align-items: center; gap: .8rem; margin: .4em 0 1em; color: var(--e-text); font-weight: 600; }
+.md-typeset .ed-prot .ed-prot-ico { flex: none; width: 40px; height: 40px; padding: 8px; box-sizing: content-box; border: 1px solid var(--e-line-2); border-radius: 12px; background: var(--e-card); image-rendering: pixelated; }
+.md-typeset .ed-prot span { font-weight: 400; color: #c8d0cb; }
+.md-typeset .ed-prot span b { color: var(--e-text); }

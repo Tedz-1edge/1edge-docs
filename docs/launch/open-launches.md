@@ -12,7 +12,7 @@ You tell an open launch apart by the **ring** around its picture: the Meteora ri
 
 ## What the pool checks, every trade
 
-The check lives in the pool: a transfer hook on the Solana token, a v4 hook on the EVM pool. It runs wherever the trade comes from: 1edge.app, a terminal, a bot.
+The check lives in the pool: a transfer hook on the Solana token, a v4 hook on the EVM pool. It runs wherever the trade comes from: 1edge.app, a terminal, a bot. Each protection with the icon you see on the site: [Protections](protections.md).
 
 ### Buys, before graduation
 

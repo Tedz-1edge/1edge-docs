@@ -93,6 +93,7 @@ nav:
       - Your profile: start/profile.md
   - Launch:
       - Every mode: launch/modes.md
+      - Protections: launch/protections.md
       - Launch a coin: launch/launching.md
       - Open launches & rules: launch/open-launches.md
       - EDGEstocks: launch/stocks.md

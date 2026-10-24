@@ -72,7 +72,7 @@ Every launch also picks a venue. The default is a 1EDGE launch.
 
 <figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/launch-where-390.webp"><img src="../../assets/shots/launch-where-1440.webp" alt="The launch page's Where step: 1EDGE launch or open launch." loading="lazy"></picture><figcaption>The launch page's Where step: 1EDGE launch or open launch.</figcaption></figure>
 
-How the gate works, the launch shield and the extra rules: [Open launches](open-launches.md).
+How the gate works, the launch shield and the extra rules: [Open launches](open-launches.md). Every protection, with its icon: [Protections](protections.md).
 
 ## Graduation
 
