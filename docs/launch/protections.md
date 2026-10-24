@@ -230,7 +230,7 @@ These are off unless the creator switches them on at launch. Anything they pick 
 
 **What it does.** The creator sets the extra fee, 0.01% to 1%.
 
-**Where it applies.** Open launches on Robinhood Chain and Arc, and only for a coin priced in a stock.
+**Where it applies.** Open launches on Robinhood Chain, for a coin priced in a stock (Arc has no tokenised stocks).
 
 Every rule a creator can add, with its range: [Launch rules](open-launches.md#launch-rules).
 
