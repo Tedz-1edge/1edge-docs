@@ -56,7 +56,7 @@ Up to **500 paid seats a week**, in four bands, each band sharing a quarter of t
 
 About 7 in 10 people who qualify get paid. An empty seat rolls back.
 
-**Seats are worth a dollar amount, paid in $1EDGE** at the average price over the 7 days before each Friday lock. The weekly pot is set from $1EDGE's market cap. The finale pays double. Nothing here is a promise about any price.
+**Seats are worth a dollar amount, paid in [$1EDGE](../token/index.md)** at the average price over the 7 days before each Friday lock. The weekly pot is set from $1EDGE's market cap. The finale pays double. Nothing here is a promise about any price.
 
 **Claim within 28 days.** The tokens go straight to your wallet, no gas. Unclaimed seats roll back.
 

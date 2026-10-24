@@ -108,6 +108,8 @@ nav:
       - Referrals: rewards/referrals.md
       - Seasons: rewards/seasons.md
       - Earn on stocks: rewards/earn.md
+  - $1EDGE:
+      - token/index.md
   - Social:
       - EdgeSocial: social/feed.md
       - Trophy cabinet: social/trophy-cabinet.md
