@@ -78,6 +78,9 @@ extra:
     - icon: fontawesome/brands/telegram
       link: https://t.me/Join_1EDGE
       name: 1EDGE on Telegram
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@1Edge_HQ
+      name: 1EDGE on YouTube
 
 nav:
   - Home: index.md

@@ -4,13 +4,13 @@ date:
 authors:
   - 1edge
 slug: what-is-1edge-launchpad
-title: "What is 1EDGE? The launchpad where pass holders fill the curve"
+title: "What is 1EDGE? Launchpad, trading terminal and social platform in one"
 description: "What 1EDGE is: a launchpad, trading terminal and social platform in one. How launching works, how Seasons pay in $1EDGE, what the $1EDGE token does, and how it differs from pump.fun-style launchpads."
 ---
 
-# What is 1EDGE? The launchpad where pass holders fill the curve
+# What is 1EDGE? Launchpad, trading terminal and social platform in one
 
-1EDGE is a launchpad, a trading terminal and a social platform in one place, on Solana, Robinhood Chain and Arc. You launch a coin, trade it, call it and talk about it on the same account. The part that sets it apart sits under all of that: before a coin graduates, only people holding a 1EDGE pass can buy it.
+1EDGE is a launchpad, a trading terminal and a social platform in one place, on Solana, Robinhood Chain and Arc. You launch a coin, trade it, call it and talk about it on the same account. What sets it apart is how a launch fills: before a coin graduates, its curve is bought by verified people, one pass each, not by a farm of wallets.
 
 This post covers what 1EDGE is, how a launch works, how Seasons rewards work, what the $1EDGE token does, and how 1EDGE differs from the pump.fun-style launchpads most traders know.
 

@@ -84,7 +84,7 @@ So nobody has to guess:
 | Liquidity | Permanently locked position `FJL276tuNvVmUD5o1Dy7AvJohH2oobpkrmDYNY9mJK1w` |
 | Pool | Meteora DAMM v2 `8sAcR5tMPmuFK8KcGGBxHZ517Yqg1M2xj2JCA7BzpCuT` |
 | Team vesting | 401.55M $1EDGE, 78 weekly unlocks to the treasury multisig, 14 Oct 2026 to 12 Apr 2028, on Streamflow. Can't be cancelled |
-| Team lock | 3.62M $1EDGE, unlocks in full 11 Apr 2028, on Streamflow. Can't be cancelled |
+| Team locks | 3.62M $1EDGE, unlocks in full 11 Apr 2028, and 5.31M $1EDGE, unlocks in full 30 Apr 2028, both on Streamflow. Can't be cancelled |
 
 $1EDGE launched on 1EDGE itself, as an open launch on a Meteora curve with the pass gate, and graduated to Meteora DAMM v2. Every address, lock and team wallet: [Contracts](../help/contracts.md).
 

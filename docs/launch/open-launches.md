@@ -20,7 +20,7 @@ The check lives in the pool: a transfer hook on the Solana token, a v4 hook on t
 |---|---|
 | **Pass** | You need a 1EDGE pass to buy. No pass, the buy fails. |
 | **One wallet per person** | Your pass counts for one buying wallet, so one person can't split a buy across a farm of wallets. |
-| **Opening grace** | Nobody buys in the very first moments: 10 slots on Solana, 2 blocks plus 4 seconds on Robinhood Chain and Arc. Only the creator's own launch buy lands in the launch transaction. |
+| **Opening grace** | Nobody buys in the very first moments: 18 slots on Solana, 2 blocks plus 4 seconds on Robinhood Chain and Arc. Only the creator's own launch buy lands in the launch transaction. |
 | **One buy per slot / block** | A bundle can't land two buys in the same block. |
 | **Wallet cap** | No wallet can hold more than the creator's cap (1% to 3.5% of supply) while the curve fills. On EVM it's counted per person. |
 | **Launch shield** | A high early fee that falls to normal over 15 seconds. Below. |

@@ -135,8 +135,9 @@ Coins on the 1EDGE curve graduate into their own DAMM v2 pool, so they use no sh
 | Team vesting: 401.55M $1EDGE, 78 weekly unlocks to the treasury, 14 Oct 2026 to 12 Apr 2028 (Streamflow) | `E9ScGRPxp3rb9HyQSGweQRw2GG5gJHC9CxmscR4fzUmU` |
 | Team vesting escrow (holds the locked tokens) | `1tTgp6BgwUTvQfNEG8ykCUZqXQeidE5f1vuvZuM7Sws` |
 | Team lock: 3.62M $1EDGE, unlocks in full 11 Apr 2028 (Streamflow) | `HExxoZKqvEmrmVdwsfBx4LctJLhwBFVmB46eYztuPfrr` |
+| Team lock: 5.31M $1EDGE, unlocks in full 30 Apr 2028 (Streamflow) | `urBGdMCE6Ssn3v5Ne4ArzERVSUXVV3KfYzcBggUhTyy` |
 
-Neither lock can be cancelled.
+None of these locks can be cancelled.
 
 ### Marketing & onboarding wallet
 

@@ -41,7 +41,7 @@ Open launches charge the same fee before and after graduation.
 
 ### The launch shield
 
-Open launches only. For the first 15 seconds every buy and sell pays a higher fee: **75%**, falling every second to the coin's normal fee. The trade ticket shows the live number. The extra goes to 1EDGE. Half of 1EDGE's share of shield fees goes into a pot for the people who bought after the shield and still hold. See [Open launches](../launch/open-launches.md#launch-shield).
+Open launches only. For the first 15 seconds every buy and sell pays a higher fee: **75%**, falling every second to the coin's normal fee. The trade ticket shows the live number. The extra goes to 1EDGE. On Solana, half of 1EDGE's share of shield fees goes into a pot for the people who bought after the shield and still hold. It pays out at graduation or 24 hours after the shield, whichever comes first. Coins paired with a stock have no pot, and the pot isn't on Robinhood Chain or Arc yet. See [Open launches](../launch/open-launches.md#launch-shield).
 
 ## Your rebate
 
