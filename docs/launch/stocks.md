@@ -1,14 +1,28 @@
 ---
-description: EDGEstocks on Robinhood Chain. Coins whose holders earn a real stock, and coins priced in a stock.
+description: EDGEstocks on Solana and Robinhood Chain. Coins priced in a tokenised stock, and coins whose holders earn a real stock.
 ---
 
-<span class="ed-eyebrow">Launch · Robinhood Chain</span>
+<span class="ed-eyebrow">Launch · Solana · Robinhood Chain</span>
 
 # <img class="mark" src="../../assets/marks/mode-stock.svg" alt=""> EDGEstocks
 
-<p class="ed-lead">Coins tied to a real, tokenised stock on Robinhood Chain. The pink mark, and a disc with the stock's logo next to the chain mark: hover or tap it for <em>Pays $SYM</em>.</p>
+<p class="ed-lead">Coins tied to a real, tokenised stock, on Solana and Robinhood Chain. The pink mark. On Robinhood Chain, a disc with the stock's logo next to the chain mark: hover or tap it for <em>Pays $SYM</em>.</p>
 
-## Holders earn a stock
+## On Solana
+
+An **open launch on Meteora**, priced in a tokenised stock: xStocks by Backed and Backpack stocks, for example TSLAx.
+
+- On Meteora from the first trade. Pass holders buy until it graduates.
+- Buys are paid in the stock, and sells pay out the stock.
+- Fixed fees, nothing to set, like EDGE.
+- An EDGEtek version lets the creator set the fees: a builder fee (routed to up to 4 wallets), buyback & burn and LP compound. Total fee 2, 3, 4 or 5%. LP compound takes whatever the other shares leave. No Stack.
+- Holders don't earn the stock here.
+- Launch fee **$10**.
+
+## On Robinhood Chain
+
+### Holders earn a stock
+
 
 The coin trades in **ETH on the 1EDGE curve**, like any 1EDGE launch. Part of every trade buys the stock the creator picked and pays it to holders, pro-rata.
 
@@ -23,7 +37,7 @@ The coin trades in **ETH on the 1EDGE curve**, like any 1EDGE launch. Part of ev
 - No builder fee on a stock launch.
 - Launch fee **$10**. One signature.
 
-## Priced in a stock
+### Priced in a stock
 
 An **open launch on Uniswap v4**, priced in the stock itself, on Robinhood Chain.
 

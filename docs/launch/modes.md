@@ -11,10 +11,10 @@ description: Every launch mode on 1EDGE and what it means for you. EDGE, EDGEtek
 <div class="ed-grid three">
 <div class="ed-card"><img class="mark" src="../../assets/marks/mode-edge.svg" alt=""><span class="k">Mode</span><b>EDGE</b><span class="d">Fixed fees, nothing to set. Every trade deepens the coin's own pool. The default.</span></div>
 <div class="ed-card"><img class="mark" src="../../assets/marks/mode-tek.svg" alt=""><span class="k tek">Mode</span><b>EDGEtek</b><span class="d">The creator sets the fees: builder fee, LP compound, buyback &amp; burn or Stack. Locked at launch, forever.</span></div>
-<div class="ed-card"><img class="mark" src="../../assets/marks/mode-stock.svg" alt=""><span class="k gold">Mode · Robinhood Chain</span><b>EDGEstocks</b><span class="d">A coin tied to a real stock. Holders earn the stock, or the coin is priced in it.</span></div>
+<div class="ed-card"><img class="mark" src="../../assets/marks/mode-stock.svg" alt=""><span class="k gold">Mode · Solana · Robinhood Chain</span><b>EDGEstocks</b><span class="d">A coin tied to a real stock. Holders earn the stock, or the coin is priced in it.</span></div>
 </div>
 
-## <img class="mark" src="../../assets/marks/mode-edge.svg" alt=""> EDGE
+## <img class="mark" src="../../assets/marks/mode-edge.svg" alt=""> EDGE { #edge }
 
 The standard launch. **Fixed fees, nothing to configure and nothing to get wrong.**
 
@@ -25,7 +25,7 @@ The standard launch. **Fixed fees, nothing to configure and nothing to get wrong
 
 For you as a trader: the fee is the same on every EDGE coin. See [Fees](../trade/fees.md).
 
-## <img class="mark" src="../../assets/marks/mode-tek.svg" alt=""> EDGEtek
+## <img class="mark" src="../../assets/marks/mode-tek.svg" alt=""> EDGEtek { #edgetek }
 
 The configurable launch, in blue. The creator splits a fee budget between:
 
@@ -43,9 +43,17 @@ The configurable launch, in blue. The creator splits a fee budget between:
 
 For you as a trader: check the fee on the coin's page before you buy. A Tek coin can cost more to trade than an EDGE coin.
 
-## <img class="mark" src="../../assets/marks/mode-stock.svg" alt=""> EDGEstocks
+## <img class="mark" src="../../assets/marks/mode-stock.svg" alt=""> EDGEstocks { #edgestocks }
 
-Coins tied to a real stock, on **Robinhood Chain**. Pink mark, and a small disc with the stock's logo next to the chain mark (*"Pays $SYM"*). Two kinds:
+Coins tied to a real, tokenised stock, on **Solana** and **Robinhood Chain**. Pink mark.
+
+**On Solana:** an open launch on Meteora, priced in a tokenised stock (xStocks by Backed and Backpack stocks, for example TSLAx).
+
+- Buys are paid in the stock, and sells pay out the stock.
+- Fixed fees, nothing to set, like EDGE. An EDGEtek version lets the creator set a builder fee (to up to 4 wallets), buyback & burn and LP compound, for a total fee of 2, 3, 4 or 5%. No Stack.
+- Holders don't earn the stock here.
+
+**On Robinhood Chain:** a small disc with the stock's logo sits next to the chain mark (*"Pays $SYM"*). Two kinds:
 
 - **Holders earn a real stock.** The coin trades in ETH on the 1EDGE curve. Part of every trade buys the stock and pays it to holders, pro-rata. The creator picks the stock and the tax (1% to 3.8% to holders), and earns 0.2% of volume, paid in the stock, out of 1EDGE's fee.
 - **Priced in a stock.** An open launch on Uniswap, priced in the stock itself. All fees are taken in the coin, not in the stock. Holders don't earn the stock here.

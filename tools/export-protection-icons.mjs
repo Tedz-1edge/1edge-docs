@@ -19,7 +19,9 @@ for (const f of ['rule-icons.js', 'rule-group-icons.js']) new Function('window',
 const I = root.EdgeRuleIcons;
 if (!I) throw new Error('EdgeRuleIcons not found in ' + fe);
 
-const WANT = ['pass', 'wallet-cap', 'one-per-block', 'cooldown', 'shield-15s', 'no-w2w', 'dev-lock', 'max-per-sell', 'sell-pace'];
+const WANT = ['pass', 'wallet-cap', 'one-per-block', 'cooldown', 'shield-15s', 'no-w2w', 'dev-lock', 'max-per-sell', 'sell-pace',
+  'rising-cap', 'curve-steps', 'crowd-caps', 'sniper-fee-cap', 'reputation', 'crowd-shield', 'size-shield', 'soft-landing',
+  'dev-drip', 'must-hold', 'market-hours'];
 mkdirSync(out, { recursive: true });
 for (const name of WANT) {
   if (I.names.indexOf(name) < 0) { console.log('skip (no icon on the site): ' + name); continue; }
