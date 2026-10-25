@@ -50,7 +50,7 @@ Coins tied to a real, tokenised stock, on **Solana** and **Robinhood Chain**. Pi
 **On Solana:** an open launch on Meteora, priced in a tokenised stock (xStocks by Backed and Backpack stocks, for example TSLAx).
 
 - Buys are paid in the stock, and sells pay out the stock.
-- Total fee 3%: 1EDGE's 1%, a builder fee to up to 4 wallets, and LP compound for the rest. No buyback & burn and no Stack for now.
+- Total fee 3%: 1EDGE's 1%, a builder fee to up to 4 wallets, buyback & burn if the creator picks it, and LP compound for the rest. No Stack for now.
 - Holders don't earn the stock here.
 
 **On Robinhood Chain:** a small disc with the stock's logo sits next to the chain mark (*"Trades in $SYM"*).

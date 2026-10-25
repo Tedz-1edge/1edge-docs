@@ -89,7 +89,7 @@ From the launch page, so creators know the trade-off:
 - No trade cooldown. One buy per slot, and the wallet cap still applies.
 - No wallet-to-wallet transfers until graduation.
 - **No refunds.** If a coin never graduates, holders exit by selling back to the curve. On a Solana open launch that goes 3 days with no trade, holders also share its LP fees.
-- On Tek: LP compound starts after graduation. On Robinhood Chain and Arc, buyback & burn and Stack also start after graduation. Solana open launches don't offer buyback & burn or Stack yet.
+- On Tek: LP compound and buyback & burn start after graduation, on every chain. On Robinhood Chain and Arc, Stack also starts after graduation; Solana open launches don't offer Stack yet.
 
 ## Fees on open launches
 
@@ -97,6 +97,6 @@ From the launch page, so creators know the trade-off:
 |---|---|---|
 | Open EDGE, Solana | 1.2% | creator 0.40% · 1EDGE 0.56% · Meteora 0.24% |
 | Open EDGE, Robinhood Chain / Arc | 1.2% | 1EDGE 0.60% · creator 0.40% · LP 0.20% |
-| Open EDGEtek | 2, 3, 4 or 5% | 1EDGE 1% · builder fee up to 3.8% · LP compound the rest (min 0.2%). Robinhood Chain and Arc also offer burn / Stack; Solana doesn't yet |
+| Open EDGEtek | 2, 3, 4 or 5% | 1EDGE 1% · builder fee up to 3.8% · LP compound the rest (min 0.2%) · buyback & burn. Robinhood Chain and Arc also offer Stack; Solana doesn't yet |
 
 Same fee before and after graduation. All fees: [Fees](../trade/fees.md).
