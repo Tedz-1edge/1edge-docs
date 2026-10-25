@@ -38,7 +38,7 @@ You can buy your own coin in the same transaction that creates it, so your bag i
 - **EDGE: up to 5%** of supply. **EDGEtek: up to 20%.** Enforced on-chain, always.
 - Your dev buy counts toward the graduation target.
 - It shows on the coin's page as the dev's buy, with a `DEV` tag. Nobody's surprised.
-- On a Robinhood Chain launch priced in a stock, the dev buy is paid in the stock (up to 5%).
+- On a launch priced in a stock, the dev buy (up to 5%) can be paid in SOL or ETH, swapped into the stock inside the launch, or in the stock itself.
 
 ## Wallet cap and cooldown
 
