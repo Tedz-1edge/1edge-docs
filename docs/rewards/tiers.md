@@ -6,7 +6,7 @@ description: Your pass tier and your rebate. Core, Alpha, Elite, Apex. How you m
 
 # Tiers and rebates
 
-<p class="ed-lead">Part of the 1EDGE fee on every trade you make comes back to you. How much depends on your pass tier. Your tier only goes up.</p>
+<p class="ed-lead">Part of the 1EDGE fee on your trades in EDGE coins comes back to you. How much depends on your pass tier. Your tier only goes up.</p>
 
 <div class="ed-stats" markdown>
 <div><b>10%</b><i>Core</i></div>
@@ -33,7 +33,7 @@ description: Your pass tier and your rebate. Core, Alpha, Elite, Apex. How you m
 
 ## What the rebate is
 
-A share of **the 1EDGE part** of the fee you pay, on your own trades. On an EDGE coin on the curve that's a share of the 0.55% house fee; on Tek, of the 1% house fee. After graduation on Meteora, it's a share of what 1EDGE actually keeps. It never costs the creator or the pool anything.
+A share of **the 1EDGE part** of the fee you pay, on your own trades in EDGE coins. On the curve that's a share of the 0.55% house fee. After graduation on Meteora, it's a share of what 1EDGE actually keeps. EDGEtek and EDGEstocks coins pay no rebate. It never costs the creator or the pool anything.
 
 The rebate is the only thing a tier changes.
 

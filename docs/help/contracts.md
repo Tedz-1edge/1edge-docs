@@ -171,7 +171,7 @@ Meteora DBC (launch curves) `dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN` · Met
 | EDGEstocks migration hook | `0x02690214b56db4808b97810303e72a6b1b6e2000` |
 | EDGEstocks fee seller | `0x6D32232449b5F5Cb5f4152Fa44Fa97eba3A32b89` |
 | EDGEstocks pay-with-ETH | `0x4eA5e85b414043A9e242e0d7B299948f2aE34ee6` |
-| Stack rewards | `0xb9f45305893fB1e9eC6B0FF2050e87D94D03d47C` |
+| Stock rewards (built, not in use) | `0xb9f45305893fB1e9eC6B0FF2050e87D94D03d47C` |
 | Open launch factory | `0xFe05E60D4Fa5e3f723A22f701bF205a78179F2f3` |
 | Open launch gate hook | `0x8bf9E323d9513B8F44599a3886E75D181061e8eC` |
 | Open launch fees | `0x513fdDBCe61225De5AE609A78fBdBb60e615f760` |

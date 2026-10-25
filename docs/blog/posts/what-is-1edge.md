@@ -36,7 +36,7 @@ The pass is what lets you buy coins on the curve, launch, earn [rebates](../../r
 
 A launch on 1EDGE is [six steps](../../launch/launching.md): chain, identity, mode, where it trades, rules, review. Then one signature.
 
-**Pick a mode.** [EDGE](../../launch/modes.md#edge) is the standard launch: fixed fees, nothing to configure. [EDGEtek](../../launch/modes.md#edgetek) lets the creator set their own fee split, locked at launch for good. On Robinhood Chain there is also [EDGEstocks](../../launch/stocks.md), coins tied to a real stock (not available in every country).
+**Pick a mode.** [EDGE](../../launch/modes.md#edge) is the standard launch: fixed fees, nothing to configure. [EDGEtek](../../launch/modes.md#edgetek) lets the creator set their own fee split, locked at launch for good. On Solana and Robinhood Chain there is also [EDGEstocks](../../launch/stocks.md), coins priced in a real, tokenised stock (not available in every country).
 
 **Pick where it trades.** A 1EDGE launch fills our own bonding curve on 1edge.app. An [open launch](../../launch/open-launches.md) trades on a real pool from the first block: Meteora on Solana, a Uniswap v4 hook pool on Robinhood Chain and Arc. Terminals and screeners see it like any other pool.
 
@@ -98,7 +98,7 @@ Bonding-curve launchpads made launching a coin cheap and fast. The model is now 
 
 **Social on the same account.** Calls are recorded at the market cap of the moment and judged on the result, losses included. Your profile shows your trades, volume and win rate from your on-chain history. A `$TICKER` tag carries the pool address, so it opens the real coin, not a copycat.
 
-**Rewards you can climb.** Rebates by tier on the fees you pay, 25% of the 1EDGE fee from people you refer, and a weekly Season with paid seats in $1EDGE.
+**Rewards you can climb.** Rebates by tier on the 1EDGE fee you pay on EDGE coins, 25% of that fee from people you refer, and a weekly Season with paid seats in $1EDGE.
 
 **Three chains, one account.** Solana, Robinhood Chain and Arc, one pass, one profile.
 

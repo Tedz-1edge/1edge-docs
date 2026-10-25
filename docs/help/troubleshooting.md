@@ -16,7 +16,6 @@ description: The messages you might see on 1EDGE, what they mean, and what to do
 | *This wallet already holds a pass on …* | You're already in on that chain. |
 | *The price moved. Check the new amount and tap Mint again.* | The quote refreshed. Check it and mint. |
 | *Cancelled. Nothing was sent.* | You rejected it in your wallet. Nothing happened. |
-| *Passes go on sale at the opening. Nothing to pay today — check back then.* | Before the doors open. |
 | *Payouts and mints are paused for a few minutes. Nothing was charged. Try again shortly.* | A short pause on our side. |
 | *This 1EDGE Wallet has already brought a pass.* | One port per account. See [Bring your pass](../start/port.md). |
 

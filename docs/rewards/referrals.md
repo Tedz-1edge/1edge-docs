@@ -6,7 +6,7 @@ description: Your referral link. 25% of the 1EDGE fee on every trade your referr
 
 # Referrals
 
-<p class="ed-lead">Bring people in. You get <strong>25% of the 1EDGE fee</strong> on every trade they make, for life, on the chain they trade on.</p>
+<p class="ed-lead">Bring people in. You get <strong>25% of the 1EDGE fee</strong> on their trades in EDGE coins, for life, on the chain they trade on.</p>
 
 ## Your link
 
@@ -18,7 +18,7 @@ First pick is free. One change every 30 days.
 
 ## How it pays
 
-- **25% of the 1EDGE share of the fee** on every trade your referrals make. It doesn't come out of their pocket or the creator's.
+- **25% of the 1EDGE share of the fee** on your referrals' trades in EDGE coins. EDGEtek and EDGEstocks coins pay no referral share. It doesn't come out of their pocket or the creator's.
 - **For life.** One level, no pyramids.
 - **On every chain**, paid in that chain's coin, into the same balance as your [rebates](tiers.md#claiming).
 - A referral starts paying once they've traded **0.5 SOL** (or the same on Robinhood Chain or Arc). Both of you need a pass.

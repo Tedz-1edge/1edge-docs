@@ -31,7 +31,7 @@ On the board a graduated coin wears a **gold crown** and, for its first hour, a 
 | <img class="mark" src="../../assets/marks/chain-rh.svg" alt=""> Robinhood Chain | **4 ETH** | Uniswap v4 |
 | <img class="mark" src="../../assets/marks/chain-arc.svg" alt=""> Arc | **7,500 USDC** | Uniswap v4 |
 
-The target is fixed per chain; creators can't change it. Supply is 1,000,000,000: 800M on the curve, 200M paired with the raised SOL / ETH / USDC in the pool.
+The target is fixed per chain; creators can't change it. A coin priced in a stock or a pair has its target set in dollars ($10,150 on Solana) or per stock (Robinhood Chain), and the amount in that stock moves with its price. Supply is 1,000,000,000: 800M on the curve, 200M paired with what was raised in the pool.
 
 If your buy would overshoot the target, it's cut to what the curve needs, and the rest stays in your wallet.
 

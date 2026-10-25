@@ -33,7 +33,7 @@ More on what each mode means: [Every mode](../launch/modes.md).
 ### Discs next to the chain mark
 
 <div class="ed-legend">
-<div><span class="ic">TSLA</span><b>Stock disc</b><span class="d">The stock's logo. <em>Pays $SYM</em>: holders of this coin earn that stock, or it's priced in it.</span></div>
+<div><span class="ic">TSLA</span><b>Stock disc</b><span class="d">The stock's logo. <em>Trades in $SYM</em>: this coin is priced in that stock.</span></div>
 <div><span class="ic"><img src="../../assets/marks/chain-usdc.svg" alt=""></span><b>USDC disc</b><span class="d"><em>Priced in USDC.</em> You buy it with USDC on Solana.</span></div>
 </div>
 

@@ -41,6 +41,6 @@ You can look around without an account. You need a pass to buy on a curve, launc
 
 ## Opening day
 
-The doors open **Wednesday 14 October 2026, 15:00 UTC**. Before that, 1edge.app shows the pass journey only: get your pass, claim your name, share your link.
+The doors opened on **Wednesday 14 October 2026, 15:00 UTC**.
 
 <figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../assets/shots/in-390.webp"><img src="../assets/shots/in-1440.webp" alt="1edge.app before the doors open." loading="lazy"></picture><figcaption>1edge.app before the doors open: get your pass, bring an old one, claim your name.</figcaption></figure>

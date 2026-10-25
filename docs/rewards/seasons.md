@@ -54,7 +54,7 @@ Up to **500 paid seats a week**, in four bands, each band sharing a quarter of t
 
 <figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/seasons-board-390.webp"><img src="../../assets/shots/seasons-board-1440.webp" alt="This week, live: bands and seats. Invented numbers." loading="lazy"></picture><figcaption>This week, live: bands and seats. Invented numbers.</figcaption></figure>
 
-About 7 in 10 people who qualify get paid. An empty seat rolls back.
+You need to opt in to take a seat: most qualifiers so far had not, and took nothing. An empty seat rolls back.
 
 **Seats are worth a dollar amount, paid in [$1EDGE](../token/index.md)** at the average price over the 7 days before each Friday lock. The weekly pot is set from $1EDGE's market cap. The finale pays double. Nothing here is a promise about any price.
 
@@ -63,7 +63,6 @@ About 7 in 10 people who qualify get paid. An empty seat rolls back.
 ## Fair play
 
 - **One person, one wallet.** Volume is netted per coin over the week, so round trips cancel out. Wash patterns (buy, move off-book, sell from a second wallet) put a payout on **Pending checks**: it's held, not lost, and a person decides.
-- Every paid seat waits one more week before it's paid, so trading can be re-checked.
 - 1EDGE team wallets don't score.
 
 ## The finale

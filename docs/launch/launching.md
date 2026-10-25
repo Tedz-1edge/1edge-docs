@@ -15,7 +15,7 @@ description: How to launch a coin on 1EDGE. The six steps, launch fees, dev buy,
 1. **Chain.** Solana, Robinhood Chain or Arc. Each card shows its graduation target ("Bonds at 85 SOL").
 2. **Identity.** Name, ticker, image, description, socials. 1EDGE checks the name, ticker and image for copycats as you type.
 3. **Mode.** EDGE, EDGEtek or EDGEstocks. See [Every mode](modes.md).
-4. **Where.** 1EDGE launch (our curve, the default) or open launch (Meteora / Uniswap from the first trade). For a Solana coin, also what it's priced in: SOL or USDC.
+4. **Where.** 1EDGE launch (our curve, the default) or open launch (Meteora / Uniswap from the first trade). For a Solana open launch, also what it's priced in: SOL, USDC, a tokenised stock, or another pair (HYPE, TAO, DOGE, USDe).
 5. **Rules.** Wallet cap, cooldown, your dev buy, and any launch rules. See [Open launches and launch rules](open-launches.md#launch-rules).
 6. **Review.** Supply (1,000,000,000), graduation target, the deployment cost, then **Deploy**.
 
@@ -27,7 +27,7 @@ description: How to launch a coin on 1EDGE. The six steps, launch fees, dev buy,
 |---|---|
 | EDGE | **$2** |
 | EDGEtek | **$10** |
-| EDGEstocks | **$10** |
+| EDGEstocks | **$10** on Solana · **$2** on Robinhood Chain |
 
 Priced in dollars, paid in the chain's coin (SOL, ETH or USDC). Hover the price tag to see *About X SOL right now*. On Solana you also pay the rent for your coin's accounts. The review screen shows the total. Non-refundable.
 
@@ -38,7 +38,7 @@ You can buy your own coin in the same transaction that creates it, so your bag i
 - **EDGE: up to 5%** of supply. **EDGEtek: up to 20%.** Enforced on-chain, always.
 - Your dev buy counts toward the graduation target.
 - It shows on the coin's page as the dev's buy, with a `DEV` tag. Nobody's surprised.
-- No dev buy on a Robinhood Chain launch priced in a stock, for now.
+- On a Robinhood Chain launch priced in a stock, the dev buy is paid in the stock (up to 5%).
 
 ## Wallet cap and cooldown
 
@@ -76,4 +76,4 @@ You get the coin's page, a share card and a pool link. On an open launch it read
 - **Pick your mode on purpose.** EDGE is cheapest for traders. Tek only makes sense if the fees do something.
 - **Be open about your bag.** A dev buy is fine; a hidden one isn't possible here anyway.
 - **Use the rules.** A dev lock or a sell pace tells buyers you're staying.
-- **Bring your people.** Share your coin's link and your referral link. Your referrals pay you 25% of the house fee on their trades. See [Referrals](../rewards/referrals.md).
+- **Bring your people.** Share your coin's link and your referral link. Your referrals pay you 25% of the house fee on their trades in EDGE coins. See [Referrals](../rewards/referrals.md).

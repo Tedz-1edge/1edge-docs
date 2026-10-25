@@ -10,16 +10,16 @@ description: Every launch mode on 1EDGE and what it means for you. EDGE, EDGEtek
 
 <div class="ed-grid three">
 <div class="ed-card"><img class="mark" src="../../assets/marks/mode-edge.svg" alt=""><span class="k">Mode</span><b>EDGE</b><span class="d">Fixed fees, nothing to set. Every trade deepens the coin's own pool. The default.</span></div>
-<div class="ed-card"><img class="mark" src="../../assets/marks/mode-tek.svg" alt=""><span class="k tek">Mode</span><b>EDGEtek</b><span class="d">The creator sets the fees: builder fee, LP compound, buyback &amp; burn or Stack. Locked at launch, forever.</span></div>
-<div class="ed-card"><img class="mark" src="../../assets/marks/mode-stock.svg" alt=""><span class="k gold">Mode · Solana · Robinhood Chain</span><b>EDGEstocks</b><span class="d">A coin tied to a real stock. Holders earn the stock, or the coin is priced in it.</span></div>
+<div class="ed-card"><img class="mark" src="../../assets/marks/mode-tek.svg" alt=""><span class="k tek">Mode</span><b>EDGEtek</b><span class="d">The creator sets the fees: builder fee, LP compound, and where offered, buyback &amp; burn or Stack. Locked at launch, forever.</span></div>
+<div class="ed-card"><img class="mark" src="../../assets/marks/mode-stock.svg" alt=""><span class="k gold">Mode · Solana · Robinhood Chain</span><b>EDGEstocks</b><span class="d">A coin priced in a real, tokenised stock.</span></div>
 </div>
 
 ## <img class="mark" src="../../assets/marks/mode-edge.svg" alt=""> EDGE { #edge }
 
 The standard launch. **Fixed fees, nothing to configure and nothing to get wrong.**
 
-- **0.2% LP compound on every trade.** Every buy and every sell deepens the coin's own pool.
-- Anti-bundle and sniper defence, wallet cap and trade cooldown.
+- **0.2% LP compound on every trade** (not on Solana open launches, where Meteora takes its share instead). Every buy and every sell deepens the coin's own pool.
+- Anti-bundle and sniper defence. Wallet cap and trade cooldown where the chain and venue take them.
 - The creator can buy up to **5%** of supply at launch, in the same transaction.
 - Launch fee: **$2**, paid in the chain's coin.
 
@@ -50,15 +50,14 @@ Coins tied to a real, tokenised stock, on **Solana** and **Robinhood Chain**. Pi
 **On Solana:** an open launch on Meteora, priced in a tokenised stock (xStocks by Backed and Backpack stocks, for example TSLAx).
 
 - Buys are paid in the stock, and sells pay out the stock.
-- Fixed fees, nothing to set, like EDGE. An EDGEtek version lets the creator set a builder fee (to up to 4 wallets), buyback & burn and LP compound, for a total fee of 2, 3, 4 or 5%. No Stack.
+- Total fee 3%: 1EDGE's 1%, a builder fee to up to 4 wallets, and LP compound for the rest. No buyback & burn and no Stack for now.
 - Holders don't earn the stock here.
 
-**On Robinhood Chain:** a small disc with the stock's logo sits next to the chain mark (*"Pays $SYM"*). Two kinds:
+**On Robinhood Chain:** a small disc with the stock's logo sits next to the chain mark (*"Trades in $SYM"*).
 
-- **Holders earn a real stock.** The coin trades in ETH on the 1EDGE curve. Part of every trade buys the stock and pays it to holders, pro-rata. The creator picks the stock and the tax (1% to 3.8% to holders), and earns 0.2% of volume, paid in the stock, out of 1EDGE's fee.
-- **Priced in a stock.** An open launch on Uniswap, priced in the stock itself. All fees are taken in the coin, not in the stock. Holders don't earn the stock here.
+- **On the 1EDGE curve, priced in the stock.** Buyers pay in the stock, sellers get it back, and it graduates to Uniswap v4. Fixed fees like EDGE, taken in the stock; the creator's 0.40% is paid in the stock. Holders don't earn the stock.
 
-Launch fee: **$10**. Full details: [EDGEstocks](stocks.md).
+Launch fee: **$10** on Solana, **$2** on Robinhood Chain. Full details: [EDGEstocks](stocks.md).
 
 !!! note "Where you are matters"
     Stock launches and stock pairs aren't available in every country. See [Regions](../help/regions.md).

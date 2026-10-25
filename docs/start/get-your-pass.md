@@ -12,7 +12,7 @@ description: The 1EDGE pass. One per person, earned with a quick human check, pa
 
 - **Buying on the curve.** Every coin on 1EDGE fills a bonding curve before it graduates. Only pass holders can buy on it. Selling, and trading after graduation, work for anyone.
 - **Launching.** Every launch on 1EDGE needs your pass on that chain.
-- **Your tier and your rebates.** Every pass starts at Core: a 10% rebate on the fees you pay. See [Tiers & rebates](../rewards/tiers.md).
+- **Your tier and your rebates.** Every pass starts at Core: 10% of the 1EDGE fee back on your EDGE trades. See [Tiers & rebates](../rewards/tiers.md).
 - **Your referral link**, `1edge.app/r/<you>`. See [Referrals](../rewards/referrals.md).
 
 On the mint page the pass is called your **Proof of Life**. Same thing.
