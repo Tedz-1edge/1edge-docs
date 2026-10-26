@@ -37,6 +37,7 @@ The configurable launch, in blue. The creator splits a fee budget between:
 | **Stack** | Pays holders pro-rata, in the coin itself (bought back after graduation) or in the chain's coin. |
 
 - Burn and Stack fire each time a set amount builds up (1, 5, 10, 25 or 50 SOL on Solana).
+- On a Solana open launch, Stack is offered on SOL and USDC pairs, and it pays on the curve too.
 - **The fee structure is locked permanently at launch.** What the creator sets is what you pay, before and after graduation.
 - The creator can buy up to **20%** of supply at launch.
 - Launch fee: **$10**.
@@ -50,8 +51,7 @@ Coins tied to a real, tokenised stock, on **Solana** and **Robinhood Chain**. Pi
 **On Solana:** an open launch on Meteora, priced in a tokenised stock (xStocks by Backed and Backpack stocks, for example TSLAx).
 
 - Buys are paid in the stock, and sells pay out the stock.
-- Total fee 3%: 1EDGE's 1%, a builder fee to up to 4 wallets, buyback & burn if the creator picks it, and LP compound for the rest. No Stack for now.
-- Holders don't earn the stock here.
+- Total fee 3%: 1EDGE's 1%, a builder fee to up to 4 wallets, buyback & burn if the creator picks it, a holders share paid in the stock if the creator picks it, and LP compound for the rest. No Stack for now.
 
 **On Robinhood Chain:** a small disc with the stock's logo sits next to the chain mark (*"Trades in $SYM"*).
 
