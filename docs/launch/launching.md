@@ -45,7 +45,8 @@ You can buy your own coin in the same transaction that creates it, so your bag i
 These apply **before graduation only**. Once the coin graduates, they're gone.
 
 - **Wallet buy cap:** max per wallet, 1% to 3.5% of supply. Default 3.5%.
-- **Trade cooldown:** 0 to 300 seconds between trades per wallet, on buys and sells. 1EDGE launches only; open launches use one buy per slot instead.
+- **Trade cooldown:** 0 to 300 seconds between trades per wallet, on buys and sells. Open launches use one buy per slot instead.
+- On the 1EDGE curve, both are on Robinhood Chain and Arc only for now. A Solana 1EDGE curve launch has neither yet.
 
 ## Copycat protection
 

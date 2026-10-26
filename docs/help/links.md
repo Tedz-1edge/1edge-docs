@@ -1,5 +1,5 @@
 ---
-description: Official 1EDGE links. The site, the docs, X, Telegram, email, and the policies.
+description: Official 1EDGE links. The site, the docs, X, Telegram, YouTube, email, and the policies.
 ---
 
 <span class="ed-eyebrow">Help</span>
@@ -14,6 +14,7 @@ description: Official 1EDGE links. The site, the docs, X, Telegram, email, and t
 | **Docs** | [docs.1edge.app](https://docs.1edge.app) |
 | **X** | [@1EdgeHQ](https://x.com/1EdgeHQ) |
 | **Telegram** | [@Join_1EDGE](https://t.me/Join_1EDGE), the official group, guarded by Edgar |
+| **YouTube** | [@1Edge_HQ](https://www.youtube.com/@1Edge_HQ) |
 | **Support** | In the app: Settings → Support. See [Support](support.md) |
 
 ## Email
