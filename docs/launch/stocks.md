@@ -14,9 +14,9 @@ An **open launch on Meteora**, priced in a tokenised stock: xStocks by Backed an
 
 - On Meteora from the first trade. Pass holders buy until it graduates.
 - Buys are paid in the stock, and sells pay out the stock.
-- Total fee **3%**: 1EDGE's 1%, a builder fee you route to up to 4 wallets, and LP compound for the rest (at least 0.2%).
-- No buyback & burn and no Stack on stock launches for now. Fees are taken in the stock.
-- Holders don't earn the stock here.
+- Total fee **3%**: 1EDGE's 1%, a builder fee you route to up to 4 wallets, buyback & burn if you pick it, a holders share if you pick it, and LP compound for the rest (at least 0.2%).
+- Fees are taken in the stock. The holders share is paid to your holders in the stock, by 1EDGE.
+- Buyback & burn and LP compound start after graduation. No Stack on stock launches for now.
 - Launch fee **$10**.
 
 ## On Robinhood Chain
