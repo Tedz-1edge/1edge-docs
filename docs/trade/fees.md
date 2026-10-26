@@ -16,7 +16,7 @@ description: Every fee on 1EDGE, per mode and per chain. Trading fees before and
 |---|---|---|
 | <img class="mark" src="../../assets/marks/mode-edge.svg" alt=""> **EDGE** | **1.15%** | 1EDGE 0.55% · creator 0.40% · LP 0.20% |
 | <img class="mark" src="../../assets/marks/mode-tek.svg" alt=""> **EDGEtek** | **up to 5%** | 1EDGE 1% · builder fee (up to 3.8%) · LP compound (min 0.2%) · buyback & burn · Stack. The creator sets the split; it's on the coin's page. The launch page only offers the shares that run on that chain and venue |
-| <img class="mark" src="../../assets/marks/mode-stock.svg" alt=""> **EDGEstocks**, Robinhood Chain (priced in a stock) | **1.15%** | 1EDGE 0.55% · creator 0.40% · LP 0.20%, all taken in the stock |
+| <img class="mark" src="../../assets/marks/mode-stock.svg" alt=""> **EDGEstocks**, Robinhood Chain (priced in a stock) | **1.15%**, or the creator's EDGEtek fee | EDGE: 1EDGE 0.55% · creator 0.40% · LP 0.20%. EDGEtek: 1EDGE 1% · builder fee · LP compound · buyback & burn if picked. All taken in the stock |
 
 EDGE and EDGEtek are the same on Solana, Robinhood Chain and Arc. EDGEstocks on our curve is Robinhood Chain only.
 
@@ -53,7 +53,7 @@ On EDGE coins, part of the 1EDGE share of the fee you pay comes back to you, by 
 |---|---|
 | EDGE | **$2** |
 | EDGEtek | **$10** |
-| EDGEstocks | **$10** on Solana · **$2** on Robinhood Chain |
+| EDGEstocks | **$10** on Solana · **$2** on Robinhood Chain (**$10** as EDGEtek) |
 
 Priced in dollars, paid in the chain's coin. Solana launches also pay the rent for the coin's accounts.
 

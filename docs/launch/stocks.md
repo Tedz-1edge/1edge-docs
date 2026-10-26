@@ -23,10 +23,13 @@ An **open launch on Meteora**, priced in a tokenised stock: xStocks by Backed an
 
 A **1EDGE curve launch priced in a stock**: a Robinhood Stock Token you pick, for example TSLA. Buyers pay in the stock and sellers get the stock back. When the curve fills, the coin graduates to Uniswap v4, paired with the stock.
 
-- Fixed fees, like EDGE: **1.15%**. 1EDGE 0.55% · creator 0.40% · LP 0.20%. Every fee is taken in the stock, and your creator cut is paid in the stock.
-- No builder fee, no buyback & burn and no Stack on a stock launch for now.
+- **EDGE** (the default): fixed fees, **1.15%**. 1EDGE 0.55% · creator 0.40% · LP 0.20%. Dev buy up to 5% of supply. Launch fee about **$2**, paid in ETH.
+- **EDGEtek**, if you pick it at launch: 1EDGE's 1%, a builder fee you route to up to 4 wallets, LP compound, and buyback & burn if you pick it. Dev buy up to 20% of supply. Launch fee about **$10**, paid in ETH.
+- Every fee is taken in the stock, and your creator cut or builder fee is paid in the stock.
+- Buyback & burn starts after graduation: 1EDGE buys the coin back in its own pool and burns it. With it on, the launch page keeps the total fee under a limit so the buyback can always run, and shows you that limit.
+- No Stack on a stock launch.
 - Holders don't earn the stock. Holding the coin isn't holding the stock.
-- Your dev buy, up to 5% of supply, can be paid in ETH (swapped into the stock inside the launch) or in the stock itself.
+- Your dev buy can be paid in ETH (swapped into the stock inside the launch) or in the stock itself.
 - The graduation target is set per stock, in that stock.
 - No rebates or referral share on stock launches.
 - The stock's issuer can freeze or block a launch's reserve. Nothing 1EDGE controls can move it while frozen.

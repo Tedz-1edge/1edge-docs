@@ -50,7 +50,7 @@ Creators launching on Solana can send a slice of **their own fee** to buying $1E
 | Mode | Slice of volume | Comes out of |
 |---|---|---|
 | EDGEtek | 0.1% to 1%, never more than your builder fee | Your builder fee. It takes 1 of your 4 builder-fee wallets |
-| EDGE | Coming soon | Your 0.4% creator cut, sent when you claim your fees (**Claim & back**). Not on the launch page yet |
+| EDGE | 0.1% to 0.4% | Your 0.4% creator cut. Before graduation it is sent when you claim your fees (**Claim & back**); after graduation 1EDGE's fee claimer sends it for you |
 
 - Once a coin's slice reaches **1 SOL**, the 1EDGE back wallet buys $1EDGE on its Meteora pool and **burns every token it bought**. Each buy and burn is on-chain and public.
 - Traders pay the same fee either way: the slice comes out of the creator's cut, not on top of it.

@@ -55,9 +55,9 @@ Coins tied to a real, tokenised stock, on **Solana** and **Robinhood Chain**. Pi
 
 **On Robinhood Chain:** a small disc with the stock's logo sits next to the chain mark (*"Trades in $SYM"*).
 
-- **On the 1EDGE curve, priced in the stock.** Buyers pay in the stock, sellers get it back, and it graduates to Uniswap v4. Fixed fees like EDGE, taken in the stock; the creator's 0.40% is paid in the stock. Holders don't earn the stock.
+- **On the 1EDGE curve, priced in the stock.** Buyers pay in the stock, sellers get it back, and it graduates to Uniswap v4. EDGE (fixed fees, the creator's 0.40% paid in the stock) or EDGEtek (builder fee, LP compound, buyback & burn if the creator picks it), every fee taken in the stock. Holders don't earn the stock.
 
-Launch fee: **$10** on Solana, **$2** on Robinhood Chain. Full details: [EDGEstocks](stocks.md).
+Launch fee: **$10** on Solana, **$2** on Robinhood Chain (**$10** as EDGEtek). Full details: [EDGEstocks](stocks.md).
 
 !!! note "Where you are matters"
     Stock launches and stock pairs aren't available in every country. See [Regions](../help/regions.md).
