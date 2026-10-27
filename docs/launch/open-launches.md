@@ -92,7 +92,7 @@ Payback is a rule the creator can switch on for an open launch on **Robinhood Ch
 
 - A sell that lands right after people bought pays an **extra fee, inside the same trade**. The pool counts the buying and the selling of the last 30 or 60 seconds.
 - **Only real buying counts.** A buy that just soaks up selling already in the window doesn't count as fresh buying. So buying and selling straight back (a "wash") can't make a dump cheaper.
-- **Some selling is free.** Sells up to 25% of the window's fresh buying pay nothing, plus a share of the busy back-and-forth trading (set per strength, shown on the launch page). Above that, the more the selling outweighs the fresh buying, the closer it gets to the full rate.
+- **Some selling is free.** Sells up to 25% of the window's fresh buying pay nothing. Above that, the more the selling outweighs the fresh buying, the closer it gets to the full rate. In a busy market where people buy and sell back and forth, there is little fresh buying, so sells there can pay a little.
 - **An empty market is no escape.** A floor of 2.5% of the graduation target means a dump into no buyers still pays nearly the full rate.
 - **Splitting a dump into many small sells doesn't help.** The pool charges on all the selling in the window, so ten small sells in a row pay what one big sell pays. Selling slowly, a little each window, is what pays less.
 - A sell never pays more than the strength's top rate.
@@ -128,7 +128,7 @@ Payback keeps running after graduation; the other launch rules end there.
 | Claimed | Most one buy can earn | On a Standard-fee coin |
 |---|---|---|
 | **Before graduation** | 2x the trading fee the buy paid | 2.4% of the buy |
-| **After graduation, Light** | 1x the fee, not counting the creator's share | 0.8% of the buy |
+| **After graduation, Light** | 1.5x the fee, not counting the creator's share | 1.2% of the buy |
 | **After graduation, Standard or Strong** | 0.5x the fee, not counting the creator's share | 0.4% of the buy |
 
 On Tek coins, the part of the fee that goes to the creator's builder addresses isn't counted. The cap drops after graduation because once tokens can move freely, the "you still hold" check can be met with borrowed tokens.
