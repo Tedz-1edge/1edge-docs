@@ -72,6 +72,7 @@ The creator can add rules on top of the standard ones. Anything they pick shows 
 | **Dev lock** | The creator can't sell or send until graduation or 30 days. |
 | **Dev drip** | Solana: the creator can sell at most a set share of their bag per day. |
 | **Must hold a token** | Robinhood Chain and Arc: buyers must hold another token first. |
+| **Payback** | Robinhood Chain and Arc: dump on fresh buyers and you pay them. See [Payback](#payback). |
 
 <figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/launch-rules-390.webp"><img src="../../assets/shots/launch-rules-1440.webp" alt="The Rules step on the launch page: groups and presets." loading="lazy"></picture><figcaption>The Rules step on the launch page: groups and presets.</figcaption></figure>
 
@@ -80,6 +81,37 @@ The launch page groups them as *Slow the snipers*, *Slow the dumps*, *Dev bag*, 
 <figure class="ed-shot ed-phone"><img src="../../assets/shots/token-open-rules-390.webp" alt="How this launch is protected: every rule on the coin, live. Sample launch." loading="lazy" width="390"><figcaption>How this launch is protected: every rule on the coin, live. Sample launch.</figcaption></figure>
 
 On a coin's page, tap the **shield pill** to see *How this launch is protected*. Coins with extra rules carry the **Protected** mark on the board.
+
+## Payback
+
+<p class="ed-lead">Dump on fresh buyers and you pay them.</p>
+
+Payback is a rule the creator can switch on for an open launch on **Robinhood Chain or Arc** priced in ETH or USDC. It is off unless the creator picks it, and it can't be changed after launch.
+
+**How it works:**
+
+- A sell that lands right after people bought pays an **extra fee, inside the same trade**. The pool counts the buying and the selling of the last 30 or 60 seconds.
+- **Small sells into busy buying pay almost nothing.** A big sell into little buying pays close to the full rate.
+- **Splitting a dump into many small sells doesn't help.** The pool charges on all the selling in the window, so ten small sells in a row pay what one big sell pays. Selling slowly, a little each window, is what pays less.
+- **Before graduation**, half of the extra goes to the **pass holders who bought just before the sell**, in proportion to what they bought. The other half is **locked in the pool for good**.
+- **After graduation**, all of it is locked in the pool for good. Payback keeps running after graduation; the other launch rules end there.
+
+**The creator picks a strength.** The numbers are set by 1EDGE and shown on the launch page:
+
+| Strength | Highest extra on a sell | Window |
+|---|---|---|
+| **Light** | 3% | 30 seconds |
+| **Standard** | 5% | 30 seconds |
+| **Strong** | 10% | 60 seconds |
+
+**Claiming, as a buyer:**
+
+- The coin's page shows **Dumpers pay you**: what dumpers have paid on this coin and what is waiting for you.
+- Your share can be claimed from about a minute after the sell, for 30 days. Tap **Claim**; your wallet sends it, and the money goes straight to it.
+- You can claim **only while you still hold every token your pass bought on this coin**. Sold some? That share stays in the pool.
+- One buy earns at most **twice the trading fee it paid**. Whatever isn't claimed after 30 days is locked in the pool.
+
+Payback never blocks a sell. The only thing that can refuse a sell is the launch's own *Max per sell*.
 
 ## What an open launch gives up
 
