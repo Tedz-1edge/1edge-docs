@@ -86,15 +86,15 @@ On a coin's page, tap the **shield pill** to see *How this launch is protected*.
 
 <p class="ed-lead">Dump on fresh buyers and you pay them.</p>
 
-Payback is a rule the creator can switch on for an open launch on **Robinhood Chain or Arc** priced in ETH or USDC. It is off unless the creator picks it, and it can't be changed after launch.
+Payback is a rule the creator can switch on for an open launch on **Robinhood Chain or Arc** priced in ETH or USDC. Stock-priced launches don't take it. It is off unless the creator picks it, and it can't be changed after launch.
 
-**How it works:**
+**How a sell pays:**
 
 - A sell that lands right after people bought pays an **extra fee, inside the same trade**. The pool counts the buying and the selling of the last 30 or 60 seconds.
-- **Small sells into busy buying pay almost nothing.** A big sell into little buying pays close to the full rate.
+- **Some selling is free.** Sells up to 25% of the window's buying pay nothing. Above that, the more the selling outweighs the buying, the closer it gets to the full rate.
+- **An empty market is no escape.** A floor of 2.5% of the graduation target means a dump into no buyers still pays nearly the full rate.
 - **Splitting a dump into many small sells doesn't help.** The pool charges on all the selling in the window, so ten small sells in a row pay what one big sell pays. Selling slowly, a little each window, is what pays less.
-- **Before graduation**, half of the extra goes to the **pass holders who bought just before the sell**, in proportion to what they bought. The other half is **locked in the pool for good**.
-- **After graduation**, all of it is locked in the pool for good. Payback keeps running after graduation; the other launch rules end there.
+- A sell never pays more than the strength's top rate.
 
 **The creator picks a strength.** The numbers are set by 1EDGE and shown on the launch page:
 
@@ -104,14 +104,47 @@ Payback is a rule the creator can switch on for an open launch on **Robinhood Ch
 | **Standard** | 5% | 30 seconds |
 | **Strong** | 10% | 60 seconds |
 
+**And where it goes after graduation.** With Payback on, the creator makes one more choice at launch. It is fixed at launch, like every rule:
+
+| Choice | After graduation |
+|---|---|
+| **After graduation: Buyers** (the default) | Same split as before graduation: half to the pass holders whose buys the sell hit, the rest locked in the pool. |
+| **After graduation: Pool** | All of it is locked in the pool for good. |
+
+**Where the money goes:**
+
+- **Before graduation**, half goes to the **pass holders who bought just before the sell**, in proportion to what they bought. The other half is **locked in the pool for good**. Only pass holders can buy before graduation, so every buyer earns, except the creator.
+- **After graduation, on a Buyers coin**, the same half goes to buyers, but only to buys made **on 1edge.app by a wallet with a 1EDGE pass**. Buys anywhere else (other terminals, aggregators, bots) work exactly as before and are never refused. They just don't earn, and their share is locked in the pool.
+- **After graduation, on a Pool coin**, all of it is locked in the pool.
+- The creator's own pass never earns.
+- Receipts are capped: one wallet's receipt counts at most 2.5% of the graduation target per half-window.
+- Locked means locked: nobody can take it out. Not the creator, not 1EDGE.
+
+Payback keeps running after graduation; the other launch rules end there.
+
+**How much one buy can earn:**
+
+| Claimed | Most one buy can earn | On a Standard-fee coin |
+|---|---|---|
+| **Before graduation** | 2x the trading fee the buy paid | 2.4% of the buy |
+| **After graduation, Light** | 0.7x the fee, not counting the creator's share | 0.56% of the buy |
+| **After graduation, Standard or Strong** | 0.1x the fee, not counting the creator's share | 0.08% of the buy |
+
+On Tek coins, the part of the fee that goes to the creator's builder addresses isn't counted. The cap drops after graduation because once tokens can move freely, the "you still hold" check can be met with borrowed tokens.
+
 **Claiming, as a buyer:**
 
 - The coin's page shows **Dumpers pay you**: what dumpers have paid on this coin and what is waiting for you.
-- Your share can be claimed from about a minute after the sell, for 30 days. Tap **Claim**; your wallet sends it, and the money goes straight to it.
-- You can claim **only while you still hold every token your pass bought on this coin**. Sold some? That share stays in the pool.
-- One buy earns at most **twice the trading fee it paid**. Whatever isn't claimed after 30 days is locked in the pool.
+- Your share can be claimed once the window has moved past your buy (its half-window), for 30 days from then. Tap **Claim**; your wallet sends it, and the money goes straight to it.
+- **Hold rule:** you can claim only while you still hold every token your pass bought on this coin. Sold some? That share stays in the pool. This applies before graduation on every coin, and after graduation on Pool coins. On Buyers coins after graduation it doesn't apply; the smaller cap does that job.
+- Whatever isn't claimed after 30 days, and every share that had no buyer to go to, is locked in the pool. Anyone can trigger that; 1EDGE's keeper does it.
 
 Payback never blocks a sell. The only thing that can refuse a sell is the launch's own *Max per sell*.
+
+**What it means for you:**
+
+- **Buying:** buy on 1edge.app with your pass. If your share is claimable before the coin graduates, claim it then: the cap is much higher. Before graduation, keep what you bought until you claim.
+- **Creating:** Payback makes a dump on your buyers cost the dumper, and every cent of it stays with your buyers or deepens your pool. Pick **Buyers** to keep paying pass holders who buy on 1edge.app after graduation, or **Pool** to put all of it into locked liquidity.
 
 ## What an open launch gives up
 
