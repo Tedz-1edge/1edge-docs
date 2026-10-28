@@ -125,13 +125,14 @@ Payback keeps running after graduation; the other launch rules end there.
 
 **How much one buy can earn:**
 
-<!-- TODO-CAPS: the Buyers-coin caps are set by the contract lane (PaybackPreset earnCapFeeTenthsBuyers / earnCapGradTenthsBuyers); the lead fills the "Buyers coin" column when they are final. The 50/50 numbers are today's. -->
+| Claimed | 50/50 coin | Buyers coin |
+|---|---|---|
+| **Before graduation, Light** | 2x the trading fee the buy paid (2.4% of the buy on a Standard-fee coin) | 1.8x the fee (2.16% of the buy) |
+| **Before graduation, Standard or Strong** | 2x the fee (2.4% of the buy) | 2x the fee (2.4% of the buy) |
+| **After graduation, Light** | 0.7x the fee, not counting the creator's share (0.56% of the buy) | 0.2x the fee, not counting the creator's share (0.16% of the buy) |
+| **After graduation, Standard or Strong** | 0.1x the fee, not counting the creator's share (0.08% of the buy) | 0.1x the fee, not counting the creator's share (0.08% of the buy) |
 
-| Claimed | Most one buy can earn, 50/50 coin | On a Standard-fee 50/50 coin | Buyers coin |
-|---|---|---|---|
-| **Before graduation** | 2x the trading fee the buy paid | 2.4% of the buy | TBD by the contract lane |
-| **After graduation, Light** | 0.7x the fee, not counting the creator's share | 0.56% of the buy | TBD by the contract lane |
-| **After graduation, Standard or Strong** | 0.1x the fee, not counting the creator's share | 0.08% of the buy | TBD by the contract lane |
+On a Buyers coin all of a dump's Payback goes to buyers, so Light keeps each buy's share a little smaller: that way a group of friends can never win back a dump by buying just before it. Whatever a buy can't take is locked in the pool.
 
 A Pool coin has nothing to claim. On Tek coins, the part of the fee that goes to the creator's builder addresses isn't counted. The cap drops after graduation because once tokens can move freely, the "you still hold" check can be met with borrowed tokens.
 
