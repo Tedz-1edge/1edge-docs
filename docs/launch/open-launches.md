@@ -115,9 +115,10 @@ Payback is a rule the creator can switch on for an open launch on **Robinhood Ch
 **Who earns:**
 
 - **Before graduation**, the buyers' part goes to the **pass holders who bought just before the sell**, in proportion to what they bought. Only pass holders can buy before graduation, so every buyer earns, except the creator.
-- **After graduation**, on a Buyers or 50/50 coin, the buyers' part goes only to buys made **on 1edge.app by a wallet with a 1EDGE pass**. Buys anywhere else (other terminals, aggregators, bots) work exactly as before and are never refused. They just don't earn, and their part is locked in the pool.
+- **After graduation**, on a Buyers or 50/50 coin, the buyers' part goes only to buys made **through 1EDGE's router by a wallet with a 1EDGE pass**, which is how every buy on 1edge.app goes. Buys that don't go through 1EDGE's router (other terminals, aggregators, a direct pool swap) work exactly as before and are never refused. They just don't earn, and their part is locked in the pool.
 - On a **Pool** coin nobody earns: all of it is locked in the pool, before and after graduation.
 - The creator's own pass never earns.
+- On a Payback coin, Payback is the reward: trades on it don't add tier rebates or referral share.
 - Receipts are capped: one wallet's receipt counts at most 2.5% of the graduation target per half-window.
 - Locked means locked: nobody can take it out. Not the creator, not 1EDGE.
 
@@ -132,7 +133,7 @@ Payback keeps running after graduation; the other launch rules end there.
 | **After graduation, Light** | 0.7x the fee, not counting the creator's share (0.56% of the buy) | 0.2x the fee, not counting the creator's share (0.16% of the buy) |
 | **After graduation, Standard or Strong** | 0.1x the fee, not counting the creator's share (0.08% of the buy) | 0.1x the fee, not counting the creator's share (0.08% of the buy) |
 
-On a Buyers coin all of a dump's Payback goes to buyers, so Light keeps each buy's share a little smaller: that way a group of friends can never win back a dump by buying just before it. Whatever a buy can't take is locked in the pool.
+On a Buyers coin all of a dump's Payback goes to buyers, so Light keeps each buy's share a little smaller. With that, the friend-group plays we tested lose. Whatever a buy can't take is locked in the pool.
 
 A Pool coin has nothing to claim. On Tek coins, the part of the fee that goes to the creator's builder addresses isn't counted. The cap drops after graduation because once tokens can move freely, the "you still hold" check can be met with borrowed tokens.
 
@@ -143,7 +144,7 @@ A Pool coin has nothing to claim. On Tek coins, the part of the fee that goes to
 - **Hold rule, before graduation only:** you can claim only while you still hold every token your pass bought on this coin. Sold some? That share is locked in the pool. After graduation it doesn't apply; the smaller cap does that job.
 - Whatever isn't claimed after 30 days, and every share that had no buyer to go to, is locked in the pool. Anyone can trigger that; 1EDGE's keeper does it.
 
-Payback never blocks a sell. The only thing that can refuse a sell is the launch's own *Max per sell*.
+Payback itself never refuses a sell: it only adds the extra fee.
 
 **What it means for you:**
 
