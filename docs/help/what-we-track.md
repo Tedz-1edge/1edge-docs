@@ -104,7 +104,7 @@ The full rules are in [Seasons](../rewards/seasons.md) and in the season terms y
 | **The scale** | Each axis is scored against the 95th percentile of that week's field, on a log curve |
 | **Qualifying** | 150 points in a week, 1 SOL of net trading and a pass on your opt-in, then four bands proportional to how many qualified |
 | **The week** | Closes Friday 20:00 UTC. A settled week is **never re-ranked** |
-| **Opting in** | Per season, with its terms version recorded. Points count for everyone; payouts are for those who opted in |
+| **Opting in** | Per season, with its terms version recorded. Points count for everyone; payouts are for those who opted in. You can opt in to the next season in the last 7 days of the current one, and switch on "Keep me in every season" (off by default): we record when you switched it on or off and the terms version it carries you under, and it never carries you into a season with different terms |
 | **Claiming** | Within 28 days of settlement, then it rolls back to the vault |
 | **Points are not tokens** | No cash value, not transferable, not sellable |
 

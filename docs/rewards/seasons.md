@@ -35,6 +35,16 @@ Each one tops out at what the busiest 5% did that week, and **the first steps co
 
 Only weeks where you reached 150 count toward your season total.
 
+## Opting in
+
+A paid seat needs you **opted in to that season**: you accept its terms once, and that covers every week of the season still to come. Weeks that settled before you opted in don't pay. Points count for everyone either way.
+
+**Get in early.** In the last 7 days of a season, the Seasons page lets you opt in to the **next** one. It's saved and you're in from the first minute of the new season, so week 1 counts. It changes nothing about the season you're in now. Changed your mind before it starts? Take it back on the same page.
+
+**Keep me in every season.** A switch next to the opt-in, off unless you turn it on. When it's on, we opt you in to each new season for you, as long as the season terms are still the ones you accepted. If the terms change, we don't carry you over: the page shows the new terms and asks again. Turning it off is one tap and only stops future seasons; the season you're in stays as it is.
+
+Your pass is checked again at the start of each season you're carried into, the same check as when you opt in yourself.
+
 ## Being here
 
 *Being here* is a bonus on top of everything else, **not points on its own**. It only adds once the other five have taken you to 150. Using 1EDGE without trading, posting or calling scores nothing.
@@ -54,7 +64,7 @@ Up to **500 paid seats a week**, in four bands, each band sharing a quarter of t
 
 <figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/seasons-board-390.webp"><img src="../../assets/shots/seasons-board-1440.webp" alt="This week, live: bands and seats. Invented numbers." loading="lazy"></picture><figcaption>This week, live: bands and seats. Invented numbers.</figcaption></figure>
 
-You need to opt in to take a seat: most qualifiers so far had not, and took nothing. An empty seat rolls back.
+You need to [opt in](#opting-in) to take a seat: most qualifiers so far had not, and took nothing. An empty seat rolls back.
 
 **Seats are worth a dollar amount, paid in [$1EDGE](../token/index.md)** at the average price over the 7 days before each Friday lock. The weekly pot is set from $1EDGE's market cap. The finale pays double. Nothing here is a promise about any price.
 
