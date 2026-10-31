@@ -74,9 +74,9 @@ You score on six things, up to 1,000 points a week:
 | People who read your posts and calls | 10% |
 | Being here: days you used 1edge.app yourself | 10% |
 
-Reach **150 points** in a week, trade at least 1 SOL net (or the same on Robinhood Chain or Arc), opt in with your pass, and you're in the running for a **paid seat**. Up to 500 seats a week across four bands. Seats are paid in **$1EDGE**, straight to your wallet, and you have 28 days to claim. The finale pays double.
+Reach **150 points** in a week, buy at least 1 SOL of coins (or the same on Robinhood Chain or Arc), opt in with your pass, and you're in the running for a **paid seat**. Up to 500 seats a week across four bands. Seats are paid in **$1EDGE**, straight to your wallet, and you have 28 days to claim. The finale pays double.
 
-Volume is netted per coin, so round trips cancel out, and payouts that look like wash trading are held for a person to check. 1EDGE team wallets don't score.
+Trading points: a coin's buys and sells in the same week cancel each other, so round trips score nothing. Payouts that look like wash trading are held for a person to check. 1EDGE team wallets don't score.
 
 On top of the seats there's the [Trophy Cabinet](../../social/trophy-cabinet.md): trophies for calls that hit, hands that held, the Daily Crown for the best realised PnL of the day. Trophies are earned, never bought, and they're status, not assets.
 

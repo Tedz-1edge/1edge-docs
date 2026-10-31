@@ -30,7 +30,7 @@ Each one tops out at what the busiest 5% did that week, and **the first steps co
 **150 points** in a week is the line. A **paid seat** that week needs three things:
 
 1. 150 points,
-2. at least **1 SOL of net trading** (or the same on Robinhood Chain or Arc),
+2. at least **1 SOL of buys** in the week (or the same on Robinhood Chain or Arc, all added up); sells never come off it,
 3. your pass, on your opt-in to the season.
 
 Only weeks where you reached 150 count toward your season total.
@@ -62,7 +62,7 @@ You need to opt in to take a seat: most qualifiers so far had not, and took noth
 
 ## Fair play
 
-- **One person, one wallet.** Volume is netted per coin over the week, so round trips cancel out. Wash patterns (buy, move off-book, sell from a second wallet) put a payout on **Pending checks**: it's held, not lost, and a person decides.
+- **One person, one wallet.** Trading points: a coin's buys and sells in the same week cancel each other, so **round trips score nothing**. Sells never come off the buys a seat needs. Wash patterns (buy, move off-book, sell from a second wallet) put a payout on **Pending checks**: it's held, not lost, and a person decides.
 - 1EDGE team wallets don't score.
 
 ## The finale
