@@ -177,7 +177,7 @@ Meteora DBC (launch curves) `dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN` · Met
 | Open launch fees | `0x513fdDBCe61225De5AE609A78fBdBb60e615f760` |
 | Open launch router | `0x3B1557c1fB5D5CD121AFF4713b3B7AbDc34546E1` |
 | Rules reader | `0xf0619a3B2d364271994C1E3a0423D78156537cf2` |
-| Timelock (every contract change waits 5 minutes) | `0xccc773e9eb74ea4973bC927786fE5E880F596DAc` |
+| Timelock | `0xccc773e9eb74ea4973bC927786fE5E880F596DAc` |
 | Access manager (owns every 1EDGE contract) | `0xb570C017c277831fc1FaCCC6eC4fAdb6FeDFae70` |
 
 Settings live inside the contracts; there are no separate config addresses on EVM.
@@ -208,7 +208,7 @@ Explorer: [robinhoodchain.blockscout.com](https://robinhoodchain.blockscout.com)
 | Open launch fees | `0xb9f45305893fB1e9eC6B0FF2050e87D94D03d47C` |
 | Open launch router | `0x2B3027836F1846241482F768E175e1EECF7c2111` |
 | Rules reader | `0xf0619a3B2d364271994C1E3a0423D78156537cf2` |
-| Timelock (every contract change waits 48 hours) | `0xccc773e9eb74ea4973bC927786fE5E880F596DAc` |
+| Timelock | `0xccc773e9eb74ea4973bC927786fE5E880F596DAc` |
 | Access manager (owns every 1EDGE contract) | `0xb570C017c277831fc1FaCCC6eC4fAdb6FeDFae70` |
 
 The core contracts share their Robinhood Chain addresses. The open-launch contracts are separate deployments with their own addresses, and `0xb9f4…d47C` is a different contract on each chain.
