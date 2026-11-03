@@ -177,7 +177,7 @@ Meteora DBC (launch curves) `dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN` · Met
 | Open launch fees | `0x513fdDBCe61225De5AE609A78fBdBb60e615f760` |
 | Open launch router | `0x3B1557c1fB5D5CD121AFF4713b3B7AbDc34546E1` |
 | Rules reader | `0xf0619a3B2d364271994C1E3a0423D78156537cf2` |
-| Timelock (every contract change waits 48 hours) | `0xccc773e9eb74ea4973bC927786fE5E880F596DAc` |
+| Timelock (every contract change waits 5 minutes) | `0xccc773e9eb74ea4973bC927786fE5E880F596DAc` |
 | Access manager (owns every 1EDGE contract) | `0xb570C017c277831fc1FaCCC6eC4fAdb6FeDFae70` |
 
 Settings live inside the contracts; there are no separate config addresses on EVM.
