@@ -174,10 +174,10 @@ Caps are a share of the buy. On EDGEtek they come from the coin's fee, and the c
 
 **The 0.1 ETH limit.** Earnings count up to 0.1 ETH of buying per half-window.
 
-- **After graduation** it is per wallet and applied at payout, on the wallet that ends up with the tokens. Above 0.1 ETH, that half-window's earnings scale down in proportion. So more buying in the same half-window can lower that wallet's share, even a share a sell already paid into, and that includes tokens another buyer's trade delivers to it.
+- **After graduation** it is per wallet and applied at payout, on the wallet that ends up with the tokens. Above 0.1 ETH, that half-window's earnings scale down in proportion. So more buying in the same half-window can lower that wallet's share, even after a sell has landed. Tokens another buyer's trade delivers to that wallet count too.
 - **Before graduation** it is per pass and applied at the buy: first buys count, and buying past the limit earns nothing in that half-window.
 
-**The allowance memory.** The free allowance counts buying over the memory, averaged per window, so a buy just before a dump moves it by a third on Light, a quarter on Standard and an eighth on Strong. A steady market keeps its allowance. The cost lands on small sells. On the launch trades we measured (Solana launches, scaled to Robinhood Chain's graduation target), a small sell into net buying, under 5% of the buying, paid 0.17% on Light, 0.39% on Standard and 1.71% on Strong.
+**The allowance memory.** The free allowance counts buying over the memory, averaged per window, so a buy just before a dump moves it by a third on Light, a quarter on Standard and an eighth on Strong. A steady market keeps its allowance. The cost lands on small sells. On the launch trades we measured (Solana launches, scaled to Robinhood Chain's graduation target), small sells into net buying (under 5% of the buying) paid 0.17% on Light, 0.39% on Standard and 1.71% on Strong.
 
 ### What it does not stop
 
@@ -185,9 +185,13 @@ Payback charges a dump. It doesn't stop one, and some plays around it still come
 
 **A dumper's friends buying just before a dump.** Up to about +0.1% of the dump, ahead of what the dumper could do alone: +0.0612% on the free grid (the group picks its own schedule), +0.096% on a wider simulated search, one cell +0.106% in real ETH.
 
-**Rotation in waves.** Allies buy back a stash just before a dump, and the dump sells in waves into outside buying as big as the dump. Wallets are free, so the last two columns are the ones to read. With the creator in the group, the creator's fee share comes back to it.
+**Rotation in waves.** Allies buy back a stash just before a dump, and the dump sells in waves into outside buying as big as the dump.
 
-| Strength | 4 allied wallets | 4 allied wallets, creator in the group | One wallet per about 0.07 ETH of buying | One wallet per about 0.07 ETH of buying, creator in the group |
+- **4 wallets:** 4 allied wallets.
+- **Many wallets:** one wallet per about 0.07 ETH of buying. Wallets are free, so these are the columns to read.
+- **+ creator:** the creator is in the group, and the creator's fee share comes back to it.
+
+| Strength | 4 wallets | 4 wallets + creator | Many wallets | Many wallets + creator |
 |---|---|---|---|---|
 | **Light** | +0.51% | +1.2% | +1.18% | +1.89% |
 | **Standard** | +0.84% | +2.1% | +2.34% | +3.34% |
