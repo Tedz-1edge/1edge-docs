@@ -166,11 +166,11 @@ The creator picks a strength. 1EDGE sets the numbers, and the launch page shows 
 | **Your buy's window closes within** | 46 s | 46 s | 91 s |
 | **Half-window** | 15 s | 15 s | 30 s |
 | **Allowance memory** | 90 s | 2 min | 8 min |
-| **Most a buy can earn before graduation**, EDGE launch | 2.4% (2.16% on a Buyers coin) | 2.4% | 2.4% |
-| **Most a buy can earn after graduation**, EDGE launch | 0.8% | 0.8% | 0.4% |
-| **Most a buy can earn after graduation**, EDGEtek | from 1.2%, by its fee | from 1.2%, by its fee | from 0.6%, by its fee |
+| **Cap before graduation**, EDGE launch | 2.4% (2.16% on a Buyers coin) | 2.4% | 2.4% |
+| **Cap after graduation**, EDGE launch | 0.8% | 0.8% | 0.4% |
+| **Cap after graduation**, EDGEtek | from 1.2%, by its fee | from 1.2%, by its fee | from 0.6%, by its fee |
 
-Caps are a share of the buy. On EDGEtek they come from the coin's fee, and the coin's page shows its own numbers before and after graduation. The cap drops at graduation because anyone can buy from then on and a second wallet is free. On an EDGE launch, 0.8% stays below the 1.2% the buy paid in fees.
+A cap is the most a buy can earn, as a share of the buy. On EDGEtek they come from the coin's fee, and the coin's page shows its own numbers before and after graduation. The cap drops at graduation because anyone can buy from then on and a second wallet is free. On an EDGE launch, 0.8% stays below the 1.2% the buy paid in fees.
 
 **The 0.1 ETH limit.** Earnings count up to 0.1 ETH of buying per half-window.
 
@@ -187,7 +187,7 @@ Payback charges a dump. It doesn't stop one, and some plays around it still come
 
 **Rotation in waves.** Allies buy back a stash just before a dump, and the dump sells in waves into outside buying as big as the dump.
 
-- **4 wallets:** 4 allied wallets.
+- **4 wallets:** the group uses 4 allied wallets.
 - **Many wallets:** one wallet per about 0.07 ETH of buying. Wallets are free, so these are the columns to read.
 - **+ creator:** the creator is in the group, and the creator's fee share comes back to it.
 
