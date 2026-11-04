@@ -196,7 +196,7 @@ Payback charges a dump. It doesn't stop one. **An organised group with many wall
 | **0.3x** | loses | +0.37% | +0.45% | +1.50% |
 | **0.1x** | loses | loses | loses | +0.89% |
 
-A dumper who can wait needs no allies: selling slowly over an hour into steady outside buying keeps more than these plays.
+Time matters too: on Standard, with outside buying as big as the dump, a dumper selling alone over about an hour kept more than this play did.
 
 **The same transaction.** If a buy's tokens are not delivered, another operation in that same transaction that takes exactly that amount can pick up its share: at most 0.8% of that undelivered buy. It comes from the pool, and the buyer loses nothing.
 
