@@ -107,11 +107,11 @@ The creator picks once, at launch. It holds for the whole life of the coin.
 
 | Choice | Where it goes |
 |---|---|
-| **Buyers** | All of it goes to the buyers it hit, up to their caps. |
-| **50/50** (the default) | Half goes to the buyers it hit, up to their caps. The rest is locked in the pool. |
+| **Buyers** | All of it is split among the buyers it hit, by what they bought. |
+| **50/50** (the default) | Half is split among the buyers it hit, by what they bought. The rest is locked in the pool. |
 | **Pool** | All of it is locked in the pool: deeper liquidity for everyone. No buyer is paid. |
 
-The buyers' part is split across the buys in the sell's window, in proportion to what they bought. Only buys made before the sell earn from it. Anything past a buyer's cap, and any part with no buyer to take it, goes to the pool. Pool money joins the coin's liquidity after graduation, in a position no code can remove. Until then it waits. On a coin that never graduates, it stays in the fee contract.
+The buyers' part is split across the buys in the sell's window, in proportion to what they bought. Only buys made before the sell earn from it. There is no limit on a buyer's share: a small buy alone in the window gets the whole buyers' part. Any part with no buyer to take it goes to the pool. Pool money joins the coin's liquidity after graduation, in a position no code can remove. Until then it waits. On a coin that never graduates, it stays in the fee contract.
 
 ### Who gets paid
 
@@ -155,7 +155,7 @@ These earn nothing. The buy still goes through, and its share goes to the pool.
 
 **A second pool of the coin** pays and earns no Payback. Anyone can open one after graduation, on Uniswap v3 for example, and no contract can stop that without breaking normal transfers. The coin's locked liquidity stays in its own pool, and arbitrage between the two runs through that pool, where Payback applies.
 
-### Strengths and caps
+### Strengths
 
 The creator picks a strength. 1EDGE sets the numbers, and the launch page shows them.
 
@@ -166,39 +166,36 @@ The creator picks a strength. 1EDGE sets the numbers, and the launch page shows 
 | **Your buy's window closes within** | 46 s | 46 s |
 | **Half-window** | 15 s | 15 s |
 | **Allowance memory** | 90 s | 2 min |
-| **Cap before graduation**, EDGE launch | 2.4% (2.16% on a Buyers coin) | 2.4% |
-| **Cap after graduation**, EDGE launch | 0.8% | 0.8% |
-| **Cap after graduation**, EDGEtek | from 1.2%, by its fee | from 1.2%, by its fee |
-
-A cap is the most a buy can earn, as a share of the buy. On EDGEtek they come from the coin's fee, and the coin's page shows its own numbers before and after graduation. The cap drops at graduation because anyone can buy from then on and a second wallet is free. On an EDGE launch, 0.8% stays below the 1.2% the buy paid in fees.
-
-**The 0.1 ETH limit.** Earnings count up to 0.1 ETH of buying per half-window.
-
-- **After graduation** it is per wallet and applied at payout, on the wallet that ends up with the tokens. It limits the total: a wallet's earnings in one half-window stop at its cap on 0.1 ETH of buying. More buying in the same half-window never lowers what that wallet has already earned. Tokens another buyer's trade delivers to that wallet count too.
-- **Before graduation** it is per pass and applied at the buy: first buys count, and buying past the limit earns nothing in that half-window.
 
 **The allowance memory.** The free allowance counts buying over the memory, averaged per window, so a buy just before a dump moves it by a third on Light and a quarter on Standard. A steady market keeps its allowance. The cost lands on small sells. On the launch trades we measured (Solana launches, scaled to Robinhood Chain's graduation target), small sells into net buying (under 5% of the buying) paid 0.17% on Light and 0.39% on Standard.
 
 ### What it does not stop
 
-Payback charges a dump. It doesn't stop one. **An organised group with many wallets can avoid part of the fee.** Each number here is what the group gains, as a share of the dump, measured on EDGE launches. They come from sweeps and are not maximums.
+Payback charges a sell. It doesn't stop one, and it doesn't make every dumper lose. **A seller's other wallets count as buyers, so on a Buyers or 50/50 coin a seller can win some or all of the fee back.** On a Pool coin nobody can. The numbers here come from sweeps on EDGE launches and are not maximums.
 
-**A dumper's friends buying just before a dump.** Up to about +0.1% of the dump, ahead of what the dumper could do alone: +0.0612% on the free grid (the group picks its own schedule), +0.096% on a wider simulated search, one cell +0.106% in real ETH.
+**A seller's own second wallet.** It buys just before the dump, holds until the window closes, is paid, then sells slowly. What the seller saves, after that wallet's own fees and price loss, as a share of the fee they would have paid alone:
 
-**Rotation in waves.** Allies buy back a stash just before a dump, using one wallet per about 0.07 ETH of buying. The dump then sells in waves a few seconds apart into outside buying. Measured on a 2 ETH dump. "+ creator" means the creator is in the group and the creator's fee share comes back to it.
+| Other buying in the window | Buyers, Standard | Buyers, Light | 50/50, Standard | 50/50, Light | Pool |
+|---|---|---|---|---|---|
+| **None** | all of it | all of it | half | half | none |
+| **A tenth of the dump** | about 55% | about 49% | about 15% | about 10% | none |
+| **Half of the dump** | about 20% | about 11% | about 1% | none | none |
+| **As big as the dump** | about 5% | about 1% | none | none | none |
 
-<!-- FOUNDER DECISION PENDING (DECISION4 item 2): these Light and Standard numbers are stated as measured; acceptance is being confirmed. Remove this comment when the note arrives. -->
+In a quiet window a buy of 0.001 ETH is enough. On a Buyers coin with nobody else buying, Payback is close to free for a seller who sets this up. Before graduation a second wallet on the same pass doesn't work, because the dump sends that pass's share to the pool. A friend's pass does: up to about 68% of the fee in the same sweep, on Standard.
+
+**Wallets that buy just before someone else's sell.** Anyone can buy a little, hold through the window and collect. In a window with no other buyer that wallet gets the whole buyers' part, money that would otherwise have gone to the pool. With other buying as big as a tenth of the dump, a small wallet at best about covers its own fees. A bot buying 0.001 ETH every 30 seconds costs about 0.003 ETH an hour on a coin, before gas. The seller pays no more because of it, and real buyers share by size, so a bigger buy takes the bigger share.
+
+**Rotation in waves.** A wallet buys back a stash just before a dump, and the dump then sells in waves a few seconds apart into outside buying. Measured on a 2 ETH dump on a Buyers coin. "+ creator" means the creator is in the group and the creator's fee share comes back to it.
 
 | Outside buying, as a share of the dump | Light | Light + creator | Standard | Standard + creator |
 |---|---|---|---|---|
-| **1x** | +1.34% | +1.90% | +2.74% | +3.45% |
-| **0.5x** | +0.20% | +0.92% | +1.35% | +2.35% |
-| **0.3x** | loses | +0.37% | +0.45% | +1.50% |
-| **0.1x** | loses | loses | loses | +0.89% |
+| **1x** | +1.27% | +1.79% | +2.77% | +3.48% |
+| **0.5x** | +1.23% | +1.44% | +2.47% | +2.82% |
+| **0.3x** | +1.43% | +1.64% | +2.80% | +3.01% |
+| **0.1x** | +1.76% | +1.96% | +3.34% | +3.54% |
 
-Time matters too: on Standard, with outside buying as big as the dump, a dumper selling alone over about an hour kept more than this play did.
-
-**The same transaction.** If a buy's tokens are not delivered, another operation in that same transaction that takes exactly that amount can pick up its share: at most 0.8% of that undelivered buy. It comes from the pool, and the buyer loses nothing.
+**The same transaction.** If a buy's tokens are not delivered, another operation in that same transaction that takes exactly that amount can pick up its share. It comes from the pool, and the buyer loses nothing.
 
 ### Who can change it
 
