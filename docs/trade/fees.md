@@ -29,7 +29,7 @@ EDGE and EDGEtek are the same on Solana, Robinhood Chain and Arc. EDGEstocks on 
 | **Open EDGEtek** | **2, 3, 4 or 5%** | 1EDGE 1% · builder fee up to 3.8% · LP compound the rest (min 0.2%) · buyback & burn · Stack (on Solana: SOL and USDC pairs) |
 | **Open EDGEstocks, Solana** (priced in a tokenised stock) | **3%** | 1EDGE 1% · builder fee to up to 4 wallets · buyback & burn · holders share, paid in the stock · LP compound the rest (min 0.2%). Taken in the stock. No Stack |
 
-Open launches charge the same fee before and after graduation.
+Open launches charge the same fee before and after graduation. A coin with [Payback](../launch/open-launches.md#payback) on adds an extra fee to sells that land on fresh buying.
 
 ### After graduation (1EDGE launches)
 

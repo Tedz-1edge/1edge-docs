@@ -1,5 +1,5 @@
 ---
-description: Open launches. Pass-gated hook pools on Meteora and Uniswap v4. What the pool checks on every trade, the launch shield, and launch rules.
+description: Open launches. Pass-gated hook pools on Meteora and Uniswap v4. What the pool checks on every trade, the launch shield, launch rules and Payback.
 ---
 
 <span class="ed-eyebrow">Launch</span>
@@ -36,7 +36,7 @@ The check lives in the pool: a transfer hook on the Solana token, a v4 hook on t
 
 ### After graduation
 
-The gate comes off. **Anyone can buy, sell and send.** On Solana the pool moves to Meteora DAMM v2; on Robinhood Chain and Arc it's the same Uniswap v4 pool, now ungated. Launch rules end at graduation.
+The gate comes off. **Anyone can buy, sell and send.** On Solana the pool moves to Meteora DAMM v2; on Robinhood Chain and Arc it's the same Uniswap v4 pool, now ungated. Launch rules end at graduation; [Payback](#payback) runs for the whole life of the coin.
 
 ## Launch shield
 
@@ -48,7 +48,7 @@ On the trade ticket you'll see *Shield: 40% fee now · 1.2% in 6s*. The extra fe
 
 ## Launch rules
 
-The creator can add rules on top of the standard ones. Anything they pick shows on the coin's page under the shield pill, **can't be changed after launch, and ends at graduation.**
+The creator can add rules on top of the standard ones. Anything they pick shows on the coin's page under the shield pill, **can't be changed after launch, and ends at graduation.** [Payback](#payback) runs for the whole life of the coin.
 
 **Standard protection, on every launch:**
 
@@ -72,6 +72,7 @@ The creator can add rules on top of the standard ones. Anything they pick shows 
 | **Dev lock** | The creator can't sell or send until graduation or 30 days. |
 | **Dev drip** | Solana: the creator can sell at most a set share of their bag per day. |
 | **Must hold a token** | Robinhood Chain and Arc: buyers must hold another token first. |
+| **Payback** | Robinhood Chain: dump on fresh buyers and you pay them. See [Payback](#payback). |
 
 <figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/launch-rules-390.webp"><img src="../../assets/shots/launch-rules-1440.webp" alt="The Rules step on the launch page: groups and presets." loading="lazy"></picture><figcaption>The Rules step on the launch page: groups and presets.</figcaption></figure>
 
@@ -80,6 +81,125 @@ The launch page groups them as *Slow the snipers*, *Slow the dumps*, *Dev bag*, 
 <figure class="ed-shot ed-phone"><img src="../../assets/shots/token-open-rules-390.webp" alt="How this launch is protected: every rule on the coin, live. Sample launch." loading="lazy" width="390"><figcaption>How this launch is protected: every rule on the coin, live. Sample launch.</figcaption></figure>
 
 On a coin's page, tap the **shield pill** to see *How this launch is protected*. Coins with extra rules carry the **Protected** mark on the board.
+
+## Payback
+
+<p class="ed-lead">Dump on fresh buyers and you pay them.</p>
+
+Payback is a rule a creator can switch on for an open launch on **Robinhood Chain** priced in ETH. Stock-priced launches don't take it. It is off unless the creator picks it, it can't be changed after launch, and it runs for the whole life of the coin, before and after graduation.
+
+A sell that lands on fresh buying pays an extra fee, on chain, inside the same trade. The creator decides where that fee goes: to the buyers the sell hit, into the locked pool, or half to each. If you are one of those buyers, your share is paid to your wallet automatically, in ETH.
+
+### Who pays
+
+Anyone selling through the coin's pool, on any app, terminal or bot. The pool charges it inside the trade. Sells are never refused because of it: it adds a fee and nothing else.
+
+- **It reads the market.** The pool counts the selling of the last 30 or 60 seconds against the buying it remembers.
+- **Some selling is free.** Selling up to 25% of that buying pays nothing. Above that the rate climbs, and it reaches the strength's top rate at 75%.
+- **A buy cancels selling.** Each buy takes its size off the selling the pool is counting.
+- **An empty market is no escape.** A floor of 2.5% of the graduation target means a dump into no buyers still pays nearly the top rate.
+- **A row of small sells doesn't help.** The pool charges on all the selling in the window, so ten small sells in a row pay what one big sell pays. Selling slowly, a little each window, or into real buying, is what pays less.
+- A sell never pays more than the strength's top rate.
+
+### Where it goes
+
+The creator picks once, at launch. It holds for the whole life of the coin.
+
+| Choice | Where it goes |
+|---|---|
+| **Buyers** | All of it goes to the buyers it hit, up to their caps. |
+| **50/50** (the default) | Half goes to the buyers it hit, up to their caps. The rest is locked in the pool. |
+| **Pool** | All of it is locked in the pool: deeper liquidity for everyone. No buyer is paid. |
+
+The buyers' part is split across the buys in the sell's window, in proportion to what they bought. Only buys made before the sell earn from it. Anything past a buyer's cap, and any part with no buyer to take it, goes to the pool. Pool money joins the coin's liquidity after graduation, in a position no code can remove. Until then it waits. On a coin that never graduates, it stays in the fee contract.
+
+### Who gets paid
+
+You earn only if a sell lands in your buy's window. No sell, no payout.
+
+- **Before graduation:** only pass holders can buy and earn. One share per pass per half-window, paid to the wallet on your pass that bought first in it.
+- **After graduation:** the coin follows the tokens a buy delivered and pays the wallet they land in. See [Which routes earn](#which-routes-earn).
+- The creator's own wallet and pass never earn a share.
+- On a Payback coin, Payback is the reward: trades on it don't add tier rebates or referral share.
+
+### When the money arrives
+
+Your share is paid to your wallet automatically, in ETH, after your buy's window closes: about 45 s to 2 min after the buy, by strength. You press nothing. 1EDGE's keeper sends it on its next pass and pays the gas.
+
+- **Smart-contract wallet** (Safe, 4337 account) or any other contract: your share is credited, not sent. Collect it with one tap on the coin's page. A wallet that refuses the payment gets the same. A credit has its own 30 days from the day it lands. In a contract that lets anyone make calls through it, as some aggregator executors do, anyone can claim the credit.
+- **A late payout:** Claim also appears on the coin's page. Anyone can send a due payout, and the money only goes to the wallet on record.
+- **Under about 0.00001 ETH:** the payout waits until it adds up.
+- **Unpaid after 30 days:** it goes to the locked pool.
+
+The coin's page has a **Dumpers pay you** card with this wallet's buys on the coin, each marked *Window open*, *Due*, *Ready to claim*, *Paid*, *Credited*, *To the pool* or *Expired*. On a Pool coin the card reads **Dumpers pay the pool**, with nothing to claim.
+
+### The hold rule
+
+**Sell or move any of this coin from that wallet before the window closes and that buy's share goes to the pool. After it closes, nothing you do matters. Before graduation it counts every wallet on your pass.**
+
+It covers any of the coin, not only the tokens from that buy, so a dumper's own recent buys go to the pool too. A late payout doesn't change it: the window is what counts. Each open buy on the coin's page shows the clock time to hold until. A buy made before graduation stays on the pass rule until its window closes, even if the coin graduates first.
+
+### Which routes earn
+
+After graduation, a buy on any app, terminal, aggregator or bot can earn if the tokens land in a wallet in that trade. The coin can only follow a delivery it can match exactly to that buy. 1edge.app, Uniswap's UniversalRouter and single-pool aggregator fills match.
+
+These earn nothing. The buy still goes through, and its share goes to the pool.
+
+| Route | Why |
+|---|---|
+| **Tokens kept inside Uniswap**, not delivered in the transaction | A buy that is never delivered can't be checked by the hold rule. If part is delivered, that part earns. |
+| **A buy split across several pools** in one transaction | The coin can't match the delivery to that buy. |
+| **A router that takes the tokens before swapping** | The coin can't match the delivery to that buy. |
+| **A filler batching several users' buys** | The coin can't match the delivery to that buy. |
+| **Tokens sent straight on into another pool** | The share is credited to that pool's contract, which can't collect. After 30 days it goes to the locked pool. |
+
+**A second pool of the coin** pays and earns no Payback. Anyone can open one after graduation, on Uniswap v3 for example, and no contract can stop that without breaking normal transfers. The coin's locked liquidity stays in its own pool, and arbitrage between the two runs through that pool, where Payback applies.
+
+### Strengths and caps
+
+The creator picks a strength. 1EDGE sets the numbers, and the launch page shows them.
+
+| | Light | Standard | Strong |
+|---|---|---|---|
+| **Top rate on a sell** | 3% | 5% | 10% |
+| **Window** | 30 s | 30 s | 60 s |
+| **Your buy's window closes within** | 46 s | 46 s | 91 s |
+| **Half-window** | 15 s | 15 s | 30 s |
+| **Allowance memory** | 90 s | 2 min | 8 min |
+| **Most a buy can earn before graduation**, EDGE launch | 2.4% (2.16% on a Buyers coin) | 2.4% | 2.4% |
+| **Most a buy can earn after graduation**, EDGE launch | 0.8% | 0.8% | 0.4% |
+| **Most a buy can earn after graduation**, EDGEtek | from 1.2%, by its fee | from 1.2%, by its fee | from 0.6%, by its fee |
+
+Caps are a share of the buy. On EDGEtek they come from the coin's fee, and the coin's page shows its own numbers before and after graduation. The cap drops at graduation because anyone can buy from then on and a second wallet is free. On an EDGE launch, 0.8% stays below the 1.2% the buy paid in fees.
+
+**The 0.1 ETH limit.** Earnings count up to 0.1 ETH of buying per half-window.
+
+- **After graduation** it is per wallet and applied at payout, on the wallet that ends up with the tokens. Above 0.1 ETH, that half-window's earnings scale down in proportion. So more buying in the same half-window can lower that wallet's share, even a share a sell already paid into, and that includes tokens another buyer's trade delivers to it.
+- **Before graduation** it is per pass and applied at the buy: first buys count, and buying past the limit earns nothing in that half-window.
+
+**The allowance memory.** The free allowance counts buying over the memory, averaged per window, so a buy just before a dump moves it by a third on Light, a quarter on Standard and an eighth on Strong. A steady market keeps its allowance. The cost lands on small sells. On the launch trades we measured (Solana launches, scaled to Robinhood Chain's graduation target), a small sell into net buying, under 5% of the buying, paid 0.17% on Light, 0.39% on Standard and 1.71% on Strong.
+
+### What it does not stop
+
+Payback charges a dump. It doesn't stop one, and some plays around it still come out ahead. Each number here is what the group gains, as a share of the dump, measured on EDGE launches. They come from sweeps and are not maximums.
+
+**A dumper's friends buying just before a dump.** Up to about +0.1% of the dump, ahead of what the dumper could do alone: +0.0612% on the free grid (the group picks its own schedule), +0.096% on a wider simulated search, one cell +0.106% in real ETH.
+
+**Rotation in waves.** Allies buy back a stash just before a dump, and the dump sells in waves into outside buying as big as the dump. Wallets are free, so the last two columns are the ones to read. With the creator in the group, the creator's fee share comes back to it.
+
+| Strength | 4 allied wallets | 4 allied wallets, creator in the group | One wallet per about 0.07 ETH of buying | One wallet per about 0.07 ETH of buying, creator in the group |
+|---|---|---|---|---|
+| **Light** | +0.51% | +1.2% | +1.18% | +1.89% |
+| **Standard** | +0.84% | +2.1% | +2.34% | +3.34% |
+| **Strong** | loses | +0.07% | +0.46% | +2.62% |
+
+**The same transaction.** If a buy's tokens are not delivered, another operation in that same transaction that takes exactly that amount can pick up its share: at most 0.8% of that undelivered buy. It comes from the pool, and the buyer loses nothing.
+
+### Who can change it
+
+A launched coin keeps its strength and its choice of where Payback goes. Nobody can change them. Settings for new launches change through the 3-of-4 Safe and a timelock. The delay read on Robinhood Chain on 4 Nov 2026 was 300 seconds (5 minutes). Anyone can read it: call `getMinDelay` on the timelock `0xccc773e9eb74ea4973bC927786fE5E880F596DAc`.
+
+A payout brake can pause payouts and Claim. It can't touch sells or fees, and the time paused is added to the 30 days.
 
 ## What an open launch gives up
 

@@ -42,7 +42,7 @@ If your buy would overshoot the target, it's cut to what the curve needs, and th
 - **Open launch, Solana:** the Meteora curve migrates to DAMM v2. The pass gate and the transfer lock come off.
 - **Open launch, Robinhood Chain / Arc:** it's already a v4 pool. Graduation flips the gate off; transfers open.
 
-Wallet caps, cooldowns and launch rules end at graduation. **After graduation anyone can buy, sell and send**, on 1edge.app or anywhere else.
+Wallet caps, cooldowns and launch rules end at graduation; [Payback](open-launches.md#payback) keeps running. **After graduation anyone can buy, sell and send**, on 1edge.app or anywhere else.
 
 ## Fees after graduation
 

@@ -102,7 +102,7 @@ Two places a coin can trade before graduation: the **1EDGE curve** on 1edge.app,
 
 ## Rules a creator can switch on { #optional-rules }
 
-These are off unless the creator switches them on at launch. Anything they pick shows on the coin's page under the shield pill, **can't be changed after launch, and ends at graduation.** Soft landing is the one that runs just after graduation. Solana 1EDGE-curve launches don't take creator rules yet. The launch page only offers the rules a launch's chain and venue can carry.
+These are off unless the creator switches them on at launch. Anything they pick shows on the coin's page under the shield pill, **can't be changed after launch, and ends at graduation.** Soft landing is the one that runs just after graduation. [Payback](open-launches.md#payback) runs for the whole life of the coin. Solana 1EDGE-curve launches don't take creator rules yet. The launch page only offers the rules a launch's chain and venue can carry.
 
 ### Wallet cap { #wallet-cap }
 
