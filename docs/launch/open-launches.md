@@ -171,7 +171,7 @@ The creator picks a strength. 1EDGE sets the numbers, and the launch page shows 
 
 ### What it does not stop
 
-Payback charges a sell. It doesn't stop one, and it doesn't make every dumper lose. **A seller's other wallets count as buyers, so on a Buyers or 50/50 coin a seller can win some or all of the fee back.** On a Pool coin nobody can. The numbers here come from sweeps on EDGE launches and are not maximums.
+Payback charges a sell. It doesn't stop one, and it doesn't make every dumper lose. **A seller's other wallets count as buyers, so a seller can win some or all of the fee back on a Buyers coin, and up to half on a 50/50 coin.** On a Pool coin no wallet is paid. The numbers here come from sweeps on EDGE launches and are not maximums.
 
 **A seller's own second wallet.** It buys just before the dump, holds until the window closes, is paid, then sells slowly. What the seller saves, after that wallet's own fees and price loss, as a share of the fee they would have paid alone:
 
@@ -182,11 +182,11 @@ Payback charges a sell. It doesn't stop one, and it doesn't make every dumper lo
 | **Half of the dump** | about 20% | about 11% | about 1% | none | none |
 | **As big as the dump** | about 5% | about 1% | none | none | none |
 
-In a quiet window a buy of 1 wei is enough. On a Buyers coin with nobody else buying, Payback is close to free for a seller who sets this up. Before graduation a second wallet on the same pass doesn't work, because the dump sends that pass's share to the pool. A friend's pass does: up to about 68% of the fee in the same sweep, on Standard.
+In a quiet window a buy of 1 wei is enough. On a Buyers coin with nobody else buying, Payback is close to free for a seller who sets this up. Before graduation a second wallet on the same pass doesn't work, because the dump sends that pass's share to the pool. A friend's pass does: about 68% of the fee at best on a Buyers coin and about 24% on 50/50, on Standard, in a separate sweep with 0.05 ETH of other buying in the window. An empty window would give more.
 
-**Wallets that buy just before someone else's sell.** Anyone can buy a little, hold through the window and collect. In a window with no other buyer that wallet gets the whole buyers' part, money that would otherwise have gone to the pool. A bot can run this blind with a buy of 1 wei every 30 seconds: it costs only gas, about 0.0005 ETH an hour at 0.02 gwei. When others are buying the share follows size, so a bigger buy takes the bigger share. On a just-graduated coin a wallet that knows the sell is coming loses more to the price drop than it earns, unless its buy is tiny or the window is empty. On a deeper pool it can win: after 150 ETH of earlier buying, a 0.1 ETH wallet that knew about a 1 ETH dump made about 0.0175 ETH, and an honest 0.1 ETH buyer beside it was paid 0.0235 ETH instead of 0.047 ETH. The buy doesn't raise the seller's rate.
+**Wallets that buy just before someone else's sell.** Anyone can buy a little, hold through the window and collect. In a window with no other buyer that wallet gets the whole buyers' part, money that would otherwise have gone to the pool. A bot can run this blind with a buy of 1 wei every 30 seconds: it costs only gas, about 0.0005 ETH an hour at 0.02 gwei, before L1 data. When others are buying the share follows size, so a bigger buy takes the bigger share. On a just-graduated coin, if the price stays down until the window closes, a wallet that knows the sell is coming loses more to the price drop than it earns, unless its buy is tiny or the window is empty. On a deeper pool it can win: after 150 ETH of earlier buying, a 0.1 ETH wallet that knew about a 1 ETH dump made about 0.0175 ETH, and an honest 0.1 ETH buyer beside it was paid 0.0235 ETH instead of 0.047 ETH. The buy barely moves the seller's rate.
 
-**Rotation in waves.** A wallet buys back a stash just before a dump, and the dump then sells in waves a few seconds apart into outside buying. Measured on a 2 ETH dump on a Buyers coin. "+ creator" means the creator is in the group and the creator's fee share comes back to it.
+**Rotation in waves.** A wallet buys back a stash just before a dump, and the dump then sells in waves a few seconds apart into outside buying. Measured on a 2 ETH dump on a Buyers coin, as a share of the dump. "+ creator" means the creator is in the group and the creator's fee share comes back to it.
 
 | Outside buying, as a share of the dump | Light | Light + creator | Standard | Standard + creator |
 |---|---|---|---|---|
@@ -194,6 +194,8 @@ In a quiet window a buy of 1 wei is enough. On a Buyers coin with nobody else bu
 | **0.5x** | +1.23% | +1.44% | +2.47% | +2.82% |
 | **0.3x** | +1.43% | +1.64% | +2.80% | +3.01% |
 | **0.1x** | +1.76% | +1.96% | +3.34% | +3.54% |
+
+A Pool coin pays no wallet, but this play can still save the group up to about +1.91% of the dump there, from the outside buying and the waves.
 
 **The same transaction.** If a buy's tokens are not delivered, another operation in that same transaction that takes exactly that amount can pick up its share, up to the whole buyers' part. It comes from the pool, and the buyer loses nothing.
 
