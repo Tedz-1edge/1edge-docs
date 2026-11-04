@@ -67,7 +67,7 @@ You need to opt in to take a seat: most qualifiers so far had not, and took noth
 
 ## The finale
 
-When the month closes, the champion is presented **the season trophy**: dated, one of one, kept forever. The top three wear their crowns on their name through the next season. Everyone else sees their place and how far the next band was.
+When the month closes, the champion is presented **the season trophy**: dated, one of one, kept unless the seat is ruled forfeited. The top three wear their crowns on their name through the next season. Everyone else sees their place and how far the next band was.
 
 ## Nudges
 
