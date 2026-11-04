@@ -97,7 +97,7 @@ Anyone selling through the coin's pool, on any app, terminal or bot. The pool ch
 - **It reads the market.** The pool counts the selling of the last 30 seconds against the buying it remembers.
 - **Some selling is free.** Selling up to 25% of that buying pays nothing. Above that the rate climbs, and it reaches the strength's top rate at 75%.
 - **A buy cancels selling.** Each buy takes its size off the selling the pool is counting.
-- **An empty market is no escape.** A floor of 2.5% of the graduation target means a dump into no buyers still pays nearly the top rate.
+- **An empty market doesn't lower the rate.** A floor of 2.5% of the graduation target means a dump into no buyers still pays nearly the top rate. Who gets that money is below.
 - **A row of small sells doesn't help.** The pool charges on all the selling in the window, so ten small sells in a row pay what one big sell pays. Selling slowly, a little each window, or into real buying, is what pays less.
 - A sell never pays more than the strength's top rate.
 
@@ -119,7 +119,7 @@ You earn only if a sell lands in your buy's window. No sell, no payout.
 
 - **Before graduation:** only pass holders can buy and earn. One share per pass per half-window, paid to the wallet on your pass that bought first in it.
 - **After graduation:** the coin follows the tokens a buy delivered and pays the wallet they land in. See [Which routes earn](#which-routes-earn).
-- The creator's own wallet and pass never earn a share.
+- Before graduation, no wallet on the creator's pass earns a share. After graduation only the creator's own wallet is excluded: any other wallet can earn, including one on the creator's pass.
 - On a Payback coin, Payback is the reward: trades on it don't add tier rebates or referral share.
 
 ### When the money arrives
@@ -137,7 +137,7 @@ The coin's page has a **Dumpers pay you** card with this wallet's buys on the co
 
 **Sell or move any of this coin from that wallet before the window closes and that buy's share goes to the pool. After it closes, nothing you do matters. Before graduation it counts every wallet on your pass.**
 
-It covers any of the coin, not only the tokens from that buy, so a dumper's own recent buys go to the pool too. A late payout doesn't change it: the window is what counts. Each open buy on the coin's page shows the clock time to hold until. A buy made before graduation stays on the pass rule until its window closes, even if the coin graduates first.
+It covers any of the coin, not only the tokens from that buy, so a dumper's own recent buys from that wallet go to the pool too. One exception after graduation: a bag held as Uniswap claims can be sold with no coin leaving the wallet, and the hold rule doesn't see that sale. A late payout doesn't change it: the window is what counts. Each open buy on the coin's page shows the clock time to hold until. A buy made before graduation stays on the pass rule until its window closes, even if the coin graduates first.
 
 ### Which routes earn
 
@@ -182,9 +182,9 @@ Payback charges a sell. It doesn't stop one, and it doesn't make every dumper lo
 | **Half of the dump** | about 20% | about 11% | about 1% | none | none |
 | **As big as the dump** | about 5% | about 1% | none | none | none |
 
-In a quiet window a buy of 0.001 ETH is enough. On a Buyers coin with nobody else buying, Payback is close to free for a seller who sets this up. Before graduation a second wallet on the same pass doesn't work, because the dump sends that pass's share to the pool. A friend's pass does: up to about 68% of the fee in the same sweep, on Standard.
+In a quiet window a buy of 1 wei is enough. On a Buyers coin with nobody else buying, Payback is close to free for a seller who sets this up. Before graduation a second wallet on the same pass doesn't work, because the dump sends that pass's share to the pool. A friend's pass does: up to about 68% of the fee in the same sweep, on Standard.
 
-**Wallets that buy just before someone else's sell.** Anyone can buy a little, hold through the window and collect. In a window with no other buyer that wallet gets the whole buyers' part, money that would otherwise have gone to the pool. With other buying as big as a tenth of the dump, a small wallet at best about covers its own fees. A bot buying 0.001 ETH every 30 seconds costs about 0.003 ETH an hour on a coin, before gas. The seller pays no more because of it, and real buyers share by size, so a bigger buy takes the bigger share.
+**Wallets that buy just before someone else's sell.** Anyone can buy a little, hold through the window and collect. In a window with no other buyer that wallet gets the whole buyers' part, money that would otherwise have gone to the pool. A bot can run this blind with a buy of 1 wei every 30 seconds: it costs only gas, about 0.0005 ETH an hour at 0.02 gwei. When others are buying the share follows size, so a bigger buy takes the bigger share. On a just-graduated coin a wallet that knows the sell is coming loses more to the price drop than it earns, unless its buy is tiny or the window is empty. On a deeper pool it can win: after 150 ETH of earlier buying, a 0.1 ETH wallet that knew about a 1 ETH dump made about 0.0175 ETH, and an honest 0.1 ETH buyer beside it was paid 0.0235 ETH instead of 0.047 ETH. The buy doesn't raise the seller's rate.
 
 **Rotation in waves.** A wallet buys back a stash just before a dump, and the dump then sells in waves a few seconds apart into outside buying. Measured on a 2 ETH dump on a Buyers coin. "+ creator" means the creator is in the group and the creator's fee share comes back to it.
 
@@ -195,7 +195,7 @@ In a quiet window a buy of 0.001 ETH is enough. On a Buyers coin with nobody els
 | **0.3x** | +1.43% | +1.64% | +2.80% | +3.01% |
 | **0.1x** | +1.76% | +1.96% | +3.34% | +3.54% |
 
-**The same transaction.** If a buy's tokens are not delivered, another operation in that same transaction that takes exactly that amount can pick up its share. It comes from the pool, and the buyer loses nothing.
+**The same transaction.** If a buy's tokens are not delivered, another operation in that same transaction that takes exactly that amount can pick up its share, up to the whole buyers' part. It comes from the pool, and the buyer loses nothing.
 
 ### Who can change it
 
