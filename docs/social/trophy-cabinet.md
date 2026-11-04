@@ -48,9 +48,10 @@ The cabinet is arranged as shelves, one per kind of activity. Each stand on a sh
 
 Marks come from the finale's standings: rank 1 gets the Season Trophy and the Season Champion crown, rank 2 the Silver Crown and Finalist, rank 3 the Bronze Crown and Finalist, ranks 4 to 10 Finalist.
 A season is a calendar month, and its marks are dated MM/YY, the month it closed: Season 0 is 10/26.
-The top three wear their crown on their name through the next season.
+The top three wear their crown on their name until the next winners are crowned. If a finale crowns nobody, they keep wearing it. The dated marks stay in the cabinet for good.
 A seat held for checks (wash or consistency) keeps its rank; its marks wait until a person releases it.
 A seat a person rules forfeited loses its marks for that season. Nobody moves up in either case.
+Season 0's marks wear the Seed pass: its red in the metal and its fingerprint in the glass. Later seasons keep the standard look.
 
 !!! info "Taking money off the table"
     **The Vault is about taking money off the table.** Emerald, Ruby and Diamond Hands are earned on the price you *sold* at over the price you *paid*, so a paper 100× that round-trips to zero earns nothing. Averaging up moves your entry and lowers the multiple, which is correct: buying more on the way up is a different act from holding what you bought at the bottom. Your own launches don't count, a creator selling into their own pump is a dev sell, not a diamond hand.
