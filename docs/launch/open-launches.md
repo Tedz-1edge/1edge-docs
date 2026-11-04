@@ -72,7 +72,7 @@ The creator can add rules on top of the standard ones. Anything they pick shows 
 | **Dev lock** | The creator can't sell or send until graduation or 30 days. |
 | **Dev drip** | Solana: the creator can sell at most a set share of their bag per day. |
 | **Must hold a token** | Robinhood Chain and Arc: buyers must hold another token first. |
-| **Payback** | Robinhood Chain: dump on fresh buyers and you pay them. See [Payback](#payback). |
+| **Payback** | Robinhood Chain: a sell that lands on fresh buying pays an extra fee. See [Payback](#payback). |
 
 <figure class="ed-shot"><picture><source media="(max-width: 600px)" srcset="../../assets/shots/launch-rules-390.webp"><img src="../../assets/shots/launch-rules-1440.webp" alt="The Rules step on the launch page: groups and presets." loading="lazy"></picture><figcaption>The Rules step on the launch page: groups and presets.</figcaption></figure>
 
