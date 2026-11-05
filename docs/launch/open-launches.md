@@ -167,11 +167,11 @@ The creator picks a strength. 1EDGE sets the numbers, and the launch page shows 
 | **Half-window** | 15 s | 15 s | 30 s |
 | **Allowance memory** | 90 s | 2 min | 8 min |
 
-**The allowance memory.** The free allowance counts buying over the memory, averaged per window, so a buy just before a dump moves it by a third on Light, a quarter on Standard and an eighth on Strong. A steady market keeps its allowance. The cost lands on small sells. On the launch trades we measured (Solana launches, scaled to Robinhood Chain's graduation target), small sells into net buying (under 5% of the buying) paid 0.17% on Light, 0.39% on Standard and 1.71% on Strong.
+**The allowance memory.** The free allowance counts buying over the memory, averaged per window, so a buy just before a dump carries a third of its weight on Light, a quarter on Standard and an eighth on Strong. A steady market keeps its allowance. The cost lands on small sells. On the launch trades we measured (Solana launches, scaled to Robinhood Chain's graduation target), small sells into net buying (under 5% of the buying) paid 0.17% on Light, 0.39% on Standard and 1.71% on Strong.
 
 ### What it does not stop
 
-Payback charges a sell. It doesn't stop one, and it doesn't make every dumper lose. **A seller's other wallets count as buyers, so a seller can win some or all of the fee back on a Buyers coin, and up to half on a 50/50 coin.** On a Pool coin no wallet is paid. The numbers here come from sweeps on EDGE launches and are not maximums. They were measured on Light and Standard. Strong's fee is bigger and the rule is the same, so the same plays are worth more in ETH there.
+Payback charges a sell. It doesn't stop one, and it doesn't make every dumper lose. **A seller's other wallets count as buyers, so a seller can win some or all of the fee back on a Buyers coin, and up to half on a 50/50 coin.** On a Pool coin no wallet is paid. The numbers here come from sweeps on EDGE launches and are not maximums. They were measured on Light and Standard. Strong's fee is bigger and the rule is the same, so the same plays should be worth more in ETH there.
 
 **A seller's own second wallet.** It buys just before the dump, holds until the window closes, is paid, then sells slowly. What the seller saves, after that wallet's own fees and price loss, as a share of the fee they would have paid alone:
 
