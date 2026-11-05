@@ -8,7 +8,7 @@ description: The trophy cabinet on every 1EDGE profile, what each trophy takes, 
 
 Your wallet has a history. Now it has a shelf.
 
-Every trophy in the cabinet comes off a lifetime counter: your first trade, your first launch, a curve you bonded, a thousand SOL through the book, a season on the podium. Nothing in it is bought, nothing in it is given, and nothing in it goes away.
+Every trophy in the cabinet comes off a lifetime counter: your first trade, your first launch, a curve you bonded, a thousand SOL through the book, a season on the podium. Nothing in it is bought, nothing in it is given, and nothing in it goes away except a seal whose set is no longer complete or the marks of a forfeited seat.
 
 ![The cabinet header and the Trading shelf, six glass trophies on their plinths](../assets/cabinet-hero.png)
 
@@ -24,7 +24,7 @@ Every trophy in the cabinet comes off a lifetime counter: your first trade, your
 
 Three things a trophy is **not**, so nobody reads it as something it isn't:
 
-* **Not on-chain and not an NFT.** A trophy is a record 1EDGE keeps about what a wallet did. It is not a token in your wallet.
+* **Not on chain and not an NFT.** A trophy is a record 1EDGE keeps about what a wallet did. It is not a token in your wallet.
 * **Not transferable.** It belongs to the wallet that earned it and cannot be sent, sold or lent.
 * **Not worth anything.** A trophy has no cash value and pays nothing. It is a fact about your history, cast in glass.
 
@@ -37,12 +37,21 @@ The cabinet is arranged as shelves, one per kind of activity. Each stand on a sh
 | **Launchpad** | First Launch · Bonded I, II, III (one, three, ten curves of yours that graduated) · Crowd Puller (100 holders on one of your launches) |
 | **Trading** | First Trade · Volume I, II, III (10, 100 and 1,000 SOL through the book) · 100 Trades |
 | **Crew** | Recruiter I to V (one, five, ten, fifty and a hundred people you referred who verified) |
-| **Voice** | First Post · *Said it out loud* (your first call) · Reach 1K, 10K, 50K (unique readers of your posts) · Caller I, II, III (5, 25 and 100 calls) · Bullseye I, II, III (a call that did a 2×, a 10×, a 50× from the mark it was made at; calls on your own coin don't count) · Top Caller (top of the callers board at a season finale) |
+| **Voice** | First Post · *Said it out loud* (your first call) · Reach 1K, 10K, 50K (unique readers of your posts) · Caller I, II, III (5, 25 and 100 calls) · Bullseye I, II, III (a call that did a 2×, a 10×, a 50× from the mark it was made at; calls on your own coin don't count) · Top Caller (top of the callers board at a season finale, with at least 3 scored calls) |
 | **Vault** | Emerald Hands · Ruby Hands · Diamond Hands (held a token from low to a 10×, a 100×, a 500×, **and took profit**) · Was There (bought on the curve and still held at graduation, one per coin) |
 | **The NFT** | Core (minted) · Alpha · Elite · Apex (each upgrade of your pass is its own stand, with the real art: $10,000 / $50,000 / $200,000 traded on any chain, or 25 / 250 / 1,000 referrals) · Seed (the earliest members; closed) · and one stand at the end of the shelf that only says **???** |
-| **Championship** | Founding Minter (minted before mainnet opened) · Genesis · Collector · Daily Crown · Weekly Podium · Bronze and Silver Crown · Finalist · Season Champion · the Season Trophy (one of one) |
+| **Championship** | Founding Minter (minted before mainnet opened) · Genesis (Season 0 players only, now closed) · Collector · Daily Crown · Weekly Podium · Dated by season (MM/YY): Bronze and Silver Crown · Finalist · Season Champion · the Season Trophy (one of one) |
 | **Chains** | Two Passes · Crossed Over · your first Robinhood Chain buy and launch · Robinhood Bonded and Volume ladders (0.5, 5, 50 ETH) · Both Books · Launched Both · After the Bell · Switch Hitter · and more for trading across chains |
 | **Modes · Tek & Edge** | First Tek Trade · First Edge Trade · Tek Ape and Edge Ape I, II, III (10, 50 and 250 buys in that mode) · Rode the Bond (in before the curve was half full **and** still holding when it graduated, one trophy per bond) · First Tek Launch · First Edge Launch · Tek Bonded and Edge Bonded (one per launch of yours that graduated) |
+
+## Season trophies
+
+Marks come from the finale's standings: rank 1 gets the Season Trophy and the Season Champion crown, rank 2 the Silver Crown and Finalist, rank 3 the Bronze Crown and Finalist, ranks 4 to 10 Finalist.
+A season is a calendar month, and its marks are dated MM/YY, the month it closed: Season 0 is 10/26.
+The top three wear their crown on their name until the next winners are crowned. If a finale crowns nobody, they keep wearing it. The dated marks stay in the cabinet for good.
+A seat held for checks (wash or consistency) keeps its rank; its marks wait until a person releases it.
+A seat a person rules forfeited loses its marks for that season. Nobody moves up in either case.
+Season 0's marks wear the Seed pass: its red in the metal and its fingerprint in the glass. Later seasons keep the standard look.
 
 !!! info "Taking money off the table"
     **The Vault is about taking money off the table.** Emerald, Ruby and Diamond Hands are earned on the price you *sold* at over the price you *paid*, so a paper 100× that round-trips to zero earns nothing. Averaging up moves your entry and lowers the multiple, which is correct: buying more on the way up is a different act from holding what you bought at the bottom. Your own launches don't count, a creator selling into their own pump is a dev sell, not a diamond hand.
