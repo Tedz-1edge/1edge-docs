@@ -94,7 +94,7 @@ A sell that lands on fresh buying pays an extra fee, on chain, inside the same t
 
 Anyone selling through the coin's pool, on any app, terminal or bot. The pool charges it inside the trade. Sells are never refused because of it: it adds a fee and nothing else.
 
-- **It reads the market.** The pool counts the selling of the last 30 seconds against the buying it remembers.
+- **It reads the market.** The pool counts the selling of the last 30 seconds (60 on Strong) against the buying it remembers.
 - **Some selling is free.** Selling up to 25% of that buying pays nothing. Above that the rate climbs, and it reaches the strength's top rate at 75%.
 - **A buy cancels selling.** Each buy takes its size off the selling the pool is counting.
 - **An empty market doesn't lower the rate.** A floor of 2.5% of the graduation target means a dump into no buyers still pays nearly the top rate. Who gets that money is below.
@@ -124,7 +124,7 @@ You earn only if a sell lands in your buy's window. No sell, no payout.
 
 ### When the money arrives
 
-Your share is paid to your wallet automatically, in ETH, after your buy's window closes: about 30 to 46 s after the buy. You press nothing. 1EDGE's keeper sends it on its next pass and pays the gas.
+Your share is paid to your wallet automatically, in ETH, after your buy's window closes: about 30 to 46 s after the buy on Light and Standard, 60 to 91 s on Strong. You press nothing. 1EDGE's keeper sends it on its next pass and pays the gas.
 
 - **Smart-contract wallet** (Safe, 4337 account) or any other contract: your share is credited, not sent. Collect it with one tap on the coin's page. A wallet that refuses the payment gets the same. A credit has its own 30 days from the day it lands. In a contract that lets anyone make calls through it, as some aggregator executors do, anyone can claim the credit.
 - **A late payout:** Claim also appears on the coin's page. Anyone can send a due payout, and the money only goes to the wallet on record.
@@ -159,19 +159,19 @@ These earn nothing. The buy still goes through, and its share goes to the pool.
 
 The creator picks a strength. 1EDGE sets the numbers, and the launch page shows them.
 
-| | Light | Standard |
-|---|---|---|
-| **Top rate on a sell** | 3% | 5% |
-| **Window** | 30 s | 30 s |
-| **Your buy's window closes within** | 46 s | 46 s |
-| **Half-window** | 15 s | 15 s |
-| **Allowance memory** | 90 s | 2 min |
+| | Light | Standard | Strong |
+|---|---|---|---|
+| **Top rate on a sell** | 3% | 5% | 10% |
+| **Window** | 30 s | 30 s | 60 s |
+| **Your buy's window closes within** | 46 s | 46 s | 91 s |
+| **Half-window** | 15 s | 15 s | 30 s |
+| **Allowance memory** | 90 s | 2 min | 8 min |
 
-**The allowance memory.** The free allowance counts buying over the memory, averaged per window, so a buy just before a dump moves it by a third on Light and a quarter on Standard. A steady market keeps its allowance. The cost lands on small sells. On the launch trades we measured (Solana launches, scaled to Robinhood Chain's graduation target), small sells into net buying (under 5% of the buying) paid 0.17% on Light and 0.39% on Standard.
+**The allowance memory.** The free allowance counts buying over the memory, averaged per window, so a buy just before a dump moves it by a third on Light, a quarter on Standard and an eighth on Strong. A steady market keeps its allowance. The cost lands on small sells. On the launch trades we measured (Solana launches, scaled to Robinhood Chain's graduation target), small sells into net buying (under 5% of the buying) paid 0.17% on Light, 0.39% on Standard and 1.71% on Strong.
 
 ### What it does not stop
 
-Payback charges a sell. It doesn't stop one, and it doesn't make every dumper lose. **A seller's other wallets count as buyers, so a seller can win some or all of the fee back on a Buyers coin, and up to half on a 50/50 coin.** On a Pool coin no wallet is paid. The numbers here come from sweeps on EDGE launches and are not maximums.
+Payback charges a sell. It doesn't stop one, and it doesn't make every dumper lose. **A seller's other wallets count as buyers, so a seller can win some or all of the fee back on a Buyers coin, and up to half on a 50/50 coin.** On a Pool coin no wallet is paid. The numbers here come from sweeps on EDGE launches and are not maximums. They were measured on Light and Standard. Strong's fee is bigger and the rule is the same, so the same plays are worth more in ETH there.
 
 **A seller's own second wallet.** It buys just before the dump, holds until the window closes, is paid, then sells slowly. What the seller saves, after that wallet's own fees and price loss, as a share of the fee they would have paid alone:
 
