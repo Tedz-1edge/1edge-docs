@@ -102,7 +102,7 @@ The full rules are in [Seasons](../rewards/seasons.md) and in the season terms y
 | :--- | :--- |
 | **Points** | Referrals 25, trading 25, calls 15, launches 15, social 10, being here 10. Being here only adds once the other five reach 150 |
 | **The scale** | Each axis is scored against the 95th percentile of that week's field, on a log curve |
-| **Qualifying** | 150 points in a week, 1 SOL of net trading and a pass on your opt-in, then four bands proportional to how many qualified |
+| **Qualifying** | 150 points in a week, 1 SOL of buys in that week and a pass on your opt-in, then four bands proportional to how many qualified |
 | **The week** | Closes Friday 20:00 UTC. A settled week is **never re-ranked** |
 | **Opting in** | Per season, with its terms version recorded. Points count for everyone; payouts are for those who opted in |
 | **Claiming** | Within 28 days of settlement, then it rolls back to the vault |

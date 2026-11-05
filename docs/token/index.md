@@ -23,7 +23,7 @@ The [Season](../rewards/seasons.md) pays its seats in $1EDGE.
 
 - Each seat is worth a **dollar amount**, turned into $1EDGE at the **average price over the 7 days before each Friday lock**.
 - The weekly pot is set from $1EDGE's market cap, on a ladder: a bigger market cap moves the pot up a rung. The finale pays double.
-- Up to 500 paid seats a week, in four bands. You need 150 points, 1 SOL of net trading (or the same on Robinhood Chain or Arc) and your pass, opted in.
+- Up to 500 paid seats a week, in four bands. You need 150 points, 1 SOL of buys in the week (or the same on Robinhood Chain or Arc) and your pass, opted in.
 - Seats are paid from the **Seasons rewards wallet** `Ct187uCepjVYrtAwTVAT8Fa7WtxgAnD6wMGfwwHFmxwZ`. The tokens go straight to your wallet, no gas. Claim within 28 days; unclaimed seats roll back.
 
 You can see this week's pot, in dollars and in $1EDGE, on the Seasons page.
