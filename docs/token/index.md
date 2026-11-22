@@ -14,7 +14,6 @@ description: "$1EDGE: what the token does on 1EDGE today. Seasons seats are paid
 <a class="ed-card" href="#seasons-payouts"><span class="k gold">Seasons</span><b>Paid seats</b><span class="d">Every weekly seat and every finale seat is paid in $1EDGE.</span></a>
 <a class="ed-card" href="#boosts"><span class="k">Boosts</span><b>Boost a coin</b><span class="d">Boosting a coin burns $1EDGE from your wallet.</span></a>
 <a class="ed-card" href="#back-1edge"><span class="k">Creators</span><b>Back $1EDGE</b><span class="d">A creator can send a slice of their own fee to buying $1EDGE, and every token bought is burned.</span></a>
-<a class="ed-card" href="#partners-and-onboarding"><span class="k">Partners</span><b>Bought, never sold</b><span class="d">The team buys $1EDGE on the market to pay partners and onboard people.</span></a>
 </div>
 
 ### Seasons payouts
@@ -56,10 +55,6 @@ Creators launching on Solana can send a slice of **their own fee** to buying $1E
 - Traders pay the same fee either way: the slice comes out of the creator's cut, not on top of it.
 - The choice is recorded at launch and shown on the coin. Its **Backs $1EDGE** mark appears once the first $1EDGE buy has landed, never before.
 - Solana launches only, for now. Back wallet: `5Verzu25DfvVt6inukjJZe8RWjqoUbVSoK3vhuuuQSkG`.
-
-### Partners and onboarding
-
-The team buys $1EDGE on the open market into one public wallet, `BMHppDqrzVmw4XdNdoqcASxZfVbTT8NZUpDdXeFa2fEX`, to pay KOL partners, supply exchange listings and onboard new users. **That wallet never sells.** Every buy and transfer is public; the log is on [Contracts](../help/contracts.md#marketing-onboarding-wallet).
 
 ## What $1EDGE doesn't do
 

@@ -139,18 +139,6 @@ Coins on the 1EDGE curve graduate into their own DAMM v2 pool, so they use no sh
 
 None of these locks can be cancelled.
 
-### Marketing & onboarding wallet
-
-| What | Address |
-|---|---|
-| Team supplies wallet (marketing, KOLs, exchanges) | `BMHppDqrzVmw4XdNdoqcASxZfVbTT8NZUpDdXeFa2fEX` |
-
-The team buys $1EDGE on the open market into this wallet to pay KOL partners, supply exchange listings and onboard new users. **This wallet never sells.** Tokens leave it only as transfers for those purposes, and every buy and transfer is public on [Solscan](https://solscan.io/account/BMHppDqrzVmw4XdNdoqcASxZfVbTT8NZUpDdXeFa2fEX).
-
-| Date | Out | For |
-|---|---|---|
-| 16 Oct 2026 | 5,000,000 $1EDGE | KOL partnership |
-
 ### Meteora programs we use
 
 Meteora DBC (launch curves) `dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN` · Meteora DAMM v2 (graduated pools) `cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG`. Explorer: [Solscan](https://solscan.io).
